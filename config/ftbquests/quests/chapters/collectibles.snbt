@@ -6,7 +6,7 @@
 	group: ""
 	icon: "beachparty:overgrown_disc"
 	id: "601CCF6102971F9D"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

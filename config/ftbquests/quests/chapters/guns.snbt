@@ -1,0 +1,632 @@
+{
+	autofocus_id: "01CD5A9ACC26930D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guns"
+	group: ""
+	icon: "anim_guns:standard_rifle_cartridge"
+	id: "0977D7A8FCE9E5E1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E46E3320C3BA4D5"]
+			id: "01CD5A9ACC26930D"
+			rewards: [{
+				id: "46E41332DC6ABDF8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "452FEC6AE4025B72"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55D236E264C86B06"]
+			id: "6765DDB1B0ECFFF5"
+			rewards: [{
+				id: "4994E707A602EF9B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Iron but rich?"
+			tasks: [{
+				id: "7A8D0BF8495319ED"
+				item: "anim_guns:enriched_iron"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6765DDB1B0ECFFF5"]
+			id: "3A7C858221CFBE73"
+			rewards: [{
+				id: "1981AE954A808F88"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "It's better than iron trust me"
+			tasks: [{
+				id: "3F66EF82A647063E"
+				item: "anim_guns:hardened_iron_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A7C858221CFBE73"]
+			id: "733BE88D32CE8329"
+			rewards: [{
+				id: "4FB33258EE2A1C4E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "40BDFDC8F08FF4D3"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["733BE88D32CE8329"]
+			description: ["Automate gunpowder production. If you are having trouble finding this seed in the world, you can craft it with 9 gunpowder."]
+			id: "2BF137AB23F67743"
+			subtitle: "Infinite ammo?"
+			tasks: [{
+				id: "7AAE6A7F8A9A3500"
+				item: "croptopia:coffee_seed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55D236E264C86B06"]
+			description: ["Guns consume alot of ammo and that requires alot of iron. It's time to automate iron production."]
+			id: "653D9C2DAD5E621A"
+			subtitle: "Iron for days"
+			tasks: [{
+				id: "4446A97BED8FF984"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01CD5A9ACC26930D"]
+			id: "55D236E264C86B06"
+			tasks: [{
+				id: "2FECF56623B94FFB"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["059A0F7F785D3F8A"]
+			id: "29E63956FD98F796"
+			rewards: [{
+				id: "76FF1C4B174C925F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "11BA4F1AD5AA320A"
+				item: {
+					Count: 1
+					id: "anim_guns:pistol_light"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["059A0F7F785D3F8A"]
+			id: "211FC58341F133AE"
+			rewards: [{
+				id: "7694BF1A6AF172B3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "05AA192068708DB4"
+				item: {
+					Count: 1
+					id: "anim_guns:smg_machinepistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["059A0F7F785D3F8A"]
+			id: "570B8C877B1EA7A5"
+			rewards: [{
+				id: "0670480B04C318EC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3966BFAD276719AE"
+				item: {
+					Count: 1
+					id: "anim_guns:smg_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["059A0F7F785D3F8A"]
+			id: "7290216DF6DA7723"
+			rewards: [{
+				id: "18977567DBE51688"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7DAAC8B89DE57D91"
+				item: {
+					Count: 1
+					id: "anim_guns:smg_rapid"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "059A0F7F785D3F8A"
+			rewards: [{
+				id: "5D20C7D44765C441"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "15A78F06CF666016"
+				item: "anim_guns:standard_handgun_cartridge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C8FAF2376E14A9D"]
+			id: "35972DBF4029B161"
+			rewards: [{
+				id: "6668924C9923C453"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "321929315774CF7E"
+				item: {
+					Count: 1
+					id: "anim_guns:pistol_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C8FAF2376E14A9D"]
+			id: "35B1AADD798FCF74"
+			rewards: [{
+				id: "65EF75F8480EB0AB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "42D3A989F8A930CF"
+				item: {
+					Count: 1
+					id: "anim_guns:revolver_magnum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C8FAF2376E14A9D"]
+			id: "54F46EC2B29801FA"
+			rewards: [{
+				id: "687797E963EDAFDD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7EC8D0FD6C176951"
+				item: {
+					Count: 1
+					id: "anim_guns:revolver_coltarmy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "7C8FAF2376E14A9D"
+			rewards: [{
+				id: "3490BDE10CF0E8AF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "605549C722E428CF"
+				item: "anim_guns:heavy_handgun_cartridge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C8FAF2376E14A9D"]
+			id: "0D455D8ADA4E0D91"
+			rewards: [{
+				id: "1DFA870995DA3D34"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1D44576738BB81BF"
+				item: {
+					Count: 1
+					id: "anim_guns:sniper_cowboy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1AD25EE673613D39"]
+			id: "41A83D07246C0F51"
+			rewards: [{
+				id: "4F725EF78F126DEA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "600086E020B4AE0D"
+				item: {
+					Count: 1
+					id: "anim_guns:shotgun_combat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AD25EE673613D39"]
+			id: "334E838F698F20A9"
+			rewards: [{
+				id: "13461A60F3B79D63"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7255D29BEBABF2BB"
+				item: {
+					Count: 1
+					id: "anim_guns:shotgun_riot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "1AD25EE673613D39"
+			rewards: [{
+				id: "77080B2B59FB9366"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7DA83B7D68244188"
+				item: "anim_guns:shotgun_shell"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["733BE88D32CE8329"]
+			description: ["Right click with a &aBlueprint Bundle&r to set the blueprint for the gun that you want to make."]
+			id: "0C27DDC6A225762E"
+			rewards: [{
+				id: "05BCB78707A1F0AA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6156F6DACFD6D956"
+				item: "anim_guns:blueprint_bundle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AD25EE673613D39"]
+			id: "4A2E1966FDCC19A2"
+			rewards: [{
+				id: "2868AC9FBC73189A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "51B432AA7D893D5D"
+				item: {
+					Count: 1
+					id: "anim_guns:shotgun_doublebarrel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "4B34FB3951DBDEFF"
+			rewards: [{
+				id: "685BB9A3500B1EBF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4054D8F2D59A51AE"
+				item: {
+					Count: 1
+					id: "anim_guns:assaultrifle_light"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "2EC5B706B242113E"
+			rewards: [{
+				id: "11ECABF0FCE1A5ED"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6BC0E5446D24497A"
+				item: {
+					Count: 1
+					id: "anim_guns:assaultrifle_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "0D4770CC21CFD8EE"
+			rewards: [{
+				id: "010085413FA0BBA9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "74B48769E7C91AFE"
+				item: {
+					Count: 1
+					id: "anim_guns:assaultrifle_rus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60D4B00FCD400F83"]
+			id: "5FA64B4113D4F0C2"
+			rewards: [{
+				id: "336E399A216D9680"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0A984A535E89AD60"
+				item: {
+					Count: 1
+					id: "anim_guns:sniper_classic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "2784E05710F504EF"
+			rewards: [{
+				id: "2FDC934FFF31CAAB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6B72C28ACFC6BD68"
+				item: {
+					Count: 1
+					id: "anim_guns:sniper_marksman"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "7BD333D1B62FBB69"
+			rewards: [{
+				id: "233B06AB77ECCD26"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5B7D987D1E039A6B"
+				item: {
+					Count: 1
+					id: "anim_guns:lmg_m60"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60D4B00FCD400F83"]
+			id: "4E5CD62A169B28C0"
+			rewards: [{
+				id: "18E6141BA3225DD6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "67536B34479CBAF5"
+				item: {
+					Count: 1
+					id: "anim_guns:amr_classic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "5CA64C10C32928BA"
+			rewards: [{
+				id: "0B431A380C138A40"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6F858E3F4D736EDB"
+				item: {
+					Count: 1
+					id: "anim_guns:lmg_minigun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "6EFDDE4358292C36"
+			rewards: [{
+				id: "48FF3F7795373C2F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "65DEE6B8AACBF363"
+				item: "anim_guns:standard_rifle_cartridge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "60D4B00FCD400F83"
+			rewards: [{
+				id: "578EDB963939BB90"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "05EE999B033287F1"
+				item: "anim_guns:heavy_rifle_cartridge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "Guns and Ammunition"
+}
