@@ -1,3 +1,4 @@
+# Client
 .fabric/
 .vscode/
 .mixin.out/
@@ -29,3 +30,20 @@ fancymenu_data/
 irisUpdateInfo.json
 crash-reports/
 data/
+
+# Server
+libraries/
+world/
+versions/
+whitelist.json
+start.bat
+start.cmd
+start.sh
+server.jar
+server.properties
+ops.json
+fabric-server-launcher.properties
+fabric-server-launch.jar
+eula.txt
+banned-ips.json
+banned-players.json
