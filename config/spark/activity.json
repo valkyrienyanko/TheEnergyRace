@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "valkyrienyanko",
+      "uniqueId": "35ea50ff-3927-4fcf-b65e-01932c67b864"
+    },
+    "time": 1717875213019,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\VALK-DESKTOP\\Downloads\\mmc-stable-win32\\MultiMC\\instances\\1.20.1 v2\\.minecraft\\config\\spark\\heap-2024-06-08_14.33.14.hprof"
+    }
+  }
+]

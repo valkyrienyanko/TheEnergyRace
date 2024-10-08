@@ -1,0 +1,330 @@
+{
+	autofocus_id: "75F14E0D3E4FCBC4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_information"
+	group: ""
+	icon: "minecraft:cherry_sapling"
+	id: "189C9302CDEB5C69"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7Flywheel greatly improves your FPS when the backend mode is set to instancing although it breaks some chest and belt visuals. Experiment with the 3 commands below to see what works best for you."
+				""
+				"&a/flywheel backend instancing"
+				"&2/flywheel backend batching"
+				"&a/flywheel backend off"
+			]
+			icon: "minecraft:feather"
+			id: "60E004DDDF96E670"
+			rewards: [{
+				id: "43FB51412E6A7061"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1815ED8B7769213F"
+				title: "Performance"
+				type: "checkmark"
+			}]
+			title: "Performance"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&aM - Opens World Map&r"
+				"&2Y - Configure Minimap&r"
+				"&aZ - Enlarge Minimap&r"
+				"&2C - Zoom In (adjust with mouse wheel)&r"
+				"&aU - Manage Waypoints&r"
+				"&2L - Open Advancements&r"
+				"&aB - Open Backpack&r"
+				"&2. - Hover over a item and press Period to view its recipe"
+				"&a` - Hold the Tilda key to vein mine ore"
+			]
+			icon: {
+				Count: 1
+				id: "beachparty:rubber_ring_pink"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61CBF5D390839381"
+			rewards: [{
+				id: "24D3CEA206C141D1"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3F029D87D935927D"
+				title: "Keybinds"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["&7Double click the REI search bar to enable item searching mode. Useful if you have alot of items in a chest and you're trying to find that one item."]
+			icon: "minecraft:paper"
+			id: "3171C099A1652902"
+			rewards: [{
+				id: "764B121192315925"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6EA547E17E02B274"
+				title: "Tips"
+				type: "checkmark"
+			}]
+			title: "REI Search Bar"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&2Ambient sounds / music may stop playing / not play at all. The fix is to change the volume sliders to a different value in sound settings."
+				""
+				"&5If there is a gun in your hotbar, other item slots in your hotbar may not render properly"
+				""
+				"&6The Create goggles may render on the player skin even if the player does not have them equipped"
+			]
+			icon: "ftbquests:barrier"
+			id: "5BDA2304819205D0"
+			rewards: [{
+				id: "07EF99E3EFCEE3A2"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.7d
+			tasks: [{
+				id: "199F75D6F45B281D"
+				title: "Known Issues"
+				type: "checkmark"
+			}]
+			x: -1.05d
+			y: 0.0d
+		}
+		{
+			description: ["&7Spawners can be mined if you have Silk Touch."]
+			icon: "minecraft:spawner"
+			id: "04EC8191C6AD8C3F"
+			rewards: [{
+				id: "3F2F033F54A5E667"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6F496CED6F19EC82"
+				title: "Spawners"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&aAll unreleased changelogs of future updates will be posted in the discord."
+				""
+				"&2Want something in the modpack? Say so in the discord!"
+			]
+			icon: "minecraft:cherry_sapling"
+			id: "75F14E0D3E4FCBC4"
+			rewards: [{
+				command: "/tell @p https://discord.gg/j8HQZZ76r8"
+				icon: "minecraft:paper"
+				id: "1FC55A1A83C2B314"
+				silent: true
+				title: "The discord link will be whispered to you. Click on the whispered link to copy it."
+				type: "command"
+			}]
+			size: 2.0d
+			subtitle: "https://discord.gg/j8HQZZ76r8"
+			tasks: [{
+				id: "536C6BA13665964B"
+				title: "Finish Quest"
+				type: "checkmark"
+			}]
+			title: "Official Modpack Discord"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&a/sethome"
+				"&2/home"
+				"&a/tpa"
+				"&2/tpahere"
+				"&a/spawn"
+				"&2/kickme"
+				"&a/rtp"
+				"&2/warp"
+				"&a/leaderboard"
+				"&2/wits (What is this structure?)"
+			]
+			icon: "bloomingnature:foxglove_pink"
+			id: "257880FC4E01BC8B"
+			rewards: [{
+				id: "3D639FC54D758A1F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "014CED72D779D625"
+				title: "Commands"
+				type: "checkmark"
+			}]
+			title: "Useful Commands"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&7Create a party with &a/openpac-parties create&7. Invite your friends with &2/openpac-parties member invite <player>&7. Claim chunks with &a/openpac-claims claim&7. You can also right click drag on the minimap to mass claim land."
+				""
+				"&7You will always see your friends on the world map and minimap when you are in a party together."
+			]
+			icon: {
+				Count: 1
+				id: "herbalbrews:top_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "196D3D8F3435A415"
+			rewards: [{
+				id: "07002164E39C5F0B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "27CC2A09C2872D32"
+				title: "Parties"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: ["Weapons can be used in your off hand."]
+			icon: {
+				Count: 1
+				id: "dragonloot:dragon_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11F459CA72DF3CD8"
+			rewards: [{
+				id: "46B8CABAD534AAF4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7D4E8478183DC413"
+				title: "Dual Wielding"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Hold a lava bucket in your off hand and a empty bottle in the main hand and right click while under water to replenish air."
+				""
+				"You can right click a spider with a empty bottle to extract its poison."
+			]
+			icon: "minecraft:glass_bottle"
+			id: "00FF2EA2059D42BB"
+			tasks: [{
+				id: "35517908128B156E"
+				title: "Breathing Underwater"
+				type: "checkmark"
+			}]
+			title: "Bottle Mechanics"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft a Villager Post to complete this quest."
+				""
+				"This will attract villagers to the sign. Place a block of emerald next to the sign if you do not want to wait."
+			]
+			id: "799A171EC1B97D88"
+			tasks: [{
+				id: "04B6C2A085B57BF8"
+				item: "helpwanted:villagerpost"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Lootr chests regenerate their loot every 13 hours."
+				""
+				"All found loot is unique per-player."
+			]
+			icon: "ironchests:diamond_chest"
+			id: "466A4BA68E02F199"
+			tasks: [{
+				id: "35A4D6266AB63916"
+				title: "Lootr"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["With the Ping Wheel mod there are keybinds to ping what block you are looking at so your friends can see."]
+			icon: "meadow:wheelbarrow"
+			id: "3A90344F2D91F219"
+			tasks: [{
+				id: "576F7068256A42F7"
+				title: "Ping Wheel"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "0252A3ABA29492D0"
+			tasks: [{
+				id: "1134FB5E7A24BB48"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						HideFlags: 255
+						"Polymer$itemId": "universal_shops:trade_block"
+						SkullOwner: {
+							Id: [I;
+								0
+								0
+								0
+								0
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2UzZGViNTdlYWEyZjRkNDAzYWQ1NzI4M2NlOGI0MTgwNWVlNWI2ZGU5MTJlZTJiNGVhNzM2YTlkMWY0NjVhNyJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"italic\":false,\"color\":\"white\",\"extra\":[{\"translate\":\"block.universal_shops.trade_block\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+	]
+	title: "&7Useful Information"
+}

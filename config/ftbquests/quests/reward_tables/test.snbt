@@ -1,0 +1,13 @@
+{
+	id: "36BE6E9EE8D9DA46"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:stripped_oak_wood" }
+		{
+			type: "xp"
+			xp: 100
+		}
+	]
+	title: "Test"
+}

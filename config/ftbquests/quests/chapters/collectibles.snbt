@@ -1,0 +1,1668 @@
+{
+	autofocus_id: "23831CF347CD64C8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "collectibles"
+	group: ""
+	icon: "beachparty:overgrown_disc"
+	id: "601CCF6102971F9D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "01CA9E2CC0577780"
+			tasks: [{
+				id: "483E88141C3BEB37"
+				item: "minecraft:music_disc_13"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "3C98C5CC95368635"
+			tasks: [{
+				id: "7054339272101248"
+				item: "minecraft:music_disc_cat"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "2B6B86C37843A068"
+			tasks: [{
+				id: "2CFA99C55FAF744F"
+				item: "minecraft:music_disc_blocks"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "0FAAC423C47D73D0"
+			tasks: [{
+				id: "608FEF934465416C"
+				item: "minecraft:music_disc_chirp"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "091934ED96A6255A"
+			tasks: [{
+				id: "123FBDDD97D3DB68"
+				item: "minecraft:music_disc_far"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "0B08E1C7896B081A"
+			tasks: [{
+				id: "034438C01700DB2E"
+				item: "minecraft:music_disc_mall"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "225B8373C585D254"
+			tasks: [{
+				id: "636CBC83CCA12E23"
+				item: "minecraft:music_disc_mellohi"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "57C9D20839E09161"
+			tasks: [{
+				id: "0F69B40F078769A9"
+				item: "minecraft:music_disc_stal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "51084EFB54608F4F"
+			tasks: [{
+				id: "0991B04BB658CB49"
+				item: "minecraft:music_disc_strad"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "7126C1D777A813A5"
+			tasks: [{
+				id: "27733609AB31134A"
+				item: "minecraft:music_disc_ward"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "03F9002D70527559"
+			tasks: [{
+				id: "4A3D329463368110"
+				item: "minecraft:music_disc_11"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "57E4791642147ED6"
+			tasks: [{
+				id: "08C1990E015BDC6F"
+				item: "minecraft:music_disc_wait"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "32226F8C0ECD49E7"
+			tasks: [{
+				id: "3BF1D4DBC47B806E"
+				item: "minecraft:music_disc_otherside"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "209779CDFDC61F61"
+			tasks: [{
+				id: "1C288CEE66DF2D1C"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "6D7B6CBBAE8B3D4D"
+			tasks: [{
+				id: "28F72864E11242BF"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "74A5A59CB734F889"
+			tasks: [{
+				id: "4A5D92D4DBD4B0A2"
+				item: "minecraft:music_disc_relic"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "4708D77A5E44E24C"
+			tasks: [{
+				id: "7118F01B34654725"
+				item: "minecraft:disc_fragment_5"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A039246A26EA597"]
+			id: "03FA411EC6F19561"
+			tasks: [{
+				id: "7CC80B070DA6E700"
+				item: "beachparty:overgrown_disc"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F2E5F20283037F8"]
+			id: "35B13219A31D49F4"
+			tasks: [{
+				id: "6258A1290BA74702"
+				item: "majruszsdifficulty:angler_treasure_bag"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F2E5F20283037F8"]
+			id: "6773EB95B1C8656C"
+			tasks: [{
+				id: "1DF3E2741F6A0CD8"
+				item: "majruszsdifficulty:elder_guardian_treasure_bag"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F2E5F20283037F8"]
+			id: "0CE11760BFF3081B"
+			tasks: [{
+				id: "5511FA8FCA43C992"
+				item: "majruszsdifficulty:ender_dragon_treasure_bag"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F2E5F20283037F8"]
+			id: "4C5913CB3A52DECC"
+			tasks: [{
+				id: "141ABD27E1BC9CA0"
+				item: "majruszsdifficulty:pillager_treasure_bag"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F2E5F20283037F8"]
+			id: "788C78B4BCB9C418"
+			tasks: [{
+				id: "56FF6EF56250C927"
+				item: "majruszsdifficulty:undead_army_treasure_bag"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F2E5F20283037F8"]
+			id: "473322267B1F0660"
+			tasks: [{
+				id: "61BA4CB83D0FBE00"
+				item: "majruszsdifficulty:warden_treasure_bag"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F2E5F20283037F8"]
+			id: "1047D2ED582A32AA"
+			tasks: [{
+				id: "45687699F0BA869B"
+				item: "majruszsdifficulty:wither_treasure_bag"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "23831CF347CD64C8"
+			tasks: [{
+				id: "500277DEEC0441FE"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "360D27E985AF2D9D"
+			tasks: [{
+				id: "399E7F931F733A4C"
+				item: {
+					Count: 1
+					id: "vinery:chorus_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "41D7046846330E74"
+			tasks: [{
+				id: "337EDDAE7DB799DC"
+				item: {
+					Count: 1
+					id: "vinery:cherry_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "50B5E4FB84CE32BD"
+			tasks: [{
+				id: "1E8B5D7E877557D6"
+				item: {
+					Count: 1
+					id: "vinery:magnetic_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "2BB0A93AFFFF52C5"
+			tasks: [{
+				id: "4011A7528A364169"
+				item: {
+					Count: 1
+					id: "vinery:noir_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "18B6C85EAA79E4AF"
+			tasks: [{
+				id: "7C39AE865AB54795"
+				item: {
+					Count: 1
+					id: "vinery:lilitu_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "09D1AFD2CD5493CF"
+			tasks: [{
+				id: "03752010E8E203B5"
+				item: {
+					Count: 1
+					id: "vinery:mellohi_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "3C01189A68872B46"
+			tasks: [{
+				id: "5161AA96F6F24DEB"
+				item: {
+					Count: 1
+					id: "vinery:stal_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "0E4C72AD1313F5AC"
+			tasks: [{
+				id: "25A492B9A60E5F06"
+				item: {
+					Count: 1
+					id: "vinery:strad_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "46302C128E6EEEA0"
+			tasks: [{
+				id: "3D3B7F34E0C99807"
+				item: {
+					Count: 1
+					id: "vinery:solaris_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "35E1B728981ED3C8"
+			tasks: [{
+				id: "11A20E2D719CC41A"
+				item: {
+					Count: 1
+					id: "vinery:bolvar_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "27286BD4663D9A6A"
+			tasks: [{
+				id: "06ADC3B57531D076"
+				item: {
+					Count: 1
+					id: "vinery:aegis_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "1193723E4AB37D11"
+			tasks: [{
+				id: "7958BB5968D62C28"
+				item: {
+					Count: 1
+					id: "vinery:clark_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "116770894737C7DA"
+			tasks: [{
+				id: "311341ED6576582B"
+				item: {
+					Count: 1
+					id: "vinery:chenet_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "4E1ABFFD5C8002AC"
+			tasks: [{
+				id: "6AF4B63F249185DF"
+				item: {
+					Count: 1
+					id: "vinery:apple_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "5A672C80BB54CEB5"
+			tasks: [{
+				id: "2743AACB730AF20C"
+				item: {
+					Count: 1
+					id: "vinery:jellie_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "41A29ECF63C288D2"
+			tasks: [{
+				id: "71CE88AB775AF527"
+				item: {
+					Count: 1
+					id: "vinery:red_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "0D8E2FEC721A7D09"
+			tasks: [{
+				id: "05957C4EFF41E4C6"
+				item: {
+					Count: 1
+					id: "vinery:knulp_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "70831F7A0A4CF6F3"
+			tasks: [{
+				id: "4AC8344713C64E95"
+				item: {
+					Count: 1
+					id: "vinery:cristel_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "772C33C88463308E"
+			tasks: [{
+				id: "0B858CF8979B7ECE"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23831CF347CD64C8"]
+			id: "2511AB7E66489309"
+			tasks: [{
+				id: "6DB9D219B0FC00E9"
+				item: {
+					Count: 1
+					id: "vinery:glowing_wine"
+					tag: {
+						Year: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dragonloot:dragon_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F2E5F20283037F8"
+			tasks: [{
+				id: "63333D187400CD4D"
+				title: "Bags"
+				type: "checkmark"
+			}]
+			title: "Event Bags"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dragonloot:dragon_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A039246A26EA597"
+			tasks: [{
+				id: "0A40596F7FC98C0A"
+				title: "Discs"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12577849B79AB76C"]
+			description: ["Craft any kind of block from Macaw's Bridges to complete this quest."]
+			id: "7269DAA64C51CB66"
+			tasks: [{
+				icon: "mcwbridges:birch_log_bridge_middle"
+				id: "696B0900E4F40FF1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"McwBridges\"}"
+						}
+						"ftbfiltersystem:filter": "mod(mcwbridges)"
+					}
+				}
+				title: "Craft any block from Macaw's Bridges"
+				type: "item"
+			}]
+			title: "Macaw's Bridges"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12577849B79AB76C"]
+			description: ["Craft any kind of block from Macaw's Fences \\& Walls to complete this quest."]
+			id: "759DF4C74AD6CEC4"
+			tasks: [{
+				icon: "mcwfences:cherry_horse_fence"
+				id: "26526E39F5935B81"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Mcwfences\"}"
+						}
+						"ftbfiltersystem:filter": "mod(mcwfences)"
+					}
+				}
+				type: "item"
+			}]
+			title: "Macaw's Fences"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["12577849B79AB76C"]
+			icon: "mcwholidays:garland_colorful_lights"
+			id: "7D69166FBC98D22B"
+			tasks: [{
+				id: "2489766335F25B61"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Macaw's Holidays\"}"
+						}
+						"ftbfiltersystem:filter": "mod(mcwholidays)"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["12577849B79AB76C"]
+			icon: "mcwlights:light_blue_lamp"
+			id: "6C0C8C9395B802F8"
+			tasks: [{
+				id: "40CC5364A9025A99"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Macaw's Lights & Lamps\"}"
+						}
+						"ftbfiltersystem:filter": "mod(mcwlights)"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12577849B79AB76C"]
+			icon: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:fox"
+					}
+				}
+			}
+			id: "660B4CBF9E78AB98"
+			tasks: [{
+				id: "5484E82033838F45"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Macaw's Paintings\"}"
+						}
+						"ftbfiltersystem:filter": "mod(mcwpaintings)"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["12577849B79AB76C"]
+			icon: "mcwroofs:spruce_attic_roof"
+			id: "65AD907696624496"
+			tasks: [{
+				id: "624052EB79549317"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Macaw's Roofs\"}"
+						}
+						"ftbfiltersystem:filter": "mod(mcwroofs)"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12577849B79AB76C"]
+			icon: "mcwwindows:birch_plank_window"
+			id: "2CC6347D44DDB411"
+			tasks: [{
+				id: "4A88A5E04EC4AF11"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Macaw's Windows\"}"
+						}
+						"ftbfiltersystem:filter": "mod(mcwwindows)"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "12577849B79AB76C"
+			tasks: [{
+				id: "34073B1C64D891A4"
+				title: "Macaw's Blocks"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D91E0D062A72DDF"]
+			id: "3D878BD24CA7D4F4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "brewery:brewfest_dress"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2259EDE04FCDF820"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Brewery\"}"
+						}
+						"ftbfiltersystem:filter": "mod(brewery)"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D91E0D062A72DDF"]
+			icon: "herbalbrews:cauldron"
+			id: "481841B864DF0E99"
+			tasks: [{
+				id: "23C9543CAB427D02"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Herbal Brews\"}"
+						}
+						"ftbfiltersystem:filter": "mod(herbalbrews)"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4D91E0D062A72DDF"]
+			icon: "bakery:bread"
+			id: "56B99C487D025B27"
+			tasks: [{
+				id: "4F83D03ED50C6B4D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Bakery\"}"
+						}
+						"ftbfiltersystem:filter": "mod(bakery)"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D91E0D062A72DDF"]
+			id: "438466491D71CEB5"
+			tasks: [{
+				icon: "beachparty:beach_parasol"
+				id: "716593527CE00911"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Beach Party\"}"
+						}
+						"ftbfiltersystem:filter": "mod(beachparty)"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4D91E0D062A72DDF"]
+			id: "4BFDBDBA7B8B3B5A"
+			tasks: [{
+				icon: "meadow:delphinium"
+				id: "03A361B7E0DA86BF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Meadow\"}"
+						}
+						"ftbfiltersystem:filter": "mod(meadow)"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D91E0D062A72DDF"]
+			id: "0BF35744B06904CE"
+			tasks: [{
+				icon: "vinery:oak_wine_rack_big"
+				id: "736F1EC65F0CF3E7"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Vinery\"}"
+						}
+						"ftbfiltersystem:filter": "mod(vinery)"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			id: "4D91E0D062A72DDF"
+			tasks: [{
+				id: "112F63FA717E7FA2"
+				title: "[Lets Do] Mods"
+				type: "checkmark"
+			}]
+			title: "[Lets Do] Blocks"
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			description: ["Craft any item from Create Deco mod to complete this quest."]
+			id: "2300B350DF977A09"
+			tasks: [{
+				icon: "createdeco:decal_skull"
+				id: "23658F1F032E24B9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Create Deco\"}"
+						}
+						"ftbfiltersystem:filter": "mod(createdeco)"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "16DFBDB69BDCEC13"
+			tasks: [{
+				icon: "mcwholidays:tall_gravestone"
+				id: "54F98D8730F0E11C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Graveyard\"}"
+						}
+						"ftbfiltersystem:filter": "mod(graveyard)"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			description: ["Craft any block from the Simply Light mod to complete this quest."]
+			id: "1E2AAC5CFEA93861"
+			tasks: [{
+				icon: "simplylight:illuminant_block_on"
+				id: "6E21EAA94B38466A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Simply Light\"}"
+						}
+						"ftbfiltersystem:filter": "mod(simplylight)"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			description: ["Craft any block from the Supplementaries mod to complete this quest."]
+			id: "27346546203FE91D"
+			tasks: [{
+				icon: "supplementaries:globe"
+				id: "719EF746C2769CF3"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Supplementaries\"}"
+						}
+						"ftbfiltersystem:filter": "mod(supplementaries)"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Craft any item from the Joy of Painting mod to complete this quest."]
+			id: "3A20CEB417D43C14"
+			tasks: [{
+				icon: "xercapaint:item_canvas_tall"
+				id: "2A9888534AFAC7BE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Joy of Painting\"}"
+						}
+						"ftbfiltersystem:filter": "mod(xercapaint)"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			description: ["Craft any block from Redden's Stone Latern's mod to complete this quest."]
+			id: "185081BCFB72B31D"
+			tasks: [{
+				icon: "reddensstonelantern:smallfoot_stone_lantern_light"
+				id: "3823DBB4FF6CDC0D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Redden's Stone Latern's\"}"
+						}
+						"ftbfiltersystem:filter": "mod(reddensstonelantern)"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			description: ["Craft any kind of Trashcan to complete this quest."]
+			id: "760C9B4CBA4F6E95"
+			tasks: [{
+				icon: "trashcans:item_trash_can"
+				id: "1B4FD2853710FFED"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Trashcans\"}"
+						}
+						"ftbfiltersystem:filter": "mod(trashcans)"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3BD5A1A6CAC4C93D"]
+			id: "771C9395F1C7B2E9"
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				icon: "minecraft:cherry_sapling"
+				id: "0B9082C9A0A1CF38"
+				title: "Cherry Grove"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			description: ["Can you find all the biomes?"]
+			id: "3BD5A1A6CAC4C93D"
+			tasks: [{
+				id: "5425D9406127085D"
+				title: "Biomes"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3BD5A1A6CAC4C93D"]
+			id: "4348C36262AFD1E0"
+			tasks: [{
+				biome: "terralith:volcanic_crater"
+				icon: "hole_filler_mod:throwable_hole_filler_lava"
+				id: "2BDAE7D23DF59897"
+				type: "biome"
+			}]
+			title: "Volcanic"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "1106DA830FF391B6"
+			tasks: [{
+				id: "3874E915B8361D0E"
+				item: "mysticaloaktree:wise_oak"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "1608C404293087C3"
+			tasks: [{
+				id: "2C66644DA6A9C7F3"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "69586BAE0007E5FD"
+			tasks: [{
+				id: "0C47748980108B1C"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "100A710B331A9B5F"
+			tasks: [{
+				id: "06A42CDC43DF76E3"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "598C6531F2915B69"
+			tasks: [{
+				id: "3EF69CDCA8055292"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "0E1BEF5BEDBFBE3B"
+			tasks: [{
+				id: "0B28704A3EDD8C14"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "6D0FDADF53462390"
+			tasks: [{
+				id: "2DD55EB2295FC912"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "29B5904B1471A972"
+			tasks: [{
+				id: "5EDF8B069D5E8670"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "395D225A551576EE"
+			tasks: [{
+				id: "36CADFBC9CEFC8D9"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "5BD4C5E96E26F2FA"
+			tasks: [{
+				id: "30E54A8902899B95"
+				item: "artifacts:anglers_hat"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "72B1EC13F0D77A2E"
+			tasks: [{
+				id: "47D14AA07C86BFDD"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "1D9A104B23196008"
+			tasks: [{
+				id: "493889CB16075A56"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "531BC4FA7D4DE121"
+			tasks: [{
+				id: "4AF7DE123BA07741"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "0DAB0F9D95D6E1DA"
+			tasks: [{
+				id: "1A95DDC69B181D3A"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "214969491C635A71"
+			tasks: [{
+				id: "3F3E11F89818AB30"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "774C120738370840"
+			tasks: [{
+				id: "4F4B520068164CFC"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "2426EA38239058AB"
+			tasks: [{
+				id: "40EDEC4B8E60716B"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "03D137D386C8DDA0"
+			tasks: [{
+				id: "311734FC520E7309"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "37C09D61740BE8D4"
+			tasks: [{
+				id: "748F9331EEFE2DB7"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "3C2C44888E9B0A75"
+			tasks: [{
+				id: "7C63F4C22B571C05"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "37632D3091895EFE"
+			tasks: [{
+				id: "50CAD52EFFAEAFE7"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "198C2EDA55EBFECB"
+			tasks: [{
+				id: "27730B6027528A46"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "4DE5D3B6D116AD10"
+			tasks: [{
+				id: "4525C77BAAF61524"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "57DD5D69D7A86345"
+			tasks: [{
+				id: "6648FB6750C43857"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "2BC4D370C59E71C5"
+			tasks: [{
+				id: "4B2BB6AD4D67C9FF"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "360E64BDD53588E8"
+			tasks: [{
+				id: "4393A392BC9BD489"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "7510DDEC9BACAB93"
+			tasks: [{
+				id: "6BF2981B9B85C936"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "4DFAC04E23F6CE8D"
+			tasks: [{
+				id: "3DC9F78A049A1617"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "4F7E8EBAD304A62D"
+			tasks: [{
+				id: "3A0BE16310EDB1C2"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "5A81E9DD8D826183"
+			tasks: [{
+				id: "384FF3DAAA8A4A60"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "1CEBB863773664E5"
+			tasks: [{
+				id: "4F560CF5F8B93994"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "60DD4325BBBBE9EA"
+			tasks: [{
+				id: "601213037BDE7CAB"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "31B8FCF0833B495D"
+			tasks: [{
+				id: "7C72BE9801F183EF"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "20665DBE64929249"
+			tasks: [{
+				id: "4008FDA555F45606"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "20166009D0F6E204"
+			tasks: [{
+				id: "760B789250C5A092"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "6BF31A21AAF3F438"
+			tasks: [{
+				id: "21BE9FEB725BD6B6"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "20C629534D112D2C"
+			tasks: [{
+				id: "4C8E240E175AE4E3"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "2EACDFCDC0849919"
+			tasks: [{
+				id: "298669FDE8307751"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "10D2C7466C713E88"
+			tasks: [{
+				id: "525BE1BB782777C6"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "08D3E7B4514C9D96"
+			tasks: [{
+				id: "33465764A1EF7DE2"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "6D1CC21704626FAD"
+			tasks: [{
+				id: "7DBC403C2DEB236E"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "110D50CCCB33961B"
+			tasks: [{
+				id: "5AE8A69410AFC820"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "2B12B94F1E3F7F02"
+			tasks: [{
+				id: "120C6C87AD0F37FB"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "6178CC8C0263D75F"
+			tasks: [{
+				id: "09D87FAC9D122008"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["536AEAA0728F001F"]
+			id: "65F75FF0ADD5E8A5"
+			tasks: [{
+				id: "37CB26E492A859DA"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "536AEAA0728F001F"
+			tasks: [{
+				id: "1B340B644E50DBA3"
+				title: "Artifacts"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+	]
+	title: "&7Collectibles"
+}

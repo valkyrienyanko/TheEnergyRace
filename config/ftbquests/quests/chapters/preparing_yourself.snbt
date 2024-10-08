@@ -1,0 +1,2385 @@
+{
+	autofocus_id: "5632059238148599"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "preparing_yourself"
+	group: ""
+	icon: "techreborn:uu_matter"
+	id: "50B36A80548D9BD8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C38D4B54F4EBB5B"]
+			description: [
+				"Right click with the backpack equipped to open the interface. There will be a button on the left that you can click to equip the backpack. "
+				""
+				"You will now be able to open up your backpack with the 'B' keybind."
+			]
+			id: "5E46E3320C3BA4D5"
+			rewards: [{
+				id: "0E617539CDD5A88E"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "pentagon"
+			subtitle: "Your journey begins here"
+			tasks: [{
+				id: "69ECE6C9DA993E9D"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["270A8B9644B1FE74"]
+			description: ["Skeletons, Illagers, Creepers. The list goes on. You will definitely need a shield."]
+			id: "3F9FF59DC64E6C15"
+			rewards: [{
+				id: "4E89363345A253D6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "03C8FFC19039B4E5"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F9FF59DC64E6C15"]
+			description: ["Always cook your &aBread&r into &aToast&r."]
+			id: "4FC79B7307E6621A"
+			rewards: [{
+				id: "6B866F77E6DBAF78"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3ECA17EC73A98477"
+				item: "croptopia:toast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4FC79B7307E6621A"]
+			description: ["Mobs that hit you may cause you to &4bleed&r. &aBandages&r will stop the bleeding."]
+			id: "3C38D4B54F4EBB5B"
+			rewards: [{
+				id: "018A60A3DFFA7314"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "58D30DD83A0B5329"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C38D4B54F4EBB5B"]
+			id: "78A679516571BC91"
+			rewards: [{
+				id: "1ACE32A8BBAEA870"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "31997A65F248F21E"
+				item: "majruszsdifficulty:golden_bandage"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5632059238148599"]
+			description: ["Wooden armor is good for the early game as it will help protect you from incoming projectiles."]
+			id: "270A8B9644B1FE74"
+			rewards: [{
+				id: "408CF7FA2DC2FD83"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3667B2B6B660550D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Wooden Armor\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(immersive_armors:wooden_helmet)item(immersive_armors:wooden_chestplate)item(immersive_armors:wooden_leggings)item(immersive_armors:wooden_boots))"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Obtain Wooden Armor"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5632059238148599"]
+			description: ["Make any kind of magnum torch to prevent mobs from spawning in a large radius."]
+			id: "08CE1CAAEECC278B"
+			rewards: [{
+				id: "7EA6289C8E4EEDC6"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Prevent mob spawns"
+			tasks: [{
+				icon: "magnumtorch:diamond_magnum_torch"
+				id: "2EC06AE5EEAA5423"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(magnumtorch:diamond_magnum_torch)item(magnumtorch:emerald_magnum_torch)item(magnumtorch:amethyst_magnum_torch))"
+					}
+				}
+				title: "Magnum Torch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E46E3320C3BA4D5"]
+			description: [
+				"&aShift + Right Click &7top of block to remember location"
+				""
+				"&aShift + Right Click &7air to forget location"
+				""
+				"&aRight Click &7air to teleport to remebered location"
+			]
+			id: "1D630633593851B9"
+			rewards: [{
+				id: "2EEF791799C989CF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Teleport between two locations"
+			tasks: [{
+				id: "1AB10A2F5073195B"
+				item: "ring_of_teleport:ring_of_teleport"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 0.0d
+		}
+		{
+			description: ["If you can't find coal, any kind of &astone&r and &aflint&r can be used to make a torch."]
+			id: "5632059238148599"
+			rewards: [{
+				id: "500B7BB21253938B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "21527089344EA38F"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "Craft a Torch"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D7EC3EB2062F7E5"]
+			description: ["The &aScanner&r can be used to scan for all sorts of things but it will need to be charged. You can charge it in a &aBattery Box&r."]
+			id: "17778074A8974969"
+			rewards: [{
+				id: "6A0F9C63150BBDF1"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Say goodbye to trying to find ores"
+			tasks: [{
+				id: "1BC72FAE95889DA8"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5632059238148599"]
+			description: ["Make any kind of Hammer. Hammers are superior to pickaxes when it comes to clearing out large areas."]
+			id: "2D7EC3EB2062F7E5"
+			rewards: [{
+				id: "4E9260F8317F22B4"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Mining just got easier"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "morehammersexcavators:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7E92BB9AD3DDD2B5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(morehammersexcavators:hammers)"
+					}
+				}
+				title: "Hammer"
+				type: "item"
+			}]
+			title: "Make a Hammer"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D7EC3EB2062F7E5"]
+			description: ["Make any kind of Excavator. Excavators are superior to shovels when it comes to clearing out large areas."]
+			id: "71719450D1D378E3"
+			rewards: [{
+				id: "2F942295B7ADB0F9"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "A good tool to flatten an area"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "morehammersexcavators:stone_excavator"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3B419E1E4BCEBC0D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Excavators\"}"
+						}
+						"ftbfiltersystem:filter": "item_tag(morehammersexcavators:excavators)"
+					}
+				}
+				title: "Excavator"
+				type: "item"
+			}]
+			title: "Make a Excavator"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17778074A8974969"]
+			description: ["Modules can be used to enhance the scanner. For example the &aScanner Module: Block&r can be right clicked to configure any kind of block the scanner should scan for. Shift + Right Click the scanner to insert modules."]
+			id: "5EEFDF9A051CF14A"
+			rewards: [{
+				id: "55596CF9FC86E7D4"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Their cheating! They used X-Ray!"
+			tasks: [{
+				icon: "scannable:range_module"
+				id: "23C86263120DDBB1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(scannable:modules)"
+					}
+				}
+				title: "Module"
+				type: "item"
+			}]
+			title: "Modules"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["547749324E644030"]
+			description: [
+				"&lDisenchanter Interface&r"
+				""
+				"&7Leftmost slot takes the item to be disenchanted. Rightmost slot takes books onto which the enchantments are transferred. Center slot is for the catalysts."
+				""
+				"&lCatalysts&r"
+				""
+				"&7Amethyst Shard: Recovers the first enchantment and preserves the item"
+				""
+				"&7Diamond: Recovers two random enchantments and the first one "
+				""
+				"&7Emerald: Recovers two random enchantments"
+				""
+				"&7Ender Pearl: Recovers one random enchantment. Here, the item is also preserved but will take 500 durability damage"
+				""
+				"&7Experience Bottle: Recovers all enchantments that are at the same level as the highest one present "
+				""
+				"&7Heart Of The Sea: Recovers all enchantments but reduces them by one level"
+				""
+				"&7Nether Star: Recovers all enchantments and preserves the item"
+			]
+			id: "4FFF0E0172DC3272"
+			rewards: [{
+				id: "3AC8304E627FE2EE"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Disenchant items"
+			tasks: [{
+				id: "0AE4C6ECEDB32E92"
+				item: "disenchanter:disenchanter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4FC79B7307E6621A"]
+			description: ["Make any kind of bookshelf"]
+			id: "547749324E644030"
+			rewards: [{
+				id: "270B1037790AEC89"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				icon: "ironbookshelves:diamond_bookshelf"
+				id: "33D984277A427BC4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Bookshelves\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(minecraft:bookshelf)item(ironbookshelves:iron_bookshelf)item(ironbookshelves:golden_bookshelf)item(ironbookshelves:diamond_bookshelf)item(ironbookshelves:emerald_bookshelf)item(ironbookshelves:obsidian_bookshelf)item(ironbookshelves:netherite_bookshelf)item(ironbookshelves:copper_bookshelf)item(ironbookshelves:amethyst_bookshelf)item(ironbookshelves:crying_obsidian_bookshelf)item(ironbookshelves:enderite_bookshelf)item(ironbookshelves:steel_bookshelf)item(ironbookshelves:bronze_bookshelf)item(minecraft:chiseled_bookshelf))"
+					}
+				}
+				title: "Make any kind of bookshelf"
+				type: "item"
+			}]
+			title: "Bookshelves"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71719450D1D378E3"]
+			description: ["Craft any item from the Hole Filler mod."]
+			icon: "hole_filler_mod:throwable_hole_filler"
+			id: "1702A6F8748AFA29"
+			rewards: [{
+				id: "0CBE6BC9ADE2D95F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Fill up those pesky holes"
+			tasks: [{
+				icon: "hole_filler_mod:throwable_hole_filler"
+				id: "53F5C543AD94A052"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "mod(hole_filler_mod)"
+					}
+				}
+				title: "Hole Filler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E46E3320C3BA4D5"]
+			icon: "minecraft:netherrack"
+			icon_scale: 0.8d
+			id: "3A4A309E052AC00E"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1992C9DC1D1E701A"
+				type: "dimension"
+			}]
+			title: "Reach The Nether"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A4A309E052AC00E"]
+			description: ["The elytra is a craftable item but you will need a nether star from the wither."]
+			id: "032F262696B6A223"
+			shape: "pentagon"
+			tasks: [{
+				id: "3C3854A53C7F94D8"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31AFBCB16912FD31"]
+			description: [
+				"Craft any kind of immersive aircraft to complete this quest"
+				""
+				"&aSpace Bar &7- Increase throttle"
+				"&2Shift &7- Decrease throttle"
+				"&aWASD &7- Rotate airplane"
+				"&2Numpad 2 &7- Dismount"
+			]
+			id: "40B156E076FAC793"
+			rewards: [{
+				id: "461E910B680C80B5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "octagon"
+			subtitle: "The skies the limit"
+			tasks: [{
+				icon: "immersive_aircraft:biplane"
+				id: "4A58AFD279129872"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Immersive Aircraft\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(immersive_aircraft:airship)item(immersive_aircraft:cargo_airship)item(immersive_aircraft:warship)item(immersive_aircraft:biplane)item(immersive_aircraft:gyrodyne)item(immersive_aircraft:quadrocopter))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Immersive Aircrafts"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E46E3320C3BA4D5"]
+			description: [
+				"Craft any kind of small ship to complete this quest"
+				""
+				"&aNumpad 1 &7- Toggle Sail&r"
+				"&2W \\& S &7- Increase \\& Decrease speed"
+				"&aShift &7- Dismount"
+			]
+			id: "31AFBCB16912FD31"
+			rewards: [{
+				id: "6A97F02C6B2CD08A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "octagon"
+			subtitle: "Faster than a vanilla boat"
+			tasks: [{
+				icon: "smallships:birch_cog"
+				id: "3ADC3BC3F4BADFFB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Small Ships\"}"
+						}
+						"ftbfiltersystem:filter": "or(item_tag(smallships:briggs)item_tag(smallships:cogs)item_tag(smallships:drakkars)item_tag(smallships:galleys)item_tag(smallships:ships))"
+					}
+				}
+				title: "Craft any kind of small ship"
+				type: "item"
+			}]
+			title: "Small Ships"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["032F262696B6A223"]
+			icon: "minecraft:end_stone"
+			icon_scale: 0.8d
+			id: "51B79FF0D7C9C5A1"
+			rewards: [{
+				id: "2EC77F2E4830057D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1B2E29CC182ACAAA"
+				type: "dimension"
+			}]
+			title: "Reach The End"
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51B79FF0D7C9C5A1"]
+			description: ["&dEnderium Shard's&r can be used to craft &5Enderium Ingot's&r."]
+			id: "48928A950C593857"
+			rewards: [{
+				id: "61983E969034F0D8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0349AD41FC0EA6D7"
+				item: "majruszsdifficulty:enderium_shard"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48928A950C593857"]
+			description: ["&dEnderium Ingot's&r can be used to craft new &5tools&r and &5armor&r."]
+			id: "296E8B11BB389D0B"
+			rewards: [{
+				id: "0C9DCEA9B77DA9D5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "63E60B6FB74A8A50"
+				item: "majruszsdifficulty:enderium_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51B79FF0D7C9C5A1"]
+			icon: "minecraft:dragon_head"
+			id: "02D1F51A39E5D46D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "adventurez:dragon"
+				id: "4E7ECF2E3B2A3A81"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Ender Dragon"
+			x: 9.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02D1F51A39E5D46D"]
+			id: "72D7193223AD0E9C"
+			tasks: [{
+				id: "3330447A790122F3"
+				item: "dragonloot:dragon_scale"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5632059238148599"]
+			id: "566B034F1CCC3596"
+			rewards: [{
+				id: "36F19A461F405F93"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "4D0460F1FB10D97D"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["566B034F1CCC3596"]
+			description: [
+				"Place chests adjacent to the &aInventory Connector&r and then place the &2Crafting Terminal&r on the connector block. This is a great early game alternative to AE2 storage."
+				""
+				"Note that Iron Chests will work too!"
+			]
+			icon: "toms_storage:ts.crafting_terminal"
+			id: "2F10A940187C13F1"
+			rewards: [{
+				count: 8
+				id: "10CFA19B1C912246"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Obtaining Computerized Storage"
+			tasks: [
+				{
+					id: "06D9CFD3B783B88C"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "7BCDF24D569F105C"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["65B9876F42F5B733"]
+			id: "5F054951DD9761CC"
+			tasks: [{
+				id: "386E27A73779DB51"
+				item: "ironchests:iron_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F054951DD9761CC"]
+			id: "654CFBAE8D13216B"
+			tasks: [{
+				id: "59F7BDAC1DEF5FE4"
+				item: "ironchests:gold_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["566B034F1CCC3596"]
+			id: "65B9876F42F5B733"
+			tasks: [{
+				id: "5030B868ED4CF8F2"
+				item: "ironchests:copper_chest"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["654CFBAE8D13216B"]
+			id: "7F7B663756E761D2"
+			tasks: [{
+				id: "3921BF4183A936FC"
+				item: "ironchests:diamond_chest"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F7B663756E761D2"]
+			id: "39B7BADDCF5AFBA5"
+			tasks: [{
+				id: "180E4283E806F50B"
+				item: "ironchests:obsidian_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39B7BADDCF5AFBA5"]
+			id: "596C4DF98CACD3D7"
+			tasks: [{
+				id: "67E089571BD89B6C"
+				item: "ironchests:netherite_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02D1F51A39E5D46D"]
+			id: "3DFC9489033D1204"
+			subtitle: "End Portal Frames are craftable"
+			tasks: [{
+				id: "67BF656414F51D2A"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E46E3320C3BA4D5"]
+			description: ["With two waystones you can teleport between them!"]
+			id: "173622B8F918DBBF"
+			tasks: [{
+				id: "67E1A9ED96E1A96F"
+				item: "fwaystones:waystone"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6BB8685538B5275D"]
+			icon: "deeperdarker:heart_of_the_deep"
+			icon_scale: 0.8d
+			id: "4EC581F12512F07E"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "63D626BD23CD216A"
+				type: "dimension"
+			}]
+			title: "Reach the Deeper Dark"
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02D1F51A39E5D46D"]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BB8685538B5275D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "7C9AB97F632D980F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Warden"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2154C2F24989EA68"]
+			description: [
+				"The Mechanical Press is used to turn ore crops and seeds into ores."
+				""
+				"Craft a Mechanical Press to complete this quest."
+			]
+			id: "3FB6A71E847606B9"
+			shape: "gear"
+			tasks: [{
+				id: "63DB9C8BD928ADE1"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Note about Ore Crops"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5632059238148599"]
+			id: "504986CBAB012D78"
+			tasks: [{
+				id: "17EF12DB9E541EDA"
+				item: "techreborn:sap"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["504986CBAB012D78"]
+			id: "08CE8462D399EC9E"
+			tasks: [{
+				id: "23EE3F4A1DD418BF"
+				item: "techreborn:rubber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08CE8462D399EC9E"]
+			id: "2FC50761ABA1E0F3"
+			tasks: [{
+				id: "1494575E7B4EBCA2"
+				item: "techreborn:insulated_copper_cable"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2FC50761ABA1E0F3"]
+			id: "5A3D7B371111B8D8"
+			tasks: [{
+				id: "1DB52A93173E83C7"
+				item: "techreborn:electronic_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A3D7B371111B8D8"]
+			id: "1752B107726DB269"
+			tasks: [{
+				id: "1ED90AAE7E63A82C"
+				item: "techreborn:advanced_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5A3D7B371111B8D8"]
+			id: "33CCA804171645AF"
+			tasks: [{
+				id: "156AED014FC4F992"
+				item: "techreborn:basic_jackhammer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5A3D7B371111B8D8"]
+			id: "41AF0BC577C3C261"
+			tasks: [{
+				id: "7A559F06A0FE90F7"
+				item: "techreborn:basic_chainsaw"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A3D7B371111B8D8"]
+			id: "16D80911104EFBBD"
+			tasks: [{
+				id: "732B5B33564FE569"
+				item: "techreborn:basic_drill"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["16D80911104EFBBD"]
+			id: "41AD4F80FC861620"
+			tasks: [{
+				id: "542B2264710D3853"
+				item: "techreborn:advanced_drill"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41AF0BC577C3C261"]
+			id: "30CBE22EA227190C"
+			tasks: [{
+				id: "5E2A29EE5B6FEDC4"
+				item: "techreborn:advanced_chainsaw"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33CCA804171645AF"]
+			id: "034E5CBBD08377A5"
+			tasks: [{
+				id: "32B059F20AA35EEF"
+				item: "techreborn:advanced_jackhammer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["034E5CBBD08377A5"]
+			id: "163D43859C115702"
+			tasks: [{
+				id: "40CA1E50A380E3B7"
+				item: "techreborn:industrial_jackhammer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["30CBE22EA227190C"]
+			id: "62962C58958F371B"
+			tasks: [{
+				id: "17DAC8972CB8D3F7"
+				item: "techreborn:industrial_chainsaw"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["41AD4F80FC861620"]
+			id: "16BB14B93A2CC461"
+			tasks: [{
+				id: "607AC241C2603849"
+				item: "techreborn:industrial_drill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A3D7B371111B8D8"]
+			id: "44829186F82C9AB9"
+			tasks: [{
+				id: "1A8D18D11756677D"
+				item: "techreborn:basic_machine_frame"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44829186F82C9AB9"]
+			id: "73A79317B6352AC0"
+			tasks: [{
+				id: "029D4BFB30C336FC"
+				item: "techreborn:solid_fuel_generator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44829186F82C9AB9"]
+			id: "7EA41688B27565BB"
+			tasks: [{
+				id: "2E602C1737092CB4"
+				item: "techreborn:extractor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44829186F82C9AB9"]
+			id: "554D187EF8EDB7DA"
+			tasks: [{
+				id: "25FA3FF887113BB3"
+				item: "techreborn:basic_solar_panel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["554D187EF8EDB7DA"]
+			id: "2BAA182F232A99A6"
+			tasks: [{
+				id: "5156A18C784FD293"
+				item: "techreborn:advanced_solar_panel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2BAA182F232A99A6"]
+			id: "14C98828FAC000B1"
+			tasks: [{
+				id: "1CC16968447B94B9"
+				item: "techreborn:industrial_solar_panel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["14C98828FAC000B1"]
+			id: "6C4D7D08090E24FC"
+			tasks: [{
+				id: "204B20540974AB1E"
+				item: "techreborn:ultimate_solar_panel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C4D7D08090E24FC"]
+			id: "626357411355F359"
+			tasks: [{
+				id: "74D14CE981222F27"
+				item: "techreborn:quantum_solar_panel"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44829186F82C9AB9"]
+			id: "031451049048668E"
+			tasks: [{
+				id: "4CC3D1C03A1098E3"
+				item: "techreborn:grinder"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["44829186F82C9AB9"]
+			id: "61F5C0100C89C5D2"
+			tasks: [{
+				id: "533CEB522C9F390C"
+				item: "techreborn:electric_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["44829186F82C9AB9"]
+			id: "4ED9B37F45D8A7B1"
+			tasks: [{
+				id: "44429006CA6BA92C"
+				item: "techreborn:alloy_smelter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["44829186F82C9AB9"]
+			id: "1A8F94FB634A2F04"
+			tasks: [{
+				id: "210581E01D939BBA"
+				item: "techreborn:auto_crafting_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44829186F82C9AB9"]
+			id: "55D617DB9D6234AE"
+			tasks: [{
+				id: "36EACB956D5338DC"
+				item: "techreborn:recycler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44829186F82C9AB9"]
+			id: "2BDE624817B9D77F"
+			tasks: [{
+				id: "0D8FE9B96C9D455D"
+				item: "techreborn:low_voltage_su"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1752B107726DB269"]
+			id: "1D76A5C155DD6EFE"
+			tasks: [{
+				id: "6CB95C3926675221"
+				item: "techreborn:advanced_machine_frame"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D76A5C155DD6EFE"]
+			id: "5D16D088640F876A"
+			tasks: [{
+				id: "583256D2C0E0B504"
+				item: "techreborn:industrial_grinder"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D76A5C155DD6EFE"]
+			id: "34308A949FFA2345"
+			tasks: [{
+				id: "076047E482E8563F"
+				item: "techreborn:industrial_centrifuge"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D76A5C155DD6EFE"]
+			id: "78B11279BD7FF73F"
+			tasks: [{
+				id: "59AD13ABB1679386"
+				item: "techreborn:industrial_electrolyzer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1D76A5C155DD6EFE"]
+			id: "69C07071B11ABF93"
+			tasks: [{
+				id: "306F1A734B5B6512"
+				item: "techreborn:industrial_blast_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1752B107726DB269"]
+			id: "017D46411F455FD6"
+			shape: "pentagon"
+			size: 1.8d
+			tasks: [{
+				id: "2EB6BF02922487E9"
+				item: "techreborn:matter_fabricator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["017D46411F455FD6"]
+			description: [
+				"You can say you beat the modpack if you obtain 1000 of this."
+				""
+				"If you beat the modpack and you think this is too easy, let me know in the modpacks discord."
+			]
+			icon_scale: 1.3d
+			id: "2C5E50CD233E00FF"
+			rewards: [{
+				id: "016C614E2D4E1B74"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "octagon"
+			size: 4.0d
+			subtitle: "Beat the Modpack by Obtaining This"
+			tasks: [{
+				count: 1000L
+				id: "67B6DD3AB1D22B4F"
+				item: "techreborn:uu_matter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			id: "439623AC0BE1FDEA"
+			tasks: [{
+				id: "631679DA63D6FA01"
+				item: "simple_cobblestone_generator:generator_tier1"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51B79FF0D7C9C5A1"]
+			id: "22A4090B040D82D9"
+			shape: "diamond"
+			tasks: [{
+				id: "77FBE8376F9C2851"
+				item: "voidtotem:totem_of_void_undying"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A4A309E052AC00E"]
+			description: ["Make sure you're facing the block you want to stand on when you get out of the boat!"]
+			id: "54EBFB295167DF25"
+			tasks: [{
+				id: "0BBDDE2DA6259345"
+				item: "obsidianboat:obsidian_boat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4FC79B7307E6621A"]
+			description: ["Ore seeds can be duplicated when put through a millstone."]
+			id: "2154C2F24989EA68"
+			tasks: [{
+				id: "4395F255D5B90D09"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Duplicate Ore Seeds"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5632059238148599"]
+			description: [""]
+			id: "6928BACA742ECB6F"
+			rewards: [{
+				count: 3
+				id: "78A9949D920216DC"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "You can look epic in Minecraft you know..."
+			tasks: [
+				{
+					id: "1CC39860C3EC810D"
+					item: "armourers_workshop:skin-library-creative"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "5A31351D212DC053"
+					item: "armourers_workshop:skin-library-global"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Custom Player Models!"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "2872FD89591375D9"
+			rewards: [{
+				count: 3
+				id: "78EE09C40EC0A556"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56A376834517FDE1"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3FB6A71E847606B9"]
+			description: ["You may find any of these crops while exploring so don't forget to check all the crops around you!"]
+			id: "504D83D980F623D0"
+			rewards: [{
+				id: "02C837B3D1D27118"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "19A1D47BFA875774"
+				title: "Different types of crops give different kinds of ores."
+				type: "checkmark"
+			}]
+			title: "Ore Crops"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "3FE0890AC8F6D118"
+			rewards: [{
+				count: 3
+				id: "08BC5375A78A9DDB"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E95E77548D7E33B"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "2BBA93857CED03E6"
+			rewards: [{
+				count: 3
+				id: "7F32E55057A7607E"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "099784A9C629F206"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "2DC9B3BDF19E4B9D"
+			rewards: [{
+				count: 3
+				id: "06FE9BA8A57879BF"
+				item: "techreborn:tin_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "212864953E48AB22"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "4DAF308D3230BC7B"
+			rewards: [{
+				count: 3
+				id: "26311B86459CF2E2"
+				item: "techreborn:lead_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4011B7484C7D77C4"
+				item: "croptopia:blackbean_seed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "77BAD2359C651427"
+			rewards: [{
+				count: 3
+				id: "4F2F5EB1EB738531"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DAD7D0772EBA9FF"
+				item: "croptopia:blueberry_seed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "1B7890714FE323C1"
+			rewards: [{
+				count: 3
+				id: "4CB36E85C5A35D91"
+				item: "techreborn:zinc_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "623BC3C8C962052F"
+				item: "croptopia:broccoli_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "57D2D62C94842191"
+			rewards: [{
+				count: 3
+				id: "23C175C6D4D5682D"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "518B9B2ED6C384C9"
+				item: "croptopia:cantaloupe_seed"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "6DBF2B78A56DBE67"
+			rewards: [{
+				count: 3
+				id: "0FD1381FD6BCCA03"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FBDA417BF9B9C4E"
+				item: "croptopia:cauliflower_seed"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "3818F3C6930B3B56"
+			rewards: [{
+				count: 3
+				id: "1B8C155B116895D2"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22170ECFE2FDA7EC"
+				item: "croptopia:coffee_seed"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "3FE0E498569D252F"
+			rewards: [{
+				id: "51FDCB7F948E43C2"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2159E1CE771AE841"
+				item: "croptopia:corn_seed"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "2CEA72D099011A2C"
+			rewards: [{
+				count: 3
+				id: "66962E53840C4791"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			tasks: [{
+				id: "328918129207EB54"
+				item: "croptopia:currant_seed"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "525616034A3B06B0"
+			rewards: [{
+				id: "2D28B15B674BCD6D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6260D1731CE5B5C8"
+				item: "croptopia:eggplant_seed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "54CB91244138AB76"
+			rewards: [{
+				count: 3
+				id: "28328902CE0FDE01"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3594C92ADCBA91B7"
+				item: "croptopia:elderberry_seed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "4C4221DFAC4751E3"
+			rewards: [{
+				count: 3
+				id: "11B51F07E23407BC"
+				item: "techreborn:sap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C127B9FC57D1983"
+				item: "croptopia:ginger_seed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "57D5E669F19D3234"
+			rewards: [{
+				count: 3
+				id: "794345D71627F1CD"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C16F1903AC5C3AC"
+				item: "croptopia:greenbean_seed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "3ED80E8EE47D2572"
+			rewards: [{
+				count: 3
+				id: "26BB74BF5F7CD109"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54CDA27A832009B9"
+				item: "croptopia:greenonion_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "49CCDAE29166CA0A"
+			rewards: [{
+				count: 3
+				id: "7E1614507BEBB0E7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6474B4C823015E4C"
+				item: "croptopia:honeydew_seed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "04C410505CA55E7A"
+			rewards: [{
+				count: 3
+				id: "6027D38C17959252"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			tasks: [{
+				id: "242ED88DF70DF3FB"
+				item: "croptopia:hops_seed"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "08FE1CE933E58A0E"
+			rewards: [{
+				count: 3
+				id: "53196DFA9F60851A"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67895224C56B1384"
+				item: "croptopia:mustard_seed"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "71024ECD33EBCDAC"
+			rewards: [{
+				count: 3
+				id: "416450E4DA441214"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C15E52255FE6306"
+				item: "croptopia:olive_seed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "773A4E402AB4D8ED"
+			rewards: [{
+				count: 3
+				id: "589733A63B50EE70"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A17735FBFCBFDE7"
+				item: "croptopia:pepper_seed"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "6C1B17B65ABB1A48"
+			rewards: [{
+				count: 3
+				id: "65A0749F27AEDE8B"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4727055413FFDBB9"
+				item: "croptopia:radish_seed"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "70E16E32AFFA42AA"
+			rewards: [{
+				count: 3
+				id: "56ED44EEB523887C"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "171D49A7E9BAD369"
+				item: "croptopia:rice_seed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "317963999B333E58"
+			rewards: [{
+				count: 3
+				id: "0847EB1B7A7BE770"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A74B62E3AC7BAEE"
+				item: "croptopia:turmeric_seed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "2EC34ADF29C7CAE8"
+			rewards: [{
+				count: 3
+				id: "3919EDADE9C6C1BC"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "420C8416B6487C4C"
+				item: "croptopia:vanilla_seeds"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["504D83D980F623D0"]
+			id: "3CF20310EB3BCAB8"
+			rewards: [{
+				count: 3
+				id: "09EE1D294D181BFB"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AA444F5D6BEC007"
+				item: "croptopia:yam_seed"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5E46E3320C3BA4D5"]
+			id: "01CD5A9ACC26930D"
+			rewards: [{
+				id: "46E41332DC6ABDF8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "452FEC6AE4025B72"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["55D236E264C86B06"]
+			id: "6765DDB1B0ECFFF5"
+			rewards: [{
+				id: "4994E707A602EF9B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Iron but rich?"
+			tasks: [{
+				id: "7A8D0BF8495319ED"
+				item: "anim_guns:enriched_iron"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6765DDB1B0ECFFF5"]
+			id: "3A7C858221CFBE73"
+			rewards: [{
+				id: "1981AE954A808F88"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "It's better than iron trust me"
+			tasks: [{
+				id: "3F66EF82A647063E"
+				item: "anim_guns:hardened_iron_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["733BE88D32CE8329"]
+			description: ["Right click with a &aBlueprint Bundle&r to set the blueprint for the gun that you want to make."]
+			id: "0C27DDC6A225762E"
+			rewards: [{
+				id: "05BCB78707A1F0AA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6156F6DACFD6D956"
+				item: "anim_guns:blueprint_bundle"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["059A0F7F785D3F8A"]
+			id: "29E63956FD98F796"
+			rewards: [{
+				id: "76FF1C4B174C925F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "11BA4F1AD5AA320A"
+				item: {
+					Count: 1
+					id: "anim_guns:pistol_light"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C8FAF2376E14A9D"]
+			id: "35972DBF4029B161"
+			rewards: [{
+				id: "6668924C9923C453"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "321929315774CF7E"
+				item: {
+					Count: 1
+					id: "anim_guns:pistol_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["059A0F7F785D3F8A"]
+			id: "211FC58341F133AE"
+			rewards: [{
+				id: "7694BF1A6AF172B3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "05AA192068708DB4"
+				item: {
+					Count: 1
+					id: "anim_guns:smg_machinepistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C8FAF2376E14A9D"]
+			id: "35B1AADD798FCF74"
+			rewards: [{
+				id: "65EF75F8480EB0AB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "42D3A989F8A930CF"
+				item: {
+					Count: 1
+					id: "anim_guns:revolver_magnum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C8FAF2376E14A9D"]
+			id: "54F46EC2B29801FA"
+			rewards: [{
+				id: "687797E963EDAFDD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7EC8D0FD6C176951"
+				item: {
+					Count: 1
+					id: "anim_guns:revolver_coltarmy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["059A0F7F785D3F8A"]
+			id: "570B8C877B1EA7A5"
+			rewards: [{
+				id: "0670480B04C318EC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3966BFAD276719AE"
+				item: {
+					Count: 1
+					id: "anim_guns:smg_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["059A0F7F785D3F8A"]
+			id: "7290216DF6DA7723"
+			rewards: [{
+				id: "18977567DBE51688"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7DAAC8B89DE57D91"
+				item: {
+					Count: 1
+					id: "anim_guns:smg_rapid"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "4B34FB3951DBDEFF"
+			rewards: [{
+				id: "685BB9A3500B1EBF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4054D8F2D59A51AE"
+				item: {
+					Count: 1
+					id: "anim_guns:assaultrifle_light"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "2EC5B706B242113E"
+			rewards: [{
+				id: "11ECABF0FCE1A5ED"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6BC0E5446D24497A"
+				item: {
+					Count: 1
+					id: "anim_guns:assaultrifle_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "0D4770CC21CFD8EE"
+			rewards: [{
+				id: "010085413FA0BBA9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "74B48769E7C91AFE"
+				item: {
+					Count: 1
+					id: "anim_guns:assaultrifle_rus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A7C858221CFBE73"]
+			id: "733BE88D32CE8329"
+			rewards: [{
+				id: "4FB33258EE2A1C4E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "40BDFDC8F08FF4D3"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1AD25EE673613D39"]
+			id: "4A2E1966FDCC19A2"
+			rewards: [{
+				id: "2868AC9FBC73189A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "51B432AA7D893D5D"
+				item: {
+					Count: 1
+					id: "anim_guns:shotgun_doublebarrel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1AD25EE673613D39"]
+			id: "41A83D07246C0F51"
+			rewards: [{
+				id: "4F725EF78F126DEA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "600086E020B4AE0D"
+				item: {
+					Count: 1
+					id: "anim_guns:shotgun_combat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1AD25EE673613D39"]
+			id: "334E838F698F20A9"
+			rewards: [{
+				id: "13461A60F3B79D63"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7255D29BEBABF2BB"
+				item: {
+					Count: 1
+					id: "anim_guns:shotgun_riot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "059A0F7F785D3F8A"
+			rewards: [{
+				id: "5D20C7D44765C441"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "15A78F06CF666016"
+				item: "anim_guns:standard_handgun_cartridge"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "7C8FAF2376E14A9D"
+			rewards: [{
+				id: "3490BDE10CF0E8AF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "605549C722E428CF"
+				item: "anim_guns:heavy_handgun_cartridge"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "6EFDDE4358292C36"
+			rewards: [{
+				id: "48FF3F7795373C2F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "65DEE6B8AACBF363"
+				item: "anim_guns:standard_rifle_cartridge"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "60D4B00FCD400F83"
+			rewards: [{
+				id: "578EDB963939BB90"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "05EE999B033287F1"
+				item: "anim_guns:heavy_rifle_cartridge"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["60D4B00FCD400F83"]
+			id: "5FA64B4113D4F0C2"
+			rewards: [{
+				id: "336E399A216D9680"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0A984A535E89AD60"
+				item: {
+					Count: 1
+					id: "anim_guns:sniper_classic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C8FAF2376E14A9D"]
+			id: "0D455D8ADA4E0D91"
+			rewards: [{
+				id: "1DFA870995DA3D34"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1D44576738BB81BF"
+				item: {
+					Count: 1
+					id: "anim_guns:sniper_cowboy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "2784E05710F504EF"
+			rewards: [{
+				id: "2FDC934FFF31CAAB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6B72C28ACFC6BD68"
+				item: {
+					Count: 1
+					id: "anim_guns:sniper_marksman"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "7BD333D1B62FBB69"
+			rewards: [{
+				id: "233B06AB77ECCD26"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5B7D987D1E039A6B"
+				item: {
+					Count: 1
+					id: "anim_guns:lmg_m60"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["60D4B00FCD400F83"]
+			id: "4E5CD62A169B28C0"
+			rewards: [{
+				id: "18E6141BA3225DD6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "67536B34479CBAF5"
+				item: {
+					Count: 1
+					id: "anim_guns:amr_classic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6EFDDE4358292C36"]
+			id: "5CA64C10C32928BA"
+			rewards: [{
+				id: "0B431A380C138A40"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6F858E3F4D736EDB"
+				item: {
+					Count: 1
+					id: "anim_guns:lmg_minigun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C27DDC6A225762E"]
+			id: "1AD25EE673613D39"
+			rewards: [{
+				id: "77080B2B59FB9366"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7DA83B7D68244188"
+				item: "anim_guns:shotgun_shell"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["733BE88D32CE8329"]
+			description: ["Automate gunpowder production. If you are having trouble finding this seed in the world, you can craft it with 9 gunpowder."]
+			id: "2BF137AB23F67743"
+			subtitle: "Infinite ammo?"
+			tasks: [{
+				id: "7AAE6A7F8A9A3500"
+				item: "croptopia:coffee_seed"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55D236E264C86B06"]
+			description: ["Guns consume alot of ammo and that requires alot of iron. It's time to automate iron production."]
+			id: "653D9C2DAD5E621A"
+			subtitle: "Iron for days"
+			tasks: [{
+				id: "4446A97BED8FF984"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01CD5A9ACC26930D"]
+			id: "55D236E264C86B06"
+			tasks: [{
+				id: "2FECF56623B94FFB"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "25BDF3A8EAB7DD70"
+			tasks: [{
+				id: "763BAD13CE4B7963"
+				item: "mcwfences:wooden_cheval_de_frise"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	title: "&7Main Quest"
+}

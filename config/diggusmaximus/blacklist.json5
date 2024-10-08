@@ -1,0 +1,9 @@
+{
+	// Function as whitelist instead
+	"isWhitelist": true,
+	// Block IDs to blacklist from being mined
+	"blacklistedBlocks": [
+		"#c:ores",
+		"#c:sapphire_ores"
+	]
+}

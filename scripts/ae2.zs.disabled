@@ -1,0 +1,81 @@
+addCertusQuartz();
+addChargedCertusQuartz();
+addSkyStone();
+addPresses();
+
+function addPresses() as void 
+{
+	var A = <item:minecraft:air>;
+	var P = <item:minecraft:paper>;
+	var D = <item:minecraft:diamond>;
+	
+	craftingTable.addShaped("calculation_processor_press", <item:ae2:calculation_processor_press>, [
+		[A, D, A],
+		[A, P, A],
+		[A, D, A]
+	]);
+	
+	craftingTable.addShaped("engineering_processor_press", <item:ae2:engineering_processor_press>, [
+		[A, A, A],
+		[D, P, D],
+		[A, A, A]
+	]);
+	
+	craftingTable.addShaped("logic_processor_press", <item:ae2:logic_processor_press>, [
+		[D, A, D],
+		[A, P, A],
+		[D, A, D]
+	]);
+	
+	craftingTable.addShaped("silicon_press", <item:ae2:silicon_press>, [
+		[A, D, A],
+		[D, P, D],
+		[A, D, A]
+	]);
+	
+	craftingTable.addShaped("name_press", <item:ae2:name_press>, [
+		[D, A, A],
+		[A, P, A],
+		[A, A, D]
+	]);
+}
+
+function addSkyStone() as void
+{
+	var F = <item:minecraft:iron_ingot>;
+	var A = <item:minecraft:air>;
+	var S = <item:minecraft:stone>;
+
+	craftingTable.addShaped("sky_stone", <item:ae2:sky_stone_block>, [
+		[A, F, A],
+		[F, S, F],
+		[A, F, A]
+	]);
+}
+
+function addChargedCertusQuartz() as void
+{
+	var I = <item:minecraft:iron_ingot>;
+	var A = <item:minecraft:air>;
+	var Q = <item:minecraft:quartz>;
+	var T = <item:techreborn:tin_ingot>;
+
+	craftingTable.addShaped("charged_certus_quartz_crystal", <item:ae2:charged_certus_quartz_crystal>, [
+		[T, I, T],
+		[I, Q, I],
+		[T, I, T]
+	]);
+}
+
+function addCertusQuartz() as void
+{
+	var I = <item:minecraft:iron_ingot>;
+	var A = <item:minecraft:air>;
+	var Q = <item:minecraft:quartz>;
+
+	craftingTable.addShaped("certus_quartz_crystal", <item:ae2:certus_quartz_crystal>, [
+		[A, I, A],
+		[I, Q, I],
+		[A, I, A]
+	]);
+}

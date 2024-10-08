@@ -1,0 +1,14 @@
+addOrbOfOrigin();
+
+function addOrbOfOrigin() as void 
+{
+	var D = <item:minecraft:diamond>;
+	var S = <item:minecraft:slime_ball>;
+	var A = <item:minecraft:air>;
+	
+	craftingTable.addShaped("orb_of_origin", <item:origins:orb_of_origin>, [
+		[A, S, A],
+		[S, D, S],
+		[A, S, A]
+	]);
+}

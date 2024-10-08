@@ -1,0 +1,6 @@
+[general]
+mobsReact = true
+instrumentRange = 10.0
+soundDamageChance = 0.35
+instrumentDropChance = 0.5
+instrumentHurtChance = 0.3

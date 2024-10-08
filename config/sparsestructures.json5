@@ -1,0 +1,96 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+{
+  // this is the main spread factor (default is 2)
+  //
+  // tips : a spread factor can be a decimal number (such as 1.5)
+  //        a spread factor of 1 means all structure's placement are not modified (useful if you want to use only custom spread factors)
+  //        a spread factor above 1 means all structures are rarer
+  //        a spread factor below 1 means all structure are more common
+  "spreadFactor": 1.0,
+
+  // this is a list of custom spread factors
+  "customSpreadFactors": [
+    {
+		"structure": "dungeons_arise_seven_seas:victory_frigate",
+		"factor": 0.5
+	},
+    {
+        "structure": "graveyard:crypt",
+        "factor": 1
+    },
+	{
+        "structure": "minecraft:mineshaft",
+        "factor": 1
+    },
+	{
+        "structure": "subterrestrial:deepslate_cabin",
+        "factor": 1
+    },
+	{
+        "structure": "subterrestrial:default_cabin",
+        "factor": 1
+    },
+	{
+        "structure": "subterrestrial:desert_cabin",
+        "factor": 1
+    },
+	{
+        "structure": "subterrestrial:ice_cabin",
+        "factor": 1
+    },
+	{
+        "structure": "subterrestrial:jungle_cabin",
+        "factor": 1
+    },
+	{
+        "structure": "subterrestrial:mesa_cabin",
+        "factor": 1
+    },
+	{
+        "structure": "subterrestrial:ocean_cabin",
+        "factor": 1
+    },
+	{
+        "structure": "subterrestrial:taiga_cabin",
+        "factor": 1
+    },
+	{
+        "structure": "terralith:underground",
+        "factor": 1
+    },
+	{
+        "structure": "minecraft:village_plains",
+        "factor": 2
+    },
+	// See less of these structures
+	{
+        "structure": "formationsoverworld:small_statue",
+        "factor": 10
+    },
+	// Make these structures so rare that their essentially non-existent
+	{
+        "structure": "ae2:meteorite",
+        "factor": 9999999
+    },
+	{
+        "structure": "terralith:rubble_forest",
+        "factor": 9999999
+    },
+	{
+        "structure": "minecraft:ruined_portal",
+        "factor": 9999999
+    },
+	{
+        "structure": "repurposed_structures:witch_hut_giant_tree_taiga",
+        "factor": 9999999
+    },
+	{
+        "structure": "wabi_sabi_structures:river_boat",
+        "factor": 9999999
+    },
+	{
+        "structure": "awesomedungeonocean:ocean_ruin_pillager",
+        "factor": 9999999
+    }
+  ]
+}

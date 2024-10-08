@@ -1,0 +1,3 @@
+<recipetype:create:mixing>.addRecipe("kelp_from_seeds_and_dirt", <constant:create:heat_condition:none>, [<item:minecraft:kelp> % 100], [<item:minecraft:wheat_seeds>, <item:minecraft:dirt>], [<fluid:minecraft:water> * 250], 200);
+
+<recipetype:create:mixing>.addRecipe("clay_from_dirt_and_water", <constant:create:heat_condition:none>, [<item:minecraft:clay> % 100], [<item:minecraft:dirt>], [<fluid:minecraft:water> * 250], 200);

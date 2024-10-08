@@ -1,0 +1,47 @@
+{
+	"aquamarineConfig": {
+		"ocean_shield_amplifier": 2,
+		"ocean_shield_duration": 3.0
+	},
+	"citrineConfig": {
+		"hindering_duration": 5.0,
+		"hindering_amplifier": 0,
+		"weapons_weakness_amplifier": 0,
+		"weapons_slowness_amplifier": 0,
+		"weapons_hunger_amplifier": 0,
+		"weapons_weakness_duration": 5.0,
+		"weapons_slowness_duration": 5.0,
+		"weapons_hunger_duration": 5.0
+	},
+	"peridotConfig": {
+		"weapons_poison_duration": 1.5,
+		"weapons_poison_amplifier": 2,
+		"poisonous_thorns_poison_duration": 5.0,
+		"poisonous_thorns_amplifier": 0
+	},
+	"zirconConfig": {
+		"weapons_freeze_duration": 0.5,
+		"ice_shield_duration": 1.0,
+		"ice_shield_amplifier": 2
+	},
+	"rubyConfig": {
+		"tools_haste_amplifier": 0
+	},
+	"sapphireConfig": {
+		"weapons_percentage_damage_percent": 5,
+		"damage_deflection_amplifier": 2
+	},
+	"topazConfig": {
+		"item_mastery_amplifier": 4
+	},
+	"ametrineConfig": {
+		"weapons_levitation_duration": 0.75,
+		"weapons_levitation_amplifier": 4,
+		"arcane_aura_duration": 0.75,
+		"arcane_aura_amplifier": 2
+	},
+	"jadeConfig": {
+		"speed_amplifier": 2,
+		"jump_boost_amplifier": 2
+	}
+}
