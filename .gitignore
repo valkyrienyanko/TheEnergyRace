@@ -1,3 +1,14 @@
+# Common
+*.jar
+*.ini
+*.dat
+*.dat_old
+*.zip
+*.properties
+
+# Included
+!resourcepacks/The Energy Race Resourcepack
+
 # Client Folders
 .fabric/
 .vscode/
@@ -12,19 +23,12 @@ screenshots/
 stackdeobf_mappings/
 resourcepacks/*
 ModTranslations/
-mods/
 logs/
 local/
 immersive_library/
 fancymenu_data/
 crash-reports/
 data/
-
-# Client Files
-*.dat
-*.dat_old
-*.zip
-*.properties
 
 # Client Configs
 TrashSlotSaveState.json
@@ -39,22 +43,18 @@ icon.png
 options.txt
 observable_announce
 
-# Server
+# Server Folders
 libraries/
 world/
 versions/
-whitelist.json
-start.bat
-start.cmd
-start.sh
+
+# Server Files
+start.*
 server.jar
-server.properties
-ops.json
-fabric-server-launcher.properties
-fabric-server-launch.jar
 eula.txt
+
+# Server Configs
+whitelist.json
+ops.json
 banned-ips.json
 banned-players.json
-
-# Include These Files
-!resourcepacks/The Energy Race Resourcepack
