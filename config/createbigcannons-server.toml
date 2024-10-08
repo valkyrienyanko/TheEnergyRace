@@ -30,12 +30,20 @@
 #These values affect the characteristics of cannon munitions.
 [munitions]
 	#.
+	#Range: 0.0 ~ 1.0
+	baseProjectileFluidBounceChance = 0.8999999761581421
+	#.
 	#.
 	#If projectiles can bounce, ricochet, and be deflected.
 	projectilesCanBounce = true
 	#.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	penetrationBonusScale = 0.10000000149011612
+	#.
+	projectilesChangeSurroundings = true
+	#.
+	#Range: 0.0 ~ 1.0
+	baseProjectileBounceChance = 0.33000001311302185
 	#.
 	#[in Meters per Tick]
 	#The minimum velocity necessary to activate the penetration bonus.
@@ -48,14 +56,6 @@
 	#No Damage - projectiles will not destroy anything they hit, and will only deal entity damage. Explosive projectiles will only harm entities on detonation.
 	#Allowed Values: ALL_DAMAGE, NO_EXPLOSIVE_DAMAGE, NO_DAMAGE
 	damageRestriction = "ALL_DAMAGE"
-	#.
-	#Range: 0.0 ~ 1.0
-	baseProjectileBounceChance = 0.33000001311302185
-	#.
-	#Range: 0.0 ~ 1.0
-	baseProjectileFluidBounceChance = 0.8999999761581421
-	#.
-	projectilesChangeSurroundings = true
 
 	#.
 	#Grouped Munitions
@@ -102,15 +102,12 @@
 	#Chunkloading
 	[munitions.chunkloading]
 		#.
-		projectilesCanChunkload = true
-		#.
 		smokeCloudsCanChunkload = true
+		#.
+		projectilesCanChunkload = true
 	#.
 	#Big Cannon Munitions
 	[munitions.bigCannonMunitions]
-		#.
-		#Allowed Values: NONE, LONG, SHORT
-		trailType = "SHORT"
 		#.
 		#Makes all shot big cannon projectiles tracers regardless if the item had a tracer tip applied.
 		allBigCannonProjectilesAreTracers = false
@@ -118,6 +115,9 @@
 		#[in Ticks]
 		#Range: 0 ~ 100
 		quickFiringBreechItemPickupDelay = 20
+		#.
+		#Allowed Values: NONE, LONG, SHORT
+		trailType = "SHORT"
 		#.
 		quickFiringBreechItemGoesToInventory = false
 #.

@@ -13,8 +13,8 @@ only_when_falling = false
 play_hopping_sound = false
 
 [enchantment]
+	#Makes the enchantment unobtainable from enchanting tables. It is only available on items from loot chests, fishing and villager trading.
+	treasure_enchantment = true
 	#Maximum level for this enchantment. Each level provides one additional air hop.
 	#Range: > 1
 	max_enchantment_level = 3
-	#Makes the enchantment unobtainable from enchanting tables. It is only available on items from loot chests, fishing and villager trading.
-	treasure_enchantment = true
