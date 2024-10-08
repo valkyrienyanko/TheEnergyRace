@@ -15,7 +15,7 @@ stackdeobf_mappings/
 TrashSlotSaveState.json
 usercache.json
 usernamecache.json
-resourcepacks/
+resourcepacks/*
 rhino.local.properties
 patchouli_data.json
 observable_announce
@@ -47,3 +47,6 @@ fabric-server-launch.jar
 eula.txt
 banned-ips.json
 banned-players.json
+
+# Include These Files
+!resourcepacks/The Energy Race Resourcepack
