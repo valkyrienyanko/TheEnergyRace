@@ -1,10 +1,10 @@
 # Common
-*.jar
-*.ini
-*.dat
-*.dat_old
-*.zip
-*.properties
+**/*.jar
+**/*.ini
+**/*.dat
+**/*.dat_old
+**/*.zip
+**/*.properties
 
 # Included
 !resourcepacks/The Energy Race Resourcepack
