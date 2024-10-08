@@ -1,4 +1,4 @@
-# Client
+# Client Folders
 .fabric/
 .vscode/
 .mixin.out/
@@ -9,27 +9,35 @@ xaero/
 XaeroWaypoints*
 shaderpacks/
 screenshots/
-servers.dat
-servers.dat_old
 stackdeobf_mappings/
-TrashSlotSaveState.json
-usercache.json
-usernamecache.json
 resourcepacks/*
-rhino.local.properties
-patchouli_data.json
-observable_announce
 ModTranslations/
 mods/
 logs/
 local/
 immersive_library/
-emi.json
-icon.png
 fancymenu_data/
-irisUpdateInfo.json
 crash-reports/
 data/
+
+# Client Files
+*.dat
+*.dat_old
+*.zip
+*.properties
+
+# Client Configs
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json
+patchouli_data.json
+irisUpdateInfo.json
+emi.json
+
+# Client Msc
+icon.png
+options.txt
+observable_announce
 
 # Server
 libraries/
