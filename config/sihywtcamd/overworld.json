@@ -1,7 +1,7 @@
 {
   "creeper": {
-    "explosionFatigue": true,
-    "explosionWeakness": true,
+    "explosionFatigueMaxDuration": 60,
+    "explosionWeaknessMaxDuration": 60,
     "chainExplosions": true
   },
   "slime": {
