@@ -1,8 +1,20 @@
 import crafttweaker.api.ingredient.IIngredient;
 
 // Passive
-// Missing Mobs: Camel, Dolphin, Donkey, Fox, Frog, LLama, Mule, Ocelot, Panda, Parrot, Sniffer, 
-// Tadpole, Trader Llama, Wandering Trader
+addSpawnEgg44("camel", <item:minecraft:sand>, <item:minecraft:water_bucket>);
+addSpawnEgg44("dolphin", <item:minecraft:cod>, <item:minecraft:water_bucket>);
+addSpawnEgg44("donkey", <item:minecraft:leather>, <item:minecraft:wheat>);
+addSpawnEgg44("fox", <item:minecraft:sweet_berries>, <item:minecraft:rabbit_hide>);
+addSpawnEgg44("frog", <item:minecraft:slime_ball>, <item:minecraft:water_bucket>);
+addSpawnEgg44("llama", <item:minecraft:leather>, <item:minecraft:hay_block>);
+addSpawnEgg44("mule", <item:minecraft:leather>, <item:minecraft:wheat>);
+addSpawnEgg44("ocelot", <item:minecraft:cod>, <item:minecraft:feather>);
+addSpawnEgg44("panda", <item:minecraft:bamboo>, <item:minecraft:air>);
+addSpawnEgg44("parrot", <item:minecraft:wheat_seeds>, <item:minecraft:feather>);
+addSpawnEgg44("sniffer", <item:minecraft:grass_block>, <item:minecraft:air>);
+addSpawnEgg44("tadpole", <item:minecraft:water_bucket>, <item:minecraft:slime_ball>);
+addSpawnEgg44("trader_llama", <item:minecraft:leather>, <item:minecraft:emerald>);
+addSpawnEgg44("wandering_trader", <item:minecraft:emerald>, <item:minecraft:milk_bucket>);
 addSpawnEgg44("chicken", <item:minecraft:chicken>, <item:minecraft:feather>);
 addSpawnEgg44("cow", <item:minecraft:leather>, <item:minecraft:beef>);
 addSpawnEgg44("sheep", <tag:items:minecraft:wool>, <item:minecraft:mutton>);
@@ -32,8 +44,6 @@ addSpawnEgg44("cat", <item:minecraft:cod>, <item:minecraft:tropical_fish>);
 addSpawnEgg44("wolf", <item:minecraft:bone>, <item:minecraft:porkchop>);
 
 // Hostile
-// Missing Mobs: Ender Dragon, Endermite, Hoglin, Phantom, Pillager, Ravager, Shulker, 
-// Strider, Vindicator, Warden, Wither, Zoglin
 addSpawnEgg44("blaze", <item:minecraft:blaze_rod>, <item:minecraft:blaze_powder>);
 addSpawnEgg44("zombie_villager", <item:minecraft:emerald>, <item:minecraft:rotten_flesh>);
 addSpawnEgg44("zombified_piglin", <item:minecraft:gold_ingot>, <item:minecraft:rotten_flesh>);
@@ -57,6 +67,19 @@ addSpawnEgg44("witch", <item:minecraft:glowstone_dust>, <item:minecraft:redstone
 addSpawnEgg44("evoker", <item:minecraft:iron_sword>, <item:minecraft:redstone>);
 addSpawnEgg44("vex", <item:minecraft:iron_sword>, <item:minecraft:feather>);
 addSpawnEgg44("stray", <item:minecraft:bone>, <item:minecraft:ice>);
+addSpawnEgg44("ender_dragon", <item:minecraft:dragon_egg>, <item:minecraft:air>);
+addSpawnEgg44("endermite", <item:minecraft:ender_pearl>, <item:minecraft:air>);
+addSpawnEgg44("hoglin", <item:minecraft:crimson_fungus>, <item:minecraft:air>);
+addSpawnEgg44("phantom", <item:minecraft:phantom_membrane>, <item:minecraft:air>);
+addSpawnEgg44("pillager", <item:minecraft:iron_ingot>, <item:minecraft:air>);
+addSpawnEgg44("ravager", <item:minecraft:rotten_flesh>, <item:minecraft:air>);
+addSpawnEgg44("shulker", <item:minecraft:shulker_shell>, <item:minecraft:air>);
+addSpawnEgg44("strider", <item:minecraft:warped_fungus>, <item:minecraft:air>);
+addSpawnEgg44("vindicator", <item:minecraft:gold_ingot>, <item:minecraft:air>);
+addSpawnEgg44("warden", <item:minecraft:sculk_catalyst>, <item:minecraft:air>);
+addSpawnEgg44("wither", <item:minecraft:nether_star>, <item:minecraft:air>);
+addSpawnEgg44("wither_skeleton", <item:minecraft:coal>, <item:minecraft:bone>);
+addSpawnEgg44("zoglin", <item:minecraft:rotten_flesh>, <item:minecraft:air>);
 
 function addSpawnEgg44(entityName as string, material1 as IIngredient, material2 as IIngredient) as void 
 {
