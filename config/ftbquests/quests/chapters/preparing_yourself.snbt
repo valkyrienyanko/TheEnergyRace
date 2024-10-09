@@ -597,16 +597,7 @@
 				""
 				"&7Get more cosmetics from the computers."
 			]
-			icon: {
-				Count: 1
-				id: "armourers_workshop:skin"
-				tag: {
-					ArmourersWorkshop: {
-						Identifier: "db:PGEpBeC2BP"
-						SkinType: "armourers:outfit"
-					}
-				}
-			}
+			icon: "minecraft:nether_star"
 			id: "6928BACA742ECB6F"
 			rewards: [
 				{
