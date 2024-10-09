@@ -1,5 +1,5 @@
 {
-	autofocus_id: "504986CBAB012D78"
+	autofocus_id: "5C51C7046968AEDF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tech_reborn"
@@ -12,6 +12,24 @@
 		{
 			dependencies: ["504986CBAB012D78"]
 			id: "08CE8462D399EC9E"
+			rewards: [
+				{
+					id: "0B0C9564C29D59EE"
+					item: "techreborn:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "612D540A173C646D"
+					item: "techreborn:insulated_copper_cable"
+					type: "item"
+				}
+				{
+					id: "1B07907D6A085FAA"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "23EE3F4A1DD418BF"
 				item: "techreborn:rubber"
@@ -23,6 +41,18 @@
 		{
 			dependencies: ["08CE8462D399EC9E"]
 			id: "2FC50761ABA1E0F3"
+			rewards: [
+				{
+					id: "5B86213A718001AA"
+					item: "techreborn:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "0DC1A7A6EFAEF9F0"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "1494575E7B4EBCA2"
 				item: "techreborn:insulated_copper_cable"
@@ -34,6 +64,18 @@
 		{
 			dependencies: ["2FC50761ABA1E0F3"]
 			id: "5A3D7B371111B8D8"
+			rewards: [
+				{
+					id: "53B1F1834C57360C"
+					item: "techreborn:advanced_circuit"
+					type: "item"
+				}
+				{
+					id: "25B6986022ABECB7"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "1DB52A93173E83C7"
 				item: "techreborn:electronic_circuit"
@@ -45,6 +87,18 @@
 		{
 			dependencies: ["5A3D7B371111B8D8"]
 			id: "1752B107726DB269"
+			rewards: [
+				{
+					id: "1865937E72879495"
+					item: "techreborn:industrial_circuit"
+					type: "item"
+				}
+				{
+					id: "235A7B489E6D1FCF"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "1ED90AAE7E63A82C"
 				item: "techreborn:advanced_circuit"
@@ -56,6 +110,11 @@
 		{
 			dependencies: ["5A3D7B371111B8D8"]
 			id: "33CCA804171645AF"
+			rewards: [{
+				id: "50E310F6AED37302"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "156AED014FC4F992"
 				item: "techreborn:basic_jackhammer"
@@ -67,6 +126,11 @@
 		{
 			dependencies: ["5A3D7B371111B8D8"]
 			id: "41AF0BC577C3C261"
+			rewards: [{
+				id: "0D21336C7626AB6E"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "7A559F06A0FE90F7"
 				item: "techreborn:basic_chainsaw"
@@ -78,6 +142,11 @@
 		{
 			dependencies: ["5A3D7B371111B8D8"]
 			id: "16D80911104EFBBD"
+			rewards: [{
+				id: "2BC632F801FE6C0B"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "732B5B33564FE569"
 				item: "techreborn:basic_drill"
@@ -89,6 +158,11 @@
 		{
 			dependencies: ["16D80911104EFBBD"]
 			id: "41AD4F80FC861620"
+			rewards: [{
+				id: "44C4ADE9E9F37874"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "542B2264710D3853"
 				item: "techreborn:advanced_drill"
@@ -100,6 +174,11 @@
 		{
 			dependencies: ["41AF0BC577C3C261"]
 			id: "30CBE22EA227190C"
+			rewards: [{
+				id: "7F9F3F1A7A657F28"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "5E2A29EE5B6FEDC4"
 				item: "techreborn:advanced_chainsaw"
@@ -111,6 +190,11 @@
 		{
 			dependencies: ["33CCA804171645AF"]
 			id: "034E5CBBD08377A5"
+			rewards: [{
+				id: "09E550CFD6EE83C5"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "32B059F20AA35EEF"
 				item: "techreborn:advanced_jackhammer"
@@ -122,6 +206,11 @@
 		{
 			dependencies: ["034E5CBBD08377A5"]
 			id: "163D43859C115702"
+			rewards: [{
+				id: "5C4933A654061EA3"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "40CA1E50A380E3B7"
 				item: "techreborn:industrial_jackhammer"
@@ -133,6 +222,11 @@
 		{
 			dependencies: ["30CBE22EA227190C"]
 			id: "62962C58958F371B"
+			rewards: [{
+				id: "7657A55B7BCA193B"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "17DAC8972CB8D3F7"
 				item: "techreborn:industrial_chainsaw"
@@ -144,6 +238,11 @@
 		{
 			dependencies: ["41AD4F80FC861620"]
 			id: "16BB14B93A2CC461"
+			rewards: [{
+				id: "6A7F179881FAA782"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "607AC241C2603849"
 				item: "techreborn:industrial_drill"
@@ -155,6 +254,19 @@
 		{
 			dependencies: ["5A3D7B371111B8D8"]
 			id: "44829186F82C9AB9"
+			rewards: [
+				{
+					id: "54D22A9974C4C989"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "633B932E7D9B075F"
+					item: "techreborn:basic_machine_frame"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1A8D18D11756677D"
 				item: "techreborn:basic_machine_frame"
@@ -166,6 +278,19 @@
 		{
 			dependencies: ["44829186F82C9AB9"]
 			id: "73A79317B6352AC0"
+			rewards: [
+				{
+					id: "47745EEE9837F9DE"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "64F9C48C78F13DCB"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "029D4BFB30C336FC"
 				item: "techreborn:solid_fuel_generator"
@@ -177,6 +302,11 @@
 		{
 			dependencies: ["44829186F82C9AB9"]
 			id: "7EA41688B27565BB"
+			rewards: [{
+				id: "014D1A51381DB05C"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "2E602C1737092CB4"
 				item: "techreborn:extractor"
@@ -188,6 +318,11 @@
 		{
 			dependencies: ["44829186F82C9AB9"]
 			id: "554D187EF8EDB7DA"
+			rewards: [{
+				id: "1B85783FD99300CC"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "25FA3FF887113BB3"
 				item: "techreborn:basic_solar_panel"
@@ -199,6 +334,11 @@
 		{
 			dependencies: ["554D187EF8EDB7DA"]
 			id: "2BAA182F232A99A6"
+			rewards: [{
+				id: "1DC45278F49CDFE3"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "5156A18C784FD293"
 				item: "techreborn:advanced_solar_panel"
@@ -210,6 +350,11 @@
 		{
 			dependencies: ["2BAA182F232A99A6"]
 			id: "14C98828FAC000B1"
+			rewards: [{
+				id: "072F28189CB084A7"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "1CC16968447B94B9"
 				item: "techreborn:industrial_solar_panel"
@@ -221,6 +366,11 @@
 		{
 			dependencies: ["14C98828FAC000B1"]
 			id: "6C4D7D08090E24FC"
+			rewards: [{
+				id: "1EE55A1A33D632D1"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "204B20540974AB1E"
 				item: "techreborn:ultimate_solar_panel"
@@ -232,6 +382,11 @@
 		{
 			dependencies: ["6C4D7D08090E24FC"]
 			id: "626357411355F359"
+			rewards: [{
+				id: "246D5200BA551F6B"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "74D14CE981222F27"
 				item: "techreborn:quantum_solar_panel"
@@ -243,6 +398,11 @@
 		{
 			dependencies: ["44829186F82C9AB9"]
 			id: "031451049048668E"
+			rewards: [{
+				id: "6297F14323B5D72D"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "4CC3D1C03A1098E3"
 				item: "techreborn:grinder"
@@ -254,6 +414,11 @@
 		{
 			dependencies: ["44829186F82C9AB9"]
 			id: "61F5C0100C89C5D2"
+			rewards: [{
+				id: "613245ECA870E05A"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "533CEB522C9F390C"
 				item: "techreborn:electric_furnace"
@@ -265,6 +430,11 @@
 		{
 			dependencies: ["44829186F82C9AB9"]
 			id: "4ED9B37F45D8A7B1"
+			rewards: [{
+				id: "2D5E6826E023A6B9"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "44429006CA6BA92C"
 				item: "techreborn:alloy_smelter"
@@ -276,6 +446,11 @@
 		{
 			dependencies: ["44829186F82C9AB9"]
 			id: "1A8F94FB634A2F04"
+			rewards: [{
+				id: "3FAFFE3CFB0E507E"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "210581E01D939BBA"
 				item: "techreborn:auto_crafting_table"
@@ -287,6 +462,11 @@
 		{
 			dependencies: ["44829186F82C9AB9"]
 			id: "55D617DB9D6234AE"
+			rewards: [{
+				id: "422BD3B22C9B7AAC"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "36EACB956D5338DC"
 				item: "techreborn:recycler"
@@ -298,6 +478,11 @@
 		{
 			dependencies: ["44829186F82C9AB9"]
 			id: "2BDE624817B9D77F"
+			rewards: [{
+				id: "686A6962CDD56CA4"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "0D8FE9B96C9D455D"
 				item: "techreborn:low_voltage_su"
@@ -309,6 +494,11 @@
 		{
 			dependencies: ["1752B107726DB269"]
 			id: "1D76A5C155DD6EFE"
+			rewards: [{
+				id: "0D61032D09884CFB"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "6CB95C3926675221"
 				item: "techreborn:advanced_machine_frame"
@@ -320,6 +510,11 @@
 		{
 			dependencies: ["1D76A5C155DD6EFE"]
 			id: "5D16D088640F876A"
+			rewards: [{
+				id: "2C93140B6BFEE375"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "583256D2C0E0B504"
 				item: "techreborn:industrial_grinder"
@@ -331,6 +526,11 @@
 		{
 			dependencies: ["1D76A5C155DD6EFE"]
 			id: "34308A949FFA2345"
+			rewards: [{
+				id: "23B0F78834B24712"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "076047E482E8563F"
 				item: "techreborn:industrial_centrifuge"
@@ -342,6 +542,11 @@
 		{
 			dependencies: ["1D76A5C155DD6EFE"]
 			id: "78B11279BD7FF73F"
+			rewards: [{
+				id: "68921E89801924A7"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "59AD13ABB1679386"
 				item: "techreborn:industrial_electrolyzer"
@@ -353,6 +558,11 @@
 		{
 			dependencies: ["1D76A5C155DD6EFE"]
 			id: "69C07071B11ABF93"
+			rewards: [{
+				id: "06B57FDB2D8F93E4"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "306F1A734B5B6512"
 				item: "techreborn:industrial_blast_furnace"
@@ -364,6 +574,11 @@
 		{
 			dependencies: ["1752B107726DB269"]
 			id: "017D46411F455FD6"
+			rewards: [{
+				id: "58E23CF1425E753A"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "pentagon"
 			size: 1.8d
 			tasks: [{
@@ -383,11 +598,58 @@
 			]
 			icon_scale: 1.3d
 			id: "2C5E50CD233E00FF"
-			rewards: [{
-				id: "016C614E2D4E1B74"
-				type: "xp_levels"
-				xp_levels: 100
-			}]
+			rewards: [
+				{
+					id: "6E094D351AD17515"
+					type: "xp_levels"
+					xp_levels: 9000
+				}
+				{
+					count: 64
+					id: "2682AB42A6B982F5"
+					item: "techreborn:uu_matter"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "29C6FFE58E15EE3B"
+					item: "techreborn:creative_solar_panel"
+					type: "item"
+				}
+				{
+					id: "15208C9A67F8DF4D"
+					item: "create:creative_motor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5C425774E37DF79E"
+					item: "create:creative_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "491B7A440F417DFE"
+					item: "create:creative_crate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2EB7F9FC33CB2FBF"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7B2C8BBBBF0502B7"
+					item: {
+						Count: 1
+						id: "createbigcannons:creative_autocannon_ammo_container"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 4.0d
 			subtitle: "Beat the Modpack by Obtaining This"
@@ -401,8 +663,24 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["5632059238148599"]
+			dependencies: [
+				"5632059238148599"
+				"5C51C7046968AEDF"
+			]
 			id: "504986CBAB012D78"
+			rewards: [
+				{
+					count: 10
+					id: "32906F7539E0868B"
+					item: "techreborn:rubber"
+					type: "item"
+				}
+				{
+					id: "4265FC91B679C764"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "17EF12DB9E541EDA"
 				item: "techreborn:sap"
@@ -410,6 +688,51 @@
 			}]
 			x: -3.0d
 			y: -3.5d
+		}
+		{
+			id: "5C51C7046968AEDF"
+			rewards: [
+				{
+					count: 3
+					id: "5D659942AC276B18"
+					item: "techreborn:rubber_sapling"
+					type: "item"
+				}
+				{
+					id: "17A93E71E28DE8F9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "2E9BF9BF3D8A977D"
+				item: {
+					Count: 1
+					id: "techreborn:treetap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A3D7B371111B8D8"]
+			id: "440F4A52A876FE6F"
+			rewards: [{
+				id: "0C6130E7BA97B017"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "606999E9B404EBDE"
+				item: "techreborn:electric_treetap"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
 		}
 	]
 	title: "Tech Reborn"

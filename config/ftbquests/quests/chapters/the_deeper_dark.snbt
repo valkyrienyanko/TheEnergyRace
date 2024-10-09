@@ -35,6 +35,24 @@
 				}
 			}
 			id: "6BB8685538B5275D"
+			rewards: [
+				{
+					id: "31A4619EB65E81E8"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "748EA2D60ED74F86"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "38F7FF9B80EC45B9"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{

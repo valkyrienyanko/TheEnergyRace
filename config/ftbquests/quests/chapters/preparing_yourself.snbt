@@ -136,11 +136,19 @@
 			dependencies: ["5632059238148599"]
 			description: ["Make any kind of magnum torch to prevent mobs from spawning in a large radius."]
 			id: "08CE1CAAEECC278B"
-			rewards: [{
-				id: "7EA6289C8E4EEDC6"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7EA6289C8E4EEDC6"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 64
+					id: "7C6E55D4F7C0892E"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
 			subtitle: "Prevent mob spawns"
 			tasks: [{
 				icon: "magnumtorch:diamond_magnum_torch"
@@ -195,11 +203,18 @@
 		{
 			description: ["If you can't find coal, any kind of &astone&r and &aflint&r can be used to make a torch."]
 			id: "5632059238148599"
-			rewards: [{
-				id: "500B7BB21253938B"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "500B7BB21253938B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "1D3AE2F3AB0F3165"
+					item: "clutter:panda_plushie"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "21527089344EA38F"
 				item: "minecraft:torch"
@@ -213,11 +228,18 @@
 			dependencies: ["2D7EC3EB2062F7E5"]
 			description: ["The &aScanner&r can be used to scan for all sorts of things but it will need to be charged. You can charge it in a &aBattery Box&r."]
 			id: "17778074A8974969"
-			rewards: [{
-				id: "6A0F9C63150BBDF1"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "6A0F9C63150BBDF1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5EA9F2B2E17FE5C6"
+					item: "scannable:blank_module"
+					type: "item"
+				}
+			]
 			subtitle: "Say goodbye to trying to find ores"
 			tasks: [{
 				id: "1BC72FAE95889DA8"
@@ -231,11 +253,24 @@
 			dependencies: ["5632059238148599"]
 			description: ["Make any kind of Hammer. Hammers are superior to pickaxes when it comes to clearing out large areas."]
 			id: "2D7EC3EB2062F7E5"
-			rewards: [{
-				id: "4E9260F8317F22B4"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "4E9260F8317F22B4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "17C233B23C880293"
+					item: {
+						Count: 1
+						id: "morehammersexcavators:golden_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Mining just got easier"
 			tasks: [{
 				id: "1C98105C1DFDDA68"
@@ -256,11 +291,24 @@
 			dependencies: ["2D7EC3EB2062F7E5"]
 			description: ["Make any kind of Excavator. Excavators are superior to shovels when it comes to clearing out large areas."]
 			id: "71719450D1D378E3"
-			rewards: [{
-				id: "2F942295B7ADB0F9"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "2F942295B7ADB0F9"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "2EC3D167A1048132"
+					item: {
+						Count: 1
+						id: "morehammersexcavators:golden_excavator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "A good tool to flatten an area"
 			tasks: [{
 				id: "2229103A721FF392"
@@ -281,11 +329,19 @@
 			dependencies: ["17778074A8974969"]
 			description: ["Modules can be used to enhance the scanner. For example the &aScanner Module: Block&r can be right clicked to configure any kind of block the scanner should scan for. Shift + Right Click the scanner to insert modules."]
 			id: "5EEFDF9A051CF14A"
-			rewards: [{
-				id: "55596CF9FC86E7D4"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "55596CF9FC86E7D4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "76280491C7A0EE6C"
+					item: "scannable:blank_module"
+					type: "item"
+				}
+			]
 			subtitle: "Their cheating! They used X-Ray!"
 			tasks: [{
 				icon: "scannable:range_module"
@@ -534,7 +590,13 @@
 		}
 		{
 			dependencies: ["5632059238148599"]
-			description: ["&7Open armourer's workshop with &aNumpad 8&7."]
+			description: [
+				"&7Open armourer's workshop with &aNumpad 8&7."
+				""
+				"&7Right click the cosmetics to equip them."
+				""
+				"&7Get more cosmetics from the computers."
+			]
 			icon: {
 				Count: 1
 				id: "armourers_workshop:skin"

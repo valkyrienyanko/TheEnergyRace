@@ -13,11 +13,19 @@
 			dependencies: ["5632059238148599"]
 			icon: "minecraft:chest"
 			id: "566B034F1CCC3596"
-			rewards: [{
-				id: "36F19A461F405F93"
-				type: "xp"
-				xp: 1
-			}]
+			rewards: [
+				{
+					id: "36F19A461F405F93"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 4
+					id: "6F74FAF2E640851C"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5E677C08AD4DCD4E"
 				item: {
@@ -37,6 +45,12 @@
 		{
 			dependencies: ["65B9876F42F5B733"]
 			id: "5F054951DD9761CC"
+			rewards: [{
+				count: 3
+				id: "61747B96343F2D25"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "386E27A73779DB51"
 				item: "ironchests:iron_chest"
@@ -48,6 +62,11 @@
 		{
 			dependencies: ["5F054951DD9761CC"]
 			id: "654CFBAE8D13216B"
+			rewards: [{
+				id: "05DDC5C563D25C54"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "59F7BDAC1DEF5FE4"
 				item: "ironchests:gold_chest"
@@ -59,6 +78,12 @@
 		{
 			dependencies: ["566B034F1CCC3596"]
 			id: "65B9876F42F5B733"
+			rewards: [{
+				count: 3
+				id: "174D64AF02481421"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5030B868ED4CF8F2"
 				item: "ironchests:copper_chest"
@@ -70,6 +95,12 @@
 		{
 			dependencies: ["654CFBAE8D13216B"]
 			id: "7F7B663756E761D2"
+			rewards: [{
+				count: 3
+				id: "00CD6685B2F87A33"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3921BF4183A936FC"
 				item: "ironchests:diamond_chest"
@@ -81,6 +112,11 @@
 		{
 			dependencies: ["7F7B663756E761D2"]
 			id: "39B7BADDCF5AFBA5"
+			rewards: [{
+				id: "6B243B8767DB9EEB"
+				item: "overworldnetheriteoremodfabric:large_ancient_shard"
+				type: "item"
+			}]
 			tasks: [{
 				id: "180E4283E806F50B"
 				item: "ironchests:obsidian_chest"
@@ -92,6 +128,11 @@
 		{
 			dependencies: ["39B7BADDCF5AFBA5"]
 			id: "596C4DF98CACD3D7"
+			rewards: [{
+				id: "7818257A5BBC6F30"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			tasks: [{
 				id: "67E089571BD89B6C"
 				item: "ironchests:netherite_chest"
@@ -109,12 +150,25 @@
 			]
 			icon: "toms_storage:ts.crafting_terminal"
 			id: "2F10A940187C13F1"
-			rewards: [{
-				count: 8
-				id: "10CFA19B1C912246"
-				item: "minecraft:chest"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "10CFA19B1C912246"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "30B756C93B92A0C3"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 4
+					id: "42D3116CDD57615E"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.75d
 			subtitle: "Tom's Simple Storage"
@@ -137,6 +191,19 @@
 		{
 			dependencies: ["566B034F1CCC3596"]
 			id: "54FDAC421D13EC75"
+			rewards: [
+				{
+					count: 4
+					id: "0521644015C95692"
+					item: "extended_drawers:quad_drawer"
+					type: "item"
+				}
+				{
+					id: "4CAE2F9D7D432FE3"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "5751E314D5AB05A6"
 				item: {

@@ -12,12 +12,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "2872FD89591375D9"
-			rewards: [{
-				count: 3
-				id: "78EE09C40EC0A556"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "78EE09C40EC0A556"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2EEF7C4E1154C4E4"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "56A376834517FDE1"
 				item: "minecraft:wheat_seeds"
@@ -31,9 +38,9 @@
 			description: ["You may find any of these crops while exploring so don't forget to check all the crops around you!"]
 			id: "504D83D980F623D0"
 			rewards: [{
-				id: "02C837B3D1D27118"
+				id: "1B33AB5AF854311E"
 				type: "xp"
-				xp: 10
+				xp: 5
 			}]
 			tasks: [{
 				id: "19A1D47BFA875774"
@@ -47,12 +54,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "3FE0890AC8F6D118"
-			rewards: [{
-				count: 3
-				id: "08BC5375A78A9DDB"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "08BC5375A78A9DDB"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "67AF3C6805E9C96D"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "7E95E77548D7E33B"
 				item: "minecraft:potato"
@@ -64,12 +78,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "2BBA93857CED03E6"
-			rewards: [{
-				count: 3
-				id: "7F32E55057A7607E"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "7F32E55057A7607E"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "0BE402E20479D27F"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "099784A9C629F206"
 				item: "minecraft:carrot"
@@ -81,12 +102,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "2DC9B3BDF19E4B9D"
-			rewards: [{
-				count: 3
-				id: "06FE9BA8A57879BF"
-				item: "techreborn:tin_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "06FE9BA8A57879BF"
+					item: "techreborn:tin_ingot"
+					type: "item"
+				}
+				{
+					id: "2B478821B48F853A"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "212864953E48AB22"
 				item: "minecraft:beetroot_seeds"
@@ -98,12 +126,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "4DAF308D3230BC7B"
-			rewards: [{
-				count: 3
-				id: "26311B86459CF2E2"
-				item: "techreborn:lead_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "26311B86459CF2E2"
+					item: "techreborn:lead_ingot"
+					type: "item"
+				}
+				{
+					id: "4BF87A68B30CEEDB"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "4011B7484C7D77C4"
 				item: "croptopia:blackbean_seed"
@@ -115,12 +150,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "77BAD2359C651427"
-			rewards: [{
-				count: 3
-				id: "4F2F5EB1EB738531"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "4F2F5EB1EB738531"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "37F4B51D0B2744C0"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "3DAD7D0772EBA9FF"
 				item: "croptopia:blueberry_seed"
@@ -132,12 +174,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "1B7890714FE323C1"
-			rewards: [{
-				count: 3
-				id: "4CB36E85C5A35D91"
-				item: "techreborn:zinc_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "4CB36E85C5A35D91"
+					item: "techreborn:zinc_ingot"
+					type: "item"
+				}
+				{
+					id: "025756034BBE9732"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "623BC3C8C962052F"
 				item: "croptopia:broccoli_seed"
@@ -149,12 +198,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "57D2D62C94842191"
-			rewards: [{
-				count: 3
-				id: "23C175C6D4D5682D"
-				item: "minecraft:glowstone_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "23C175C6D4D5682D"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "7E47403AEA6CF0BA"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "518B9B2ED6C384C9"
 				item: "croptopia:cantaloupe_seed"
@@ -166,12 +222,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "6DBF2B78A56DBE67"
-			rewards: [{
-				count: 3
-				id: "0FD1381FD6BCCA03"
-				item: "minecraft:string"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "0FD1381FD6BCCA03"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "61DD4DCEBBBBA1BF"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "0FBDA417BF9B9C4E"
 				item: "croptopia:cauliflower_seed"
@@ -183,12 +246,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "3818F3C6930B3B56"
-			rewards: [{
-				count: 3
-				id: "1B8C155B116895D2"
-				item: "minecraft:gunpowder"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "1B8C155B116895D2"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "26C3D8F268C9B685"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "22170ECFE2FDA7EC"
 				item: "croptopia:coffee_seed"
@@ -200,11 +270,18 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "3FE0E498569D252F"
-			rewards: [{
-				id: "51FDCB7F948E43C2"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "51FDCB7F948E43C2"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "7B7C11F87E172D7C"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "2159E1CE771AE841"
 				item: "croptopia:corn_seed"
@@ -216,12 +293,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "2CEA72D099011A2C"
-			rewards: [{
-				count: 3
-				id: "66962E53840C4791"
-				item: "minecraft:magma_cream"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "66962E53840C4791"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "53DABB95B009C89D"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "328918129207EB54"
 				item: "croptopia:currant_seed"
@@ -233,11 +317,18 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "525616034A3B06B0"
-			rewards: [{
-				id: "2D28B15B674BCD6D"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2D28B15B674BCD6D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "667E90E66B350B4F"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "6260D1731CE5B5C8"
 				item: "croptopia:eggplant_seed"
@@ -249,12 +340,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "54CB91244138AB76"
-			rewards: [{
-				count: 3
-				id: "28328902CE0FDE01"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "28328902CE0FDE01"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "43EAC3265A961736"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "3594C92ADCBA91B7"
 				item: "croptopia:elderberry_seed"
@@ -266,12 +364,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "4C4221DFAC4751E3"
-			rewards: [{
-				count: 3
-				id: "11B51F07E23407BC"
-				item: "techreborn:sap"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "11B51F07E23407BC"
+					item: "techreborn:sap"
+					type: "item"
+				}
+				{
+					id: "112DBC0CB9B19B04"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "1C127B9FC57D1983"
 				item: "croptopia:ginger_seed"
@@ -283,12 +388,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "57D5E669F19D3234"
-			rewards: [{
-				count: 3
-				id: "794345D71627F1CD"
-				item: "minecraft:slime_ball"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "794345D71627F1CD"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "67CE0812C5458412"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "6C16F1903AC5C3AC"
 				item: "croptopia:greenbean_seed"
@@ -300,12 +412,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "3ED80E8EE47D2572"
-			rewards: [{
-				count: 3
-				id: "26BB74BF5F7CD109"
-				item: "minecraft:bone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "26BB74BF5F7CD109"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "0A57BBC10D5CA4F1"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "54CDA27A832009B9"
 				item: "croptopia:greenonion_seed"
@@ -317,12 +436,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "49CCDAE29166CA0A"
-			rewards: [{
-				count: 3
-				id: "7E1614507BEBB0E7"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "7E1614507BEBB0E7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3CC11D21CE0E2BB1"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "6474B4C823015E4C"
 				item: "croptopia:honeydew_seed"
@@ -334,12 +460,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "04C410505CA55E7A"
-			rewards: [{
-				count: 3
-				id: "6027D38C17959252"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "6027D38C17959252"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "2D0A75FA3D291EF3"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "242ED88DF70DF3FB"
 				item: "croptopia:hops_seed"
@@ -351,12 +484,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "08FE1CE933E58A0E"
-			rewards: [{
-				count: 3
-				id: "53196DFA9F60851A"
-				item: "minecraft:coal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "53196DFA9F60851A"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "7143675ADBCEABD7"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "67895224C56B1384"
 				item: "croptopia:mustard_seed"
@@ -368,12 +508,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "71024ECD33EBCDAC"
-			rewards: [{
-				count: 3
-				id: "416450E4DA441214"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "416450E4DA441214"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "315D2F04B9753331"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "7C15E52255FE6306"
 				item: "croptopia:olive_seed"
@@ -385,12 +532,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "773A4E402AB4D8ED"
-			rewards: [{
-				count: 3
-				id: "589733A63B50EE70"
-				item: "minecraft:ink_sac"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "589733A63B50EE70"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+				{
+					id: "04196668343BFD32"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "6A17735FBFCBFDE7"
 				item: "croptopia:pepper_seed"
@@ -402,12 +556,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "6C1B17B65ABB1A48"
-			rewards: [{
-				count: 3
-				id: "65A0749F27AEDE8B"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "65A0749F27AEDE8B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "3BCAB77390EE089F"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "4727055413FFDBB9"
 				item: "croptopia:radish_seed"
@@ -419,12 +580,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "70E16E32AFFA42AA"
-			rewards: [{
-				count: 3
-				id: "56ED44EEB523887C"
-				item: "minecraft:feather"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "56ED44EEB523887C"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "444F820C633CC005"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "171D49A7E9BAD369"
 				item: "croptopia:rice_seed"
@@ -436,12 +604,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "317963999B333E58"
-			rewards: [{
-				count: 3
-				id: "0847EB1B7A7BE770"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "0847EB1B7A7BE770"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "16C5214E082DB098"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "2A74B62E3AC7BAEE"
 				item: "croptopia:turmeric_seed"
@@ -453,12 +628,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "2EC34ADF29C7CAE8"
-			rewards: [{
-				count: 3
-				id: "3919EDADE9C6C1BC"
-				item: "minecraft:netherite_scrap"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "3919EDADE9C6C1BC"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "13D5B22E668D62D2"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "420C8416B6487C4C"
 				item: "croptopia:vanilla_seeds"
@@ -470,12 +652,19 @@
 		{
 			dependencies: ["504D83D980F623D0"]
 			id: "3CF20310EB3BCAB8"
-			rewards: [{
-				count: 3
-				id: "09EE1D294D181BFB"
-				item: "minecraft:rotten_flesh"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "09EE1D294D181BFB"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "63592856C37B5415"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "1AA444F5D6BEC007"
 				item: "croptopia:yam_seed"
@@ -492,6 +681,26 @@
 				"Craft a Mechanical Press to complete this quest."
 			]
 			id: "3FB6A71E847606B9"
+			rewards: [
+				{
+					count: 2
+					id: "0E712C8690848D74"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F51ABE80BBCD4F8"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F156BDEEBA299EF"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "63DB9C8BD928ADE1"
@@ -506,6 +715,26 @@
 			dependencies: ["4FC79B7307E6621A"]
 			description: ["Ore seeds can be duplicated when put through a millstone."]
 			id: "2154C2F24989EA68"
+			rewards: [
+				{
+					count: 8
+					id: "08B9F9193C643B00"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6DE0F209AF038F3C"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "104FC5427C01D82F"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4395F255D5B90D09"
 				item: "create:millstone"

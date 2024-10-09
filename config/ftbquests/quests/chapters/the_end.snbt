@@ -68,6 +68,67 @@
 			dependencies: ["51B79FF0D7C9C5A1"]
 			icon: "minecraft:dragon_head"
 			id: "02D1F51A39E5D46D"
+			rewards: [
+				{
+					count: 32
+					id: "3C7FD5C784CA545D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "42E6A41AC755B904"
+					item: "dragonloot:dragon_scale"
+					type: "item"
+				}
+				{
+					id: "36BA7CD909944719"
+					item: {
+						Count: 1
+						id: "dragonloot:upgraded_dragon_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "554801B28D1B904D"
+					item: {
+						Count: 1
+						id: "dragonloot:dragon_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "281FFFEC5BE8B882"
+					item: {
+						Count: 1
+						id: "dragonloot:dragon_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2891FED60DCC7184"
+					item: "dragonloot:dragon_horse_armor"
+					type: "item"
+				}
+				{
+					id: "0E65D1DC5940DD1E"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "4EF7F7857E0771F1"
+					item: "clutter:ender_dragon_plushie"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{

@@ -12,6 +12,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "01CA9E2CC0577780"
+			rewards: [{
+				id: "173A00721F5372FF"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "483E88141C3BEB37"
 				item: "minecraft:music_disc_13"
@@ -23,6 +28,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "3C98C5CC95368635"
+			rewards: [{
+				id: "6B2AD24A86BB03FF"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7054339272101248"
 				item: "minecraft:music_disc_cat"
@@ -34,6 +44,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "2B6B86C37843A068"
+			rewards: [{
+				id: "629A86AE2CCCC265"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2CFA99C55FAF744F"
 				item: "minecraft:music_disc_blocks"
@@ -45,6 +60,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "0FAAC423C47D73D0"
+			rewards: [{
+				id: "25BCA2ABA764A6D1"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "608FEF934465416C"
 				item: "minecraft:music_disc_chirp"
@@ -56,6 +76,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "091934ED96A6255A"
+			rewards: [{
+				id: "59D2914D98CABE6D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "123FBDDD97D3DB68"
 				item: "minecraft:music_disc_far"
@@ -67,6 +92,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "0B08E1C7896B081A"
+			rewards: [{
+				id: "3F4E75FBC0886F67"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "034438C01700DB2E"
 				item: "minecraft:music_disc_mall"
@@ -78,6 +108,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "225B8373C585D254"
+			rewards: [{
+				id: "5A8395A2334A62C6"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "636CBC83CCA12E23"
 				item: "minecraft:music_disc_mellohi"
@@ -89,6 +124,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "57C9D20839E09161"
+			rewards: [{
+				id: "3C392BF5B54B3E24"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0F69B40F078769A9"
 				item: "minecraft:music_disc_stal"
@@ -100,6 +140,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "51084EFB54608F4F"
+			rewards: [{
+				id: "01F7CF0053B86192"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0991B04BB658CB49"
 				item: "minecraft:music_disc_strad"
@@ -111,6 +156,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "7126C1D777A813A5"
+			rewards: [{
+				id: "2F55B88BD580AACC"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "27733609AB31134A"
 				item: "minecraft:music_disc_ward"
@@ -122,6 +172,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "03F9002D70527559"
+			rewards: [{
+				id: "644DF0AA615F969B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4A3D329463368110"
 				item: "minecraft:music_disc_11"
@@ -133,6 +188,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "57E4791642147ED6"
+			rewards: [{
+				id: "492784275E4212FF"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "08C1990E015BDC6F"
 				item: "minecraft:music_disc_wait"
@@ -144,6 +204,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "32226F8C0ECD49E7"
+			rewards: [{
+				id: "1AC4EF840D347374"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3BF1D4DBC47B806E"
 				item: "minecraft:music_disc_otherside"
@@ -155,6 +220,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "209779CDFDC61F61"
+			rewards: [{
+				id: "0723A7AB545A770B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1C288CEE66DF2D1C"
 				item: "minecraft:music_disc_5"
@@ -166,6 +236,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "6D7B6CBBAE8B3D4D"
+			rewards: [{
+				id: "030E467571AD0500"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "28F72864E11242BF"
 				item: "minecraft:music_disc_pigstep"
@@ -177,6 +252,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "74A5A59CB734F889"
+			rewards: [{
+				id: "431E019A11FD656B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4A5D92D4DBD4B0A2"
 				item: "minecraft:music_disc_relic"
@@ -188,6 +268,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "4708D77A5E44E24C"
+			rewards: [{
+				id: "4E2916698133EDCE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7118F01B34654725"
 				item: "minecraft:disc_fragment_5"
@@ -199,6 +284,11 @@
 		{
 			dependencies: ["6A039246A26EA597"]
 			id: "03FA411EC6F19561"
+			rewards: [{
+				id: "26F060028DD3BC41"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7CC80B070DA6E700"
 				item: "beachparty:overgrown_disc"
@@ -210,6 +300,11 @@
 		{
 			dependencies: ["7F2E5F20283037F8"]
 			id: "35B13219A31D49F4"
+			rewards: [{
+				id: "6553AF45171F68C2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6258A1290BA74702"
 				item: "majruszsdifficulty:angler_treasure_bag"
@@ -221,6 +316,11 @@
 		{
 			dependencies: ["7F2E5F20283037F8"]
 			id: "6773EB95B1C8656C"
+			rewards: [{
+				id: "4C65F3FAC28C2FC8"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1DF3E2741F6A0CD8"
 				item: "majruszsdifficulty:elder_guardian_treasure_bag"
@@ -232,6 +332,11 @@
 		{
 			dependencies: ["7F2E5F20283037F8"]
 			id: "0CE11760BFF3081B"
+			rewards: [{
+				id: "4F7694597F98C9EC"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5511FA8FCA43C992"
 				item: "majruszsdifficulty:ender_dragon_treasure_bag"
@@ -243,6 +348,11 @@
 		{
 			dependencies: ["7F2E5F20283037F8"]
 			id: "4C5913CB3A52DECC"
+			rewards: [{
+				id: "1F36B93D1E3378B6"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "141ABD27E1BC9CA0"
 				item: "majruszsdifficulty:pillager_treasure_bag"
@@ -254,6 +364,11 @@
 		{
 			dependencies: ["7F2E5F20283037F8"]
 			id: "788C78B4BCB9C418"
+			rewards: [{
+				id: "5D6AE0D8EA8548A8"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "56FF6EF56250C927"
 				item: "majruszsdifficulty:undead_army_treasure_bag"
@@ -265,6 +380,11 @@
 		{
 			dependencies: ["7F2E5F20283037F8"]
 			id: "473322267B1F0660"
+			rewards: [{
+				id: "62EA4781F12F2A07"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "61BA4CB83D0FBE00"
 				item: "majruszsdifficulty:warden_treasure_bag"
@@ -276,6 +396,11 @@
 		{
 			dependencies: ["7F2E5F20283037F8"]
 			id: "1047D2ED582A32AA"
+			rewards: [{
+				id: "5D6ADA31D208F8A6"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "45687699F0BA869B"
 				item: "majruszsdifficulty:wither_treasure_bag"
@@ -286,6 +411,11 @@
 		}
 		{
 			id: "23831CF347CD64C8"
+			rewards: [{
+				id: "61CCA939FD09F466"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "500277DEEC0441FE"
 				item: "vinery:fermentation_barrel"
@@ -297,6 +427,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "360D27E985AF2D9D"
+			rewards: [{
+				id: "6D961AFA9DCF4CF3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "399E7F931F733A4C"
 				item: {
@@ -314,6 +449,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "41D7046846330E74"
+			rewards: [{
+				id: "212660F0BDAFB206"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "337EDDAE7DB799DC"
 				item: {
@@ -331,6 +471,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "50B5E4FB84CE32BD"
+			rewards: [{
+				id: "68021CAEDE7F8EBD"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1E8B5D7E877557D6"
 				item: {
@@ -348,6 +493,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "2BB0A93AFFFF52C5"
+			rewards: [{
+				id: "2C25CCB66ACDC664"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4011A7528A364169"
 				item: {
@@ -365,6 +515,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "18B6C85EAA79E4AF"
+			rewards: [{
+				id: "715EE9833075D97B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7C39AE865AB54795"
 				item: {
@@ -382,6 +537,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "09D1AFD2CD5493CF"
+			rewards: [{
+				id: "7CF1D9C441A68A2D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "03752010E8E203B5"
 				item: {
@@ -399,6 +559,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "3C01189A68872B46"
+			rewards: [{
+				id: "3219BE02D53DAEF8"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5161AA96F6F24DEB"
 				item: {
@@ -416,6 +581,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "0E4C72AD1313F5AC"
+			rewards: [{
+				id: "589F861CA19F00E7"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "25A492B9A60E5F06"
 				item: {
@@ -433,6 +603,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "46302C128E6EEEA0"
+			rewards: [{
+				id: "422598639209CE53"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3D3B7F34E0C99807"
 				item: {
@@ -450,6 +625,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "35E1B728981ED3C8"
+			rewards: [{
+				id: "530E79F8ED4258A3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "11A20E2D719CC41A"
 				item: {
@@ -467,6 +647,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "27286BD4663D9A6A"
+			rewards: [{
+				id: "7E0486525CF44AFC"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "06ADC3B57531D076"
 				item: {
@@ -484,6 +669,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "1193723E4AB37D11"
+			rewards: [{
+				id: "0D1AC13B934EE8F9"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7958BB5968D62C28"
 				item: {
@@ -501,6 +691,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "116770894737C7DA"
+			rewards: [{
+				id: "21EFDD9F4DDFA6BB"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "311341ED6576582B"
 				item: {
@@ -518,6 +713,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "4E1ABFFD5C8002AC"
+			rewards: [{
+				id: "70C78EA1B4CC1DD3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6AF4B63F249185DF"
 				item: {
@@ -535,6 +735,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "5A672C80BB54CEB5"
+			rewards: [{
+				id: "381C1E2A98BB6219"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2743AACB730AF20C"
 				item: {
@@ -552,6 +757,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "41A29ECF63C288D2"
+			rewards: [{
+				id: "65090A17F1A9B2BA"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "71CE88AB775AF527"
 				item: {
@@ -569,6 +779,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "0D8E2FEC721A7D09"
+			rewards: [{
+				id: "1034DF8C6C971600"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "05957C4EFF41E4C6"
 				item: {
@@ -586,6 +801,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "70831F7A0A4CF6F3"
+			rewards: [{
+				id: "6ACFF482259B6BDE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4AC8344713C64E95"
 				item: {
@@ -603,6 +823,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "772C33C88463308E"
+			rewards: [{
+				id: "333C7F50F5AF49DA"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0B858CF8979B7ECE"
 				item: "vinery:wine_bottle"
@@ -614,6 +839,11 @@
 		{
 			dependencies: ["23831CF347CD64C8"]
 			id: "2511AB7E66489309"
+			rewards: [{
+				id: "30DC09AB720E8C9D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6DB9D219B0FC00E9"
 				item: {
@@ -637,6 +867,11 @@
 				}
 			}
 			id: "7F2E5F20283037F8"
+			rewards: [{
+				id: "5278D4984C7FA1FB"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "63333D187400CD4D"
 				title: "Bags"
@@ -655,6 +890,11 @@
 				}
 			}
 			id: "6A039246A26EA597"
+			rewards: [{
+				id: "6B315ACD2991EBAF"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0A40596F7FC98C0A"
 				title: "Discs"
@@ -662,95 +902,6 @@
 			}]
 			x: -8.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["12577849B79AB76C"]
-			description: ["Craft any kind of block from Macaw's Bridges to complete this quest."]
-			id: "7269DAA64C51CB66"
-			tasks: [{
-				icon: "mcwbridges:birch_log_bridge_middle"
-				id: "696B0900E4F40FF1"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						display: {
-							Name: "{\"text\":\"McwBridges\"}"
-						}
-						"ftbfiltersystem:filter": "mod(mcwbridges)"
-					}
-				}
-				title: "Craft any block from Macaw's Bridges"
-				type: "item"
-			}]
-			title: "Macaw's Bridges"
-			x: 1.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["12577849B79AB76C"]
-			description: ["Craft any kind of block from Macaw's Fences \\& Walls to complete this quest."]
-			id: "759DF4C74AD6CEC4"
-			tasks: [{
-				icon: "mcwfences:cherry_horse_fence"
-				id: "26526E39F5935B81"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						display: {
-							Name: "{\"text\":\"Mcwfences\"}"
-						}
-						"ftbfiltersystem:filter": "mod(mcwfences)"
-					}
-				}
-				type: "item"
-			}]
-			title: "Macaw's Fences"
-			x: 3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["12577849B79AB76C"]
-			icon: "mcwholidays:garland_colorful_lights"
-			id: "7D69166FBC98D22B"
-			tasks: [{
-				id: "2489766335F25B61"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						display: {
-							Name: "{\"text\":\"Macaw's Holidays\"}"
-						}
-						"ftbfiltersystem:filter": "mod(mcwholidays)"
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["12577849B79AB76C"]
-			icon: "mcwlights:light_blue_lamp"
-			id: "6C0C8C9395B802F8"
-			tasks: [{
-				id: "40CC5364A9025A99"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						display: {
-							Name: "{\"text\":\"Macaw's Lights & Lamps\"}"
-						}
-						"ftbfiltersystem:filter": "mod(mcwlights)"
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.5d
 		}
 		{
 			dependencies: ["12577849B79AB76C"]
@@ -764,6 +915,11 @@
 				}
 			}
 			id: "660B4CBF9E78AB98"
+			rewards: [{
+				id: "22950FD1575FFEDC"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5484E82033838F45"
 				item: {
@@ -779,12 +935,17 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["12577849B79AB76C"]
 			icon: "mcwroofs:spruce_attic_roof"
 			id: "65AD907696624496"
+			rewards: [{
+				id: "5CEA17840EB8B124"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "624052EB79549317"
 				item: {
@@ -806,6 +967,11 @@
 			dependencies: ["12577849B79AB76C"]
 			icon: "mcwwindows:birch_plank_window"
 			id: "2CC6347D44DDB411"
+			rewards: [{
+				id: "42CA772F5AF9C775"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4A88A5E04EC4AF11"
 				item: {
@@ -820,11 +986,16 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			id: "12577849B79AB76C"
+			rewards: [{
+				id: "6C5B1F61F25C0B33"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "34073B1C64D891A4"
 				title: "Macaw's Blocks"
@@ -836,6 +1007,11 @@
 		{
 			dependencies: ["4D91E0D062A72DDF"]
 			id: "3D878BD24CA7D4F4"
+			rewards: [{
+				id: "177FCE6E2B91FF4B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -864,6 +1040,11 @@
 			dependencies: ["4D91E0D062A72DDF"]
 			icon: "herbalbrews:cauldron"
 			id: "481841B864DF0E99"
+			rewards: [{
+				id: "669598C34781E110"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "23C9543CAB427D02"
 				item: {
@@ -885,6 +1066,11 @@
 			dependencies: ["4D91E0D062A72DDF"]
 			icon: "bakery:bread"
 			id: "56B99C487D025B27"
+			rewards: [{
+				id: "239908B3B0C9F101"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4F83D03ED50C6B4D"
 				item: {
@@ -905,6 +1091,11 @@
 		{
 			dependencies: ["4D91E0D062A72DDF"]
 			id: "438466491D71CEB5"
+			rewards: [{
+				id: "5EE20B54F0AB3597"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: "beachparty:beach_parasol"
 				id: "716593527CE00911"
@@ -926,6 +1117,11 @@
 		{
 			dependencies: ["4D91E0D062A72DDF"]
 			id: "4BFDBDBA7B8B3B5A"
+			rewards: [{
+				id: "106A1E3978E2A09E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: "meadow:delphinium"
 				id: "03A361B7E0DA86BF"
@@ -947,6 +1143,11 @@
 		{
 			dependencies: ["4D91E0D062A72DDF"]
 			id: "0BF35744B06904CE"
+			rewards: [{
+				id: "0DB706231402A7F0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: "vinery:oak_wine_rack_big"
 				id: "736F1EC65F0CF3E7"
@@ -967,6 +1168,11 @@
 		}
 		{
 			id: "4D91E0D062A72DDF"
+			rewards: [{
+				id: "1FE960A8471EB66C"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "112F63FA717E7FA2"
 				title: "[Lets Do] Mods"
@@ -979,6 +1185,11 @@
 		{
 			description: ["Craft any item from Create Deco mod to complete this quest."]
 			id: "2300B350DF977A09"
+			rewards: [{
+				id: "6E12FAF926B05FDC"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: "createdeco:decal_skull"
 				id: "23658F1F032E24B9"
@@ -994,32 +1205,17 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			id: "16DFBDB69BDCEC13"
-			tasks: [{
-				icon: "mcwholidays:tall_gravestone"
-				id: "54F98D8730F0E11C"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						display: {
-							Name: "{\"text\":\"Graveyard\"}"
-						}
-						"ftbfiltersystem:filter": "mod(graveyard)"
-					}
-				}
-				type: "item"
-			}]
 			x: -2.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			description: ["Craft any block from the Simply Light mod to complete this quest."]
 			id: "1E2AAC5CFEA93861"
+			rewards: [{
+				id: "35A27A2D227105CD"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: "simplylight:illuminant_block_on"
 				id: "6E21EAA94B38466A"
@@ -1035,12 +1231,17 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.5d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			description: ["Craft any block from the Supplementaries mod to complete this quest."]
 			id: "27346546203FE91D"
+			rewards: [{
+				id: "33AF9A1F19B0FD2C"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: "supplementaries:globe"
 				id: "719EF746C2769CF3"
@@ -1056,12 +1257,17 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 4.5d
 		}
 		{
 			description: ["Craft any item from the Joy of Painting mod to complete this quest."]
 			id: "3A20CEB417D43C14"
+			rewards: [{
+				id: "60DFD75F215A2E4C"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: "xercapaint:item_canvas_tall"
 				id: "2A9888534AFAC7BE"
@@ -1081,29 +1287,13 @@
 			y: 4.5d
 		}
 		{
-			description: ["Craft any block from Redden's Stone Latern's mod to complete this quest."]
-			id: "185081BCFB72B31D"
-			tasks: [{
-				icon: "reddensstonelantern:smallfoot_stone_lantern_light"
-				id: "3823DBB4FF6CDC0D"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						display: {
-							Name: "{\"text\":\"Redden's Stone Latern's\"}"
-						}
-						"ftbfiltersystem:filter": "mod(reddensstonelantern)"
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.5d
-		}
-		{
 			description: ["Craft any kind of Trashcan to complete this quest."]
 			id: "760C9B4CBA4F6E95"
+			rewards: [{
+				id: "099995A9F43DD764"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: "trashcans:item_trash_can"
 				id: "1B4FD2853710FFED"
@@ -1119,12 +1309,17 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3BD5A1A6CAC4C93D"]
 			id: "771C9395F1C7B2E9"
+			rewards: [{
+				id: "5F14B8588AA20D83"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				biome: "minecraft:cherry_grove"
 				icon: "minecraft:cherry_sapling"
@@ -1132,46 +1327,61 @@
 				title: "Cherry Grove"
 				type: "biome"
 			}]
-			x: 2.0d
-			y: -5.0d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			description: ["Can you find all the biomes?"]
 			id: "3BD5A1A6CAC4C93D"
+			rewards: [
+				{
+					id: "675E43F1460343CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "1CB3445E65E51860"
+					item: "naturalist:cooked_catfish"
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "5425D9406127085D"
-				title: "Biomes"
-				type: "checkmark"
+				id: "1792F55C847349FC"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["3BD5A1A6CAC4C93D"]
-			id: "4348C36262AFD1E0"
-			tasks: [{
-				biome: "terralith:volcanic_crater"
-				icon: "hole_filler_mod:throwable_hole_filler_lava"
-				id: "2BDAE7D23DF59897"
-				type: "biome"
-			}]
-			title: "Volcanic"
-			x: 4.0d
-			y: -5.0d
-		}
-		{
 			id: "1106DA830FF391B6"
+			rewards: [{
+				id: "5ECF6BCDF0103F35"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3874E915B8361D0E"
 				item: "mysticaloaktree:wise_oak"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "1608C404293087C3"
+			rewards: [{
+				id: "30CBC4FDE1CC1965"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2C66644DA6A9C7F3"
 				item: "artifacts:umbrella"
@@ -1183,6 +1393,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "69586BAE0007E5FD"
+			rewards: [{
+				id: "3D35A0635FABD4D6"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0C47748980108B1C"
 				item: "artifacts:everlasting_beef"
@@ -1194,6 +1409,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "100A710B331A9B5F"
+			rewards: [{
+				id: "7418FACF9F1342F4"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "06A42CDC43DF76E3"
 				item: "artifacts:eternal_steak"
@@ -1205,6 +1425,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "598C6531F2915B69"
+			rewards: [{
+				id: "612F510B33021CC5"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3EF69CDCA8055292"
 				item: "artifacts:plastic_drinking_hat"
@@ -1216,6 +1441,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "0E1BEF5BEDBFBE3B"
+			rewards: [{
+				id: "4472BE47F86B2BA3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0B28704A3EDD8C14"
 				item: "artifacts:novelty_drinking_hat"
@@ -1227,6 +1457,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "6D0FDADF53462390"
+			rewards: [{
+				id: "4A66B0AE7664C9BD"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2DD55EB2295FC912"
 				item: "artifacts:villager_hat"
@@ -1238,6 +1473,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "29B5904B1471A972"
+			rewards: [{
+				id: "778C5201F0037BA2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5EDF8B069D5E8670"
 				item: "artifacts:superstitious_hat"
@@ -1249,6 +1489,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "395D225A551576EE"
+			rewards: [{
+				id: "5847204C48D5F2EE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "36CADFBC9CEFC8D9"
 				item: "artifacts:cowboy_hat"
@@ -1260,6 +1505,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "5BD4C5E96E26F2FA"
+			rewards: [{
+				id: "4CFD64C0096E4CC2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "30E54A8902899B95"
 				item: "artifacts:anglers_hat"
@@ -1271,6 +1521,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "72B1EC13F0D77A2E"
+			rewards: [{
+				id: "762880364AD39CBD"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "47D14AA07C86BFDD"
 				item: "artifacts:snorkel"
@@ -1282,6 +1537,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "1D9A104B23196008"
+			rewards: [{
+				id: "2FEFA73E6D3D565E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "493889CB16075A56"
 				item: "artifacts:night_vision_goggles"
@@ -1293,6 +1553,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "531BC4FA7D4DE121"
+			rewards: [{
+				id: "547EDD2558C46CA7"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4AF7DE123BA07741"
 				item: "artifacts:lucky_scarf"
@@ -1304,6 +1569,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "0DAB0F9D95D6E1DA"
+			rewards: [{
+				id: "51919227D8D113D9"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1A95DDC69B181D3A"
 				item: "artifacts:scarf_of_invisibility"
@@ -1315,6 +1585,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "214969491C635A71"
+			rewards: [{
+				id: "75B0DFA1A6F2F1E7"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3F3E11F89818AB30"
 				item: "artifacts:cross_necklace"
@@ -1326,6 +1601,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "774C120738370840"
+			rewards: [{
+				id: "6831A01E406899A0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4F4B520068164CFC"
 				item: "artifacts:panic_necklace"
@@ -1337,6 +1617,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "2426EA38239058AB"
+			rewards: [{
+				id: "5E75A4B939778C1E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "40EDEC4B8E60716B"
 				item: "artifacts:shock_pendant"
@@ -1348,6 +1633,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "03D137D386C8DDA0"
+			rewards: [{
+				id: "48385F23D7C6289A"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "311734FC520E7309"
 				item: "artifacts:flame_pendant"
@@ -1359,6 +1649,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "37C09D61740BE8D4"
+			rewards: [{
+				id: "6913E8BBAE31EE3B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "748F9331EEFE2DB7"
 				item: "artifacts:thorn_pendant"
@@ -1370,6 +1665,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "3C2C44888E9B0A75"
+			rewards: [{
+				id: "05FEC61FEEA7F390"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7C63F4C22B571C05"
 				item: "artifacts:charm_of_sinking"
@@ -1381,6 +1681,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "37632D3091895EFE"
+			rewards: [{
+				id: "46B82AC619A28C88"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "50CAD52EFFAEAFE7"
 				item: "artifacts:cloud_in_a_bottle"
@@ -1392,6 +1697,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "198C2EDA55EBFECB"
+			rewards: [{
+				id: "7457297BEC866746"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "27730B6027528A46"
 				item: "artifacts:obsidian_skull"
@@ -1403,6 +1713,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "4DE5D3B6D116AD10"
+			rewards: [{
+				id: "230FE95D918193B6"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4525C77BAAF61524"
 				item: "artifacts:antidote_vessel"
@@ -1414,6 +1729,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "57DD5D69D7A86345"
+			rewards: [{
+				id: "367B967CD9AE0561"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6648FB6750C43857"
 				item: "artifacts:universal_attractor"
@@ -1425,6 +1745,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "2BC4D370C59E71C5"
+			rewards: [{
+				id: "33BB9825DA6B117D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4B2BB6AD4D67C9FF"
 				item: "artifacts:crystal_heart"
@@ -1436,6 +1761,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "360E64BDD53588E8"
+			rewards: [{
+				id: "2A8A10703E6AEEB2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4393A392BC9BD489"
 				item: "artifacts:helium_flamingo"
@@ -1447,6 +1777,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "7510DDEC9BACAB93"
+			rewards: [{
+				id: "23F41AB37E89BD3C"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6BF2981B9B85C936"
 				item: "artifacts:chorus_totem"
@@ -1458,6 +1793,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "4DFAC04E23F6CE8D"
+			rewards: [{
+				id: "170AC9628E757DEB"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3DC9F78A049A1617"
 				item: "artifacts:digging_claws"
@@ -1469,6 +1809,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "4F7E8EBAD304A62D"
+			rewards: [{
+				id: "0CF3DCE795EF7AA1"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3A0BE16310EDB1C2"
 				item: "artifacts:feral_claws"
@@ -1480,6 +1825,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "5A81E9DD8D826183"
+			rewards: [{
+				id: "52A40AC76C8249E0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "384FF3DAAA8A4A60"
 				item: "artifacts:power_glove"
@@ -1491,6 +1841,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "1CEBB863773664E5"
+			rewards: [{
+				id: "6ADC1F6F43EDFD55"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4F560CF5F8B93994"
 				item: "artifacts:fire_gauntlet"
@@ -1502,6 +1857,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "60DD4325BBBBE9EA"
+			rewards: [{
+				id: "775100DDB9CFF2A6"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "601213037BDE7CAB"
 				item: "artifacts:pocket_piston"
@@ -1513,6 +1873,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "31B8FCF0833B495D"
+			rewards: [{
+				id: "3D0046D7B3855E29"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7C72BE9801F183EF"
 				item: "artifacts:vampiric_glove"
@@ -1524,6 +1889,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "20665DBE64929249"
+			rewards: [{
+				id: "3ECAB7E1081B1CBA"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4008FDA555F45606"
 				item: "artifacts:golden_hook"
@@ -1535,6 +1905,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "20166009D0F6E204"
+			rewards: [{
+				id: "61078389D747E30F"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "760B789250C5A092"
 				item: "artifacts:onion_ring"
@@ -1546,6 +1921,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "6BF31A21AAF3F438"
+			rewards: [{
+				id: "4032A63F2C3911C2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "21BE9FEB725BD6B6"
 				item: "artifacts:pickaxe_heater"
@@ -1557,6 +1937,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "20C629534D112D2C"
+			rewards: [{
+				id: "4C8351F1FACEF7C3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4C8E240E175AE4E3"
 				item: "artifacts:aqua_dashers"
@@ -1568,6 +1953,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "2EACDFCDC0849919"
+			rewards: [{
+				id: "588D56852AEC79C2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "298669FDE8307751"
 				item: "artifacts:bunny_hoppers"
@@ -1579,6 +1969,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "10D2C7466C713E88"
+			rewards: [{
+				id: "621093848F28197C"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "525BE1BB782777C6"
 				item: "artifacts:kitty_slippers"
@@ -1590,6 +1985,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "08D3E7B4514C9D96"
+			rewards: [{
+				id: "263E2D046722A25D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "33465764A1EF7DE2"
 				item: "artifacts:running_shoes"
@@ -1601,6 +2001,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "6D1CC21704626FAD"
+			rewards: [{
+				id: "76F9C758ADEB3ED4"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7DBC403C2DEB236E"
 				item: "artifacts:snowshoes"
@@ -1612,6 +2017,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "110D50CCCB33961B"
+			rewards: [{
+				id: "62B202532709840E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5AE8A69410AFC820"
 				item: "artifacts:steadfast_spikes"
@@ -1623,6 +2033,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "2B12B94F1E3F7F02"
+			rewards: [{
+				id: "6F14C3DAAB975FB0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "120C6C87AD0F37FB"
 				item: "artifacts:flippers"
@@ -1634,6 +2049,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "6178CC8C0263D75F"
+			rewards: [{
+				id: "6DF8FD36CA83CBC2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "09D87FAC9D122008"
 				item: "artifacts:rooted_boots"
@@ -1645,6 +2065,11 @@
 		{
 			dependencies: ["536AEAA0728F001F"]
 			id: "65F75FF0ADD5E8A5"
+			rewards: [{
+				id: "02653E702161F4E7"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "37CB26E492A859DA"
 				item: "artifacts:whoopee_cushion"
@@ -1655,6 +2080,11 @@
 		}
 		{
 			id: "536AEAA0728F001F"
+			rewards: [{
+				id: "0450421D93BC850E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1B340B644E50DBA3"
 				title: "Artifacts"
@@ -1662,6 +2092,139 @@
 			}]
 			x: 8.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["3BD5A1A6CAC4C93D"]
+			id: "030D85AA7CBA2872"
+			rewards: [{
+				id: "0829D27AAE531E72"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "minecraft:beach"
+				icon: "beachparty:coconut_open"
+				id: "06D03A03EAC0FDEE"
+				type: "biome"
+			}]
+			title: "Beach"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3BD5A1A6CAC4C93D"]
+			id: "202C450EA7F7F31F"
+			rewards: [{
+				id: "579844A357C4540B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "minecraft:sparse_jungle"
+				icon: "minecraft:jungle_leaves"
+				id: "1C280436512D91EA"
+				title: "Sparse Jungle"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3BD5A1A6CAC4C93D"]
+			id: "324D577EE97EB7D0"
+			rewards: [{
+				id: "3F7F6DC8153AF821"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "terralith:moonlight_grove"
+				icon: "minecraft:large_amethyst_bud"
+				id: "7212CD2DF77FF01F"
+				title: "Moonlight Grove"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3BD5A1A6CAC4C93D"]
+			id: "08DF99A34B55A389"
+			rewards: [{
+				id: "4EF251379492029F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:grass"
+				id: "6CD9E6110055799E"
+				title: "Plains"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3BD5A1A6CAC4C93D"]
+			icon: "minecraft:oak_sapling"
+			id: "47A46EA9A20E26A2"
+			rewards: [{
+				id: "5A4F7C8F3C9BF543"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "minecraft:forest"
+				icon: "minecraft:oak_leaves"
+				id: "27F711C62541694D"
+				title: "Forest"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BD5A1A6CAC4C93D"]
+			id: "1BD52EFF89174781"
+			rewards: [{
+				id: "4CADAFC69DF7252D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "terralith:warm_river"
+				icon: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water_breathing"
+					}
+				}
+				id: "7C50B3B021258360"
+				title: "Warm River"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BD5A1A6CAC4C93D"]
+			icon: "minecraft:sandstone"
+			id: "195F171B72E6BD03"
+			rewards: [{
+				id: "2C90F6A8D2FED3C5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "terralith:desert_oasis"
+				id: "3AE42A84BFC7F3C3"
+				type: "biome"
+			}]
+			title: "Desert Oasis"
+			x: 2.0d
+			y: -6.5d
 		}
 	]
 	title: "&7Collectibles"
