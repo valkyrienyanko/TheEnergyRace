@@ -1,10 +1,12 @@
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.item.IItemStack;
 
+// Horse Armor Recipes
 addHorseArmor("iron", "iron_ingot");
 addHorseArmor("golden", "gold_ingot");
 addHorseArmor("diamond", "diamond");
 
+// Miscellaneous Recipes
 addChainmailArmor();
 addCobweb();
 addSaddle();
@@ -17,32 +19,17 @@ addCheckeredPattern("mushroom_stem", <item:minecraft:brown_mushroom>, <item:mine
 addTrident();
 addElytra();
 
+// Shapeless Recipes
 craftingTable.addShapeless("crimson_roots_to_redstone", <item:minecraft:redstone>, [<item:minecraft:crimson_roots>]);
 craftingTable.addShapeless("weeping_vines_to_redstone", <item:minecraft:redstone>, [<item:minecraft:weeping_vines>]);
 craftingTable.addShapeless("crimson_fungus_to_glowstone", <item:minecraft:glowstone_dust>, [<item:minecraft:crimson_fungus>]);
 craftingTable.addShapeless("gravel_to_sand", <item:minecraft:sand>, [<item:minecraft:gravel>, <item:minecraft:gravel>, <item:minecraft:gravel>, <item:minecraft:gravel>]);
+craftingTable.addShapeless("wool_to_string", <item:minecraft:string> * 4, [<item:minecraft:white_wool>]);
+craftingTable.addShapeless("obsidian_from_lava_water", <item:minecraft:obsidian>, [<item:minecraft:water_bucket>, <item:minecraft:lava_bucket>]);
+craftingTable.addShapeless("torch_from_flint_and_stone", <item:minecraft:torch>, [Tags.stone, <item:minecraft:flint>]);
+craftingTable.addShapeless("andesite_from_stone", <item:minecraft:andesite>, [Tags.stone, <item:minecraft:cobblestone>]);
 
-craftingTable.addShapeless("wool_to_string", <item:minecraft:string> * 4, [
-	<item:minecraft:white_wool>
-]);
-
-craftingTable.addShapeless("obsidian_from_lava_water", <item:minecraft:obsidian>, [
-	<item:minecraft:water_bucket>, <item:minecraft:lava_bucket>
-]);
-
-
-craftingTable.addShapeless("torch_from_flint_and_stone", <item:minecraft:torch>, [
-	Tags.stone, <item:minecraft:flint>
-]);
-
-craftingTable.addShapeless("andesite_from_stone", <item:minecraft:andesite>, [
-	Tags.stone, <item:minecraft:cobblestone>
-]);
-
-/*craftingTable.addShapeless("wool_from_snow_block_and_shears", <item:minecraft:white_wool>, [
-	<item:minecraft:shears>.anyDamage().transformDamage(10), <item:minecraft:snow_block>
-]);*/
-
+// Function Definitions
 function addCheckeredPattern(name as string, material1 as IIngredient, material2 as IIngredient) as void 
 {
 	var A = material1;
