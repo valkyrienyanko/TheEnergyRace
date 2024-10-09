@@ -326,6 +326,21 @@
 			x: -3.0d
 			y: -2.5d
 		}
+		{
+			description: [
+				"&7The mod that dynamically hides your HUD is called Auto HUD."
+				""
+				"&7If you do not like this it can be disabled in Esc > Mods > Auto HUD"
+			]
+			id: "66D2B45E0653AFB1"
+			tasks: [{
+				id: "514A2E7BD75E7A47"
+				title: "Auto HUD"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
 	]
 	title: "&7Useful Information"
 }
