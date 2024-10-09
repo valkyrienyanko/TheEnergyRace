@@ -6,7 +6,7 @@
 	group: ""
 	icon: "techreborn:uu_matter"
 	id: "678CE701B0020C88"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

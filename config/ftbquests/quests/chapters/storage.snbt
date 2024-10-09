@@ -1,0 +1,158 @@
+{
+	autofocus_id: "566B034F1CCC3596"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	icon: "minecraft:chest"
+	id: "0E78D3722C88BE0F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5632059238148599"]
+			icon: "minecraft:chest"
+			id: "566B034F1CCC3596"
+			rewards: [{
+				id: "36F19A461F405F93"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "5E677C08AD4DCD4E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:chests)"
+					}
+				}
+				title: "Any #c:chests"
+				type: "item"
+			}]
+			title: "Make any Chest"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["65B9876F42F5B733"]
+			id: "5F054951DD9761CC"
+			tasks: [{
+				id: "386E27A73779DB51"
+				item: "ironchests:iron_chest"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F054951DD9761CC"]
+			id: "654CFBAE8D13216B"
+			tasks: [{
+				id: "59F7BDAC1DEF5FE4"
+				item: "ironchests:gold_chest"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["566B034F1CCC3596"]
+			id: "65B9876F42F5B733"
+			tasks: [{
+				id: "5030B868ED4CF8F2"
+				item: "ironchests:copper_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["654CFBAE8D13216B"]
+			id: "7F7B663756E761D2"
+			tasks: [{
+				id: "3921BF4183A936FC"
+				item: "ironchests:diamond_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F7B663756E761D2"]
+			id: "39B7BADDCF5AFBA5"
+			tasks: [{
+				id: "180E4283E806F50B"
+				item: "ironchests:obsidian_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39B7BADDCF5AFBA5"]
+			id: "596C4DF98CACD3D7"
+			tasks: [{
+				id: "67E089571BD89B6C"
+				item: "ironchests:netherite_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["566B034F1CCC3596"]
+			description: [
+				"Place chests adjacent to the &aInventory Connector&r and then place the &2Crafting Terminal&r on the connector block. This is a great early game alternative to AE2 storage."
+				""
+				"Note that Iron Chests will work too!"
+			]
+			icon: "toms_storage:ts.crafting_terminal"
+			id: "2F10A940187C13F1"
+			rewards: [{
+				count: 8
+				id: "10CFA19B1C912246"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.75d
+			subtitle: "Tom's Simple Storage"
+			tasks: [
+				{
+					id: "06D9CFD3B783B88C"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "7BCDF24D569F105C"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+			]
+			title: "Computerized Storage"
+			x: 0.875d
+			y: 3.5d
+		}
+		{
+			dependencies: ["566B034F1CCC3596"]
+			id: "54FDAC421D13EC75"
+			tasks: [{
+				id: "5751E314D5AB05A6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(extended_drawers:drawers)"
+					}
+				}
+				title: "Any #extended_drawers:drawers"
+				type: "item"
+			}]
+			title: "Craft any Drawer"
+			x: -1.0d
+			y: 5.0d
+		}
+	]
+	title: "Storage"
+}

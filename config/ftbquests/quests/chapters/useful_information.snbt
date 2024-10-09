@@ -6,7 +6,7 @@
 	group: ""
 	icon: "minecraft:cherry_sapling"
 	id: "189C9302CDEB5C69"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

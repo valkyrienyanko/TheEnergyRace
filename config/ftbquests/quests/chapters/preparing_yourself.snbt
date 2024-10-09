@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5632059238148599"]
 			description: [
 				"Right click with the backpack equipped to open the interface. There will be a button on the left that you can click to equip the backpack. "
 				""
@@ -32,10 +33,11 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -13.5d
 			y: -3.0d
 		}
 		{
+			dependencies: ["5632059238148599"]
 			description: ["Always cook your &aBread&r into &aToast&r."]
 			id: "4FC79B7307E6621A"
 			rewards: [{
@@ -48,10 +50,11 @@
 				item: "croptopia:toast"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -12.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["5632059238148599"]
 			description: ["Mobs that hit you may cause you to &4bleed&r. &aBandages&r will stop the bleeding."]
 			id: "3C38D4B54F4EBB5B"
 			rewards: [{
@@ -64,8 +67,8 @@
 				item: "majruszsdifficulty:bandage"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.5d
+			x: -12.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3C38D4B54F4EBB5B"]
@@ -80,8 +83,8 @@
 				item: "majruszsdifficulty:golden_bandage"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5632059238148599"]
@@ -106,8 +109,8 @@
 				title: "Magnum Torch"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: -14.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5E46E3320C3BA4D5"]
@@ -125,14 +128,14 @@
 				xp: 5
 			}]
 			shape: "octagon"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "Teleport between two locations"
 			tasks: [{
 				id: "1AB10A2F5073195B"
 				item: "ring_of_teleport:ring_of_teleport"
 				type: "item"
 			}]
-			x: 0.25d
+			x: -12.5d
 			y: -3.5d
 		}
 		{
@@ -167,8 +170,8 @@
 				item: "scannable:scanner"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -5.0d
+			x: -16.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5632059238148599"]
@@ -192,8 +195,8 @@
 				type: "item"
 			}]
 			title: "Make a Hammer"
-			x: -7.5d
-			y: -4.0d
+			x: -15.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2D7EC3EB2062F7E5"]
@@ -217,8 +220,8 @@
 				type: "item"
 			}]
 			title: "Make a Excavator"
-			x: -8.5d
-			y: -4.0d
+			x: -16.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["17778074A8974969"]
@@ -244,8 +247,8 @@
 				type: "item"
 			}]
 			title: "Modules"
-			x: -7.5d
-			y: -6.0d
+			x: -17.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["547749324E644030"]
@@ -283,9 +286,10 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["5632059238148599"]
 			description: ["Make any kind of bookshelf"]
 			id: "547749324E644030"
 			rewards: [{
@@ -294,7 +298,6 @@
 				xp: 5
 			}]
 			tasks: [{
-				icon: "ironbookshelves:diamond_bookshelf"
 				id: "33D984277A427BC4"
 				item: {
 					Count: 1
@@ -311,10 +314,10 @@
 			}]
 			title: "Bookshelves"
 			x: -13.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5E46E3320C3BA4D5"]
+			dependencies: ["54EBFB295167DF25"]
 			icon: "minecraft:netherrack"
 			icon_scale: 0.8d
 			id: "3A4A309E052AC00E"
@@ -326,30 +329,11 @@
 				type: "dimension"
 			}]
 			title: "Reach The Nether"
-			x: -1.5d
-			y: -4.5d
+			x: -11.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["3A4A309E052AC00E"]
-			description: ["The elytra is a craftable item but you will need a nether star from the wither."]
-			id: "032F262696B6A223"
-			shape: "pentagon"
-			tasks: [{
-				id: "3C3854A53C7F94D8"
-				item: {
-					Count: 1
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["31AFBCB16912FD31"]
+			dependencies: ["5E46E3320C3BA4D5"]
 			description: [
 				"Craft any kind of immersive aircraft to complete this quest"
 				""
@@ -382,8 +366,8 @@
 				type: "item"
 			}]
 			title: "Immersive Aircrafts"
-			x: -2.0d
-			y: -1.0d
+			x: -14.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5E46E3320C3BA4D5"]
@@ -419,11 +403,10 @@
 				type: "item"
 			}]
 			title: "Small Ships"
-			x: -2.0d
-			y: -2.0d
+			x: -14.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["032F262696B6A223"]
 			icon: "minecraft:end_stone"
 			icon_scale: 0.8d
 			id: "51B79FF0D7C9C5A1"
@@ -440,8 +423,8 @@
 				type: "dimension"
 			}]
 			title: "Reach The End"
-			x: 2.0d
-			y: -6.5d
+			x: -9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["51B79FF0D7C9C5A1"]
@@ -457,8 +440,8 @@
 				item: "majruszsdifficulty:enderium_shard"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -7.5d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["48928A950C593857"]
@@ -474,8 +457,8 @@
 				item: "majruszsdifficulty:enderium_ingot"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -7.5d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["51B79FF0D7C9C5A1"]
@@ -490,8 +473,8 @@
 				value: 1L
 			}]
 			title: "Kill the Ender Dragon"
-			x: 3.25d
-			y: -5.0d
+			x: -7.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["02D1F51A39E5D46D"]
@@ -501,131 +484,8 @@
 				item: "dragonloot:dragon_scale"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5632059238148599"]
-			icon: "minecraft:chest"
-			id: "566B034F1CCC3596"
-			rewards: [{
-				id: "36F19A461F405F93"
-				type: "xp"
-				xp: 1
-			}]
-			tasks: [{
-				id: "5E677C08AD4DCD4E"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:chests)"
-					}
-				}
-				title: "Any #c:chests"
-				type: "item"
-			}]
-			title: "Make any Chest"
-			x: -11.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["566B034F1CCC3596"]
-			description: [
-				"Place chests adjacent to the &aInventory Connector&r and then place the &2Crafting Terminal&r on the connector block. This is a great early game alternative to AE2 storage."
-				""
-				"Note that Iron Chests will work too!"
-			]
-			icon: "toms_storage:ts.crafting_terminal"
-			id: "2F10A940187C13F1"
-			rewards: [{
-				count: 8
-				id: "10CFA19B1C912246"
-				item: "minecraft:chest"
-				type: "item"
-			}]
-			size: 1.5d
-			subtitle: "Obtaining Computerized Storage"
-			tasks: [
-				{
-					id: "06D9CFD3B783B88C"
-					item: "toms_storage:ts.crafting_terminal"
-					type: "item"
-				}
-				{
-					id: "7BCDF24D569F105C"
-					item: "toms_storage:ts.inventory_connector"
-					type: "item"
-				}
-			]
-			x: -5.25d
-			y: -3.0d
-		}
-		{
-			dependencies: ["65B9876F42F5B733"]
-			id: "5F054951DD9761CC"
-			tasks: [{
-				id: "386E27A73779DB51"
-				item: "ironchests:iron_chest"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["5F054951DD9761CC"]
-			id: "654CFBAE8D13216B"
-			tasks: [{
-				id: "59F7BDAC1DEF5FE4"
-				item: "ironchests:gold_chest"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["566B034F1CCC3596"]
-			id: "65B9876F42F5B733"
-			tasks: [{
-				id: "5030B868ED4CF8F2"
-				item: "ironchests:copper_chest"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["654CFBAE8D13216B"]
-			id: "7F7B663756E761D2"
-			tasks: [{
-				id: "3921BF4183A936FC"
-				item: "ironchests:diamond_chest"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["7F7B663756E761D2"]
-			id: "39B7BADDCF5AFBA5"
-			tasks: [{
-				id: "180E4283E806F50B"
-				item: "ironchests:obsidian_chest"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["39B7BADDCF5AFBA5"]
-			id: "596C4DF98CACD3D7"
-			tasks: [{
-				id: "67E089571BD89B6C"
-				item: "ironchests:netherite_chest"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -9.0d
+			x: -8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["02D1F51A39E5D46D"]
@@ -636,8 +496,8 @@
 				item: "minecraft:end_portal_frame"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5E46E3320C3BA4D5"]
@@ -648,8 +508,8 @@
 				item: "fwaystones:waystone"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.0d
+			x: -13.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6BB8685538B5275D"]
@@ -664,8 +524,8 @@
 				type: "dimension"
 			}]
 			title: "Reach the Deeper Dark"
-			x: 7.0d
-			y: -7.5d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["02D1F51A39E5D46D"]
@@ -686,8 +546,8 @@
 				value: 1L
 			}]
 			title: "Kill the Warden"
-			x: 5.5d
-			y: -5.75d
+			x: -5.5d
+			y: -2.25d
 		}
 		{
 			id: "439623AC0BE1FDEA"
@@ -696,8 +556,8 @@
 				item: "simple_cobblestone_generator:generator_tier1"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -7.0d
+			x: -18.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["51B79FF0D7C9C5A1"]
@@ -708,11 +568,11 @@
 				item: "voidtotem:totem_of_void_undying"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -8.0d
+			x: -8.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["3A4A309E052AC00E"]
+			dependencies: ["5632059238148599"]
 			description: ["Make sure you're facing the block you want to stand on when you get out of the boat!"]
 			id: "54EBFB295167DF25"
 			tasks: [{
@@ -720,12 +580,13 @@
 				item: "obsidianboat:obsidian_boat"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.0d
+			x: -12.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5632059238148599"]
 			description: [""]
+			icon: "armourers_workshop:skin-library-creative"
 			id: "6928BACA742ECB6F"
 			rewards: [{
 				count: 3
@@ -749,8 +610,8 @@
 				}
 			]
 			title: "Custom Player Models!"
-			x: -16.0d
-			y: -1.5d
+			x: -14.5d
+			y: -2.5d
 		}
 	]
 	title: "&7Getting Started"

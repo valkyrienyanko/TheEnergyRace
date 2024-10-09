@@ -6,7 +6,7 @@
 	group: ""
 	icon: "minecraft:diamond"
 	id: "068EE16655530E49"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

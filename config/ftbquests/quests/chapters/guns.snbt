@@ -6,7 +6,7 @@
 	group: ""
 	icon: "anim_guns:standard_rifle_cartridge"
 	id: "0977D7A8FCE9E5E1"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
