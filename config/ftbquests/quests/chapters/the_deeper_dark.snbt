@@ -14,6 +14,11 @@
 			icon: "deeperdarker:heart_of_the_deep"
 			icon_scale: 0.8d
 			id: "4EC581F12512F07E"
+			rewards: [{
+				id: "20D3BC73D7D15870"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{

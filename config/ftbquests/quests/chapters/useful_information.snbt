@@ -19,11 +19,19 @@
 			]
 			icon: "minecraft:feather"
 			id: "60E004DDDF96E670"
-			rewards: [{
-				id: "43FB51412E6A7061"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "43FB51412E6A7061"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "4B69D7216CABC2BB"
+					item: "bakery:waffle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1815ED8B7769213F"
 				title: "Performance"
@@ -54,11 +62,19 @@
 				}
 			}
 			id: "61CBF5D390839381"
-			rewards: [{
-				id: "24D3CEA206C141D1"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "24D3CEA206C141D1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "032419E498A688AE"
+					item: "bakery:waffle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3F029D87D935927D"
 				title: "Keybinds"
@@ -71,11 +87,19 @@
 			description: ["&7Double click the REI search bar to enable item searching mode. Useful if you have alot of items in a chest and you're trying to find that one item."]
 			icon: "minecraft:paper"
 			id: "3171C099A1652902"
-			rewards: [{
-				id: "764B121192315925"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "764B121192315925"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "36C3BBDF1068768A"
+					item: "bakery:waffle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6EA547E17E02B274"
 				title: "Tips"
@@ -95,11 +119,19 @@
 			]
 			icon: "ftbquests:barrier"
 			id: "5BDA2304819205D0"
-			rewards: [{
-				id: "07EF99E3EFCEE3A2"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "07EF99E3EFCEE3A2"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "5CBB5C97F881C315"
+					item: "bakery:waffle"
+					type: "item"
+				}
+			]
 			size: 0.7d
 			tasks: [{
 				id: "199F75D6F45B281D"
@@ -113,11 +145,19 @@
 			description: ["&7Spawners can be mined if you have Silk Touch."]
 			icon: "minecraft:spawner"
 			id: "04EC8191C6AD8C3F"
-			rewards: [{
-				id: "3F2F033F54A5E667"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "3F2F033F54A5E667"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "52AE85FF9453C909"
+					item: "bakery:waffle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6F496CED6F19EC82"
 				title: "Spawners"
@@ -135,14 +175,22 @@
 			]
 			icon: "minecraft:cherry_sapling"
 			id: "75F14E0D3E4FCBC4"
-			rewards: [{
-				command: "/tell @p https://discord.gg/j8HQZZ76r8"
-				icon: "minecraft:paper"
-				id: "1FC55A1A83C2B314"
-				silent: true
-				title: "The discord link will be whispered to you. Click on the whispered link to copy it."
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/tell @p https://discord.gg/j8HQZZ76r8"
+					icon: "minecraft:paper"
+					id: "1FC55A1A83C2B314"
+					silent: true
+					title: "The discord link will be whispered to you. Click on the whispered link to copy it."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "2CD7510213488231"
+					item: "bakery:waffle"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "https://discord.gg/j8HQZZ76r8"
 			tasks: [{
@@ -169,11 +217,19 @@
 			]
 			icon: "bloomingnature:foxglove_pink"
 			id: "257880FC4E01BC8B"
-			rewards: [{
-				id: "3D639FC54D758A1F"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "3D639FC54D758A1F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "3220F032D898EC4D"
+					item: "bakery:waffle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "014CED72D779D625"
 				title: "Commands"
@@ -197,11 +253,19 @@
 				}
 			}
 			id: "196D3D8F3435A415"
-			rewards: [{
-				id: "07002164E39C5F0B"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "07002164E39C5F0B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "4F56915FA3FB9355"
+					item: "bakery:waffle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "27CC2A09C2872D32"
 				title: "Parties"
@@ -220,11 +284,19 @@
 				}
 			}
 			id: "11F459CA72DF3CD8"
-			rewards: [{
-				id: "46B8CABAD534AAF4"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "46B8CABAD534AAF4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "14D3DF4470B8F4E5"
+					item: "bakery:waffle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D4E8478183DC413"
 				title: "Dual Wielding"
@@ -241,6 +313,12 @@
 			]
 			icon: "minecraft:glass_bottle"
 			id: "00FF2EA2059D42BB"
+			rewards: [{
+				count: 3
+				id: "1B0980E9475BB5D0"
+				item: "bakery:waffle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "35517908128B156E"
 				title: "Breathing Underwater"
@@ -257,6 +335,12 @@
 				"This will attract villagers to the sign. Place a block of emerald next to the sign if you do not want to wait."
 			]
 			id: "799A171EC1B97D88"
+			rewards: [{
+				count: 3
+				id: "6D2824B95862C08E"
+				item: "bakery:waffle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04B6C2A085B57BF8"
 				item: "helpwanted:villagerpost"
@@ -273,6 +357,12 @@
 			]
 			icon: "ironchests:diamond_chest"
 			id: "466A4BA68E02F199"
+			rewards: [{
+				count: 3
+				id: "456B8AA7A48ADD95"
+				item: "bakery:waffle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "35A4D6266AB63916"
 				title: "Lootr"
@@ -285,6 +375,12 @@
 			description: ["With the Ping Wheel mod there are keybinds to ping what block you are looking at so your friends can see."]
 			icon: "meadow:wheelbarrow"
 			id: "3A90344F2D91F219"
+			rewards: [{
+				count: 3
+				id: "001E83664AD0B906"
+				item: "bakery:waffle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "576F7068256A42F7"
 				title: "Ping Wheel"
@@ -295,6 +391,12 @@
 		}
 		{
 			id: "0252A3ABA29492D0"
+			rewards: [{
+				count: 3
+				id: "6ABBF474C99C3F7E"
+				item: "bakery:waffle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1134FB5E7A24BB48"
 				item: {
@@ -333,6 +435,12 @@
 				"&7If you do not like this it can be disabled in Esc > Mods > Auto HUD"
 			]
 			id: "66D2B45E0653AFB1"
+			rewards: [{
+				count: 3
+				id: "209425F69883EAB3"
+				item: "bakery:waffle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "514A2E7BD75E7A47"
 				title: "Auto HUD"
