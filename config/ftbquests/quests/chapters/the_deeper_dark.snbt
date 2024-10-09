@@ -1,0 +1,52 @@
+{
+	autofocus_id: "6BB8685538B5275D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_deeper_dark"
+	group: ""
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "03C70445D2D2C03A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6BB8685538B5275D"]
+			icon: "deeperdarker:heart_of_the_deep"
+			icon_scale: 0.8d
+			id: "4EC581F12512F07E"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "63D626BD23CD216A"
+				type: "dimension"
+			}]
+			title: "Reach the Deeper Dark"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["02D1F51A39E5D46D"]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BB8685538B5275D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "7C9AB97F632D980F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Warden"
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "The Deeper Dark"
+}

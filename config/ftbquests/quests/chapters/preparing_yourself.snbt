@@ -17,11 +17,19 @@
 				"You will now be able to open up your backpack with the 'B' keybind."
 			]
 			id: "5E46E3320C3BA4D5"
-			rewards: [{
-				id: "0E617539CDD5A88E"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "0E617539CDD5A88E"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "704C04B82EEA5BD9"
+					item: "travelersbackpack:blank_upgrade"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			subtitle: "Your journey begins here"
 			tasks: [{
@@ -40,11 +48,33 @@
 			dependencies: ["5632059238148599"]
 			description: ["Always cook your &aBread&r into &aToast&r."]
 			id: "4FC79B7307E6621A"
-			rewards: [{
-				id: "6B866F77E6DBAF78"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "6B866F77E6DBAF78"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "61C62D4C5FA26285"
+					item: "croptopia:cherry_pie"
+					type: "item"
+				}
+				{
+					id: "77F9E69DD7731609"
+					item: "bakery:strawberry_cake"
+					type: "item"
+				}
+				{
+					id: "1BA3AD2D3DEC052C"
+					item: "beachparty:coconut_milkshake"
+					type: "item"
+				}
+				{
+					id: "545CE958EF39649A"
+					item: "brewery:half_chicken"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3ECA17EC73A98477"
 				item: "croptopia:toast"
@@ -57,11 +87,19 @@
 			dependencies: ["5632059238148599"]
 			description: ["Mobs that hit you may cause you to &4bleed&r. &aBandages&r will stop the bleeding."]
 			id: "3C38D4B54F4EBB5B"
-			rewards: [{
-				id: "018A60A3DFFA7314"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "018A60A3DFFA7314"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "5D057ACC4475F45E"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "58D30DD83A0B5329"
 				item: "majruszsdifficulty:bandage"
@@ -73,11 +111,19 @@
 		{
 			dependencies: ["3C38D4B54F4EBB5B"]
 			id: "78A679516571BC91"
-			rewards: [{
-				id: "1ACE32A8BBAEA870"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "1ACE32A8BBAEA870"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "084FDB647D165F84"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "31997A65F248F21E"
 				item: "majruszsdifficulty:golden_bandage"
@@ -122,11 +168,19 @@
 				"&aRight Click &7air to teleport to remebered location"
 			]
 			id: "1D630633593851B9"
-			rewards: [{
-				id: "2EEF791799C989CF"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "2EEF791799C989CF"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "1DA524ED70169DDA"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.0d
 			subtitle: "Teleport between two locations"
@@ -251,7 +305,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["547749324E644030"]
+			dependencies: ["27DD3AF09F44BBBD"]
 			description: [
 				"&lDisenchanter Interface&r"
 				""
@@ -274,11 +328,19 @@
 				"&7Nether Star: Recovers all enchantments and preserves the item"
 			]
 			id: "4FFF0E0172DC3272"
-			rewards: [{
-				id: "3AC8304E627FE2EE"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "0EF78D9530E5EF5F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "6EFDA5BBA071E7F2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			subtitle: "Disenchant items"
 			tasks: [{
 				id: "0AE4C6ECEDB32E92"
@@ -286,17 +348,25 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5632059238148599"]
 			description: ["Make any kind of bookshelf"]
 			id: "547749324E644030"
-			rewards: [{
-				id: "270B1037790AEC89"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "270B1037790AEC89"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 10
+					id: "6C09B183931DBC7A"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "33D984277A427BC4"
 				item: {
@@ -317,22 +387,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["54EBFB295167DF25"]
-			icon: "minecraft:netherrack"
-			icon_scale: 0.8d
-			id: "3A4A309E052AC00E"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "1992C9DC1D1E701A"
-				type: "dimension"
-			}]
-			title: "Reach The Nether"
-			x: -11.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["5E46E3320C3BA4D5"]
 			description: [
 				"Craft any kind of immersive aircraft to complete this quest"
@@ -343,11 +397,29 @@
 				"&2Numpad 2 &7- Dismount"
 			]
 			id: "40B156E076FAC793"
-			rewards: [{
-				id: "461E910B680C80B5"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "461E910B680C80B5"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "6F58E1AA67E261C2"
+					item: "immersive_aircraft:improved_landing_gear"
+					type: "item"
+				}
+				{
+					id: "348AEF11E5BD1D40"
+					item: "immersive_aircraft:industrial_gears"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50382DFED7471B92"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "The skies the limit"
 			tasks: [{
@@ -379,11 +451,24 @@
 				"&aShift &7- Dismount"
 			]
 			id: "31AFBCB16912FD31"
-			rewards: [{
-				id: "6A97F02C6B2CD08A"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "6A97F02C6B2CD08A"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "4DDC37B06A022AEC"
+					item: "smallships:cannon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7CD397F71E33B864"
+					item: "smallships:cannon_ball"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "Faster than a vanilla boat"
 			tasks: [{
@@ -407,103 +492,21 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3A4A309E052AC00E"]
-			icon: "minecraft:end_stone"
-			icon_scale: 0.8d
-			id: "51B79FF0D7C9C5A1"
-			rewards: [{
-				id: "2EC77F2E4830057D"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "1B2E29CC182ACAAA"
-				type: "dimension"
-			}]
-			title: "Reach The End"
-			x: -9.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["51B79FF0D7C9C5A1"]
-			description: ["&dEnderium Shard's&r can be used to craft &5Enderium Ingot's&r."]
-			id: "48928A950C593857"
-			rewards: [{
-				id: "61983E969034F0D8"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [{
-				id: "0349AD41FC0EA6D7"
-				item: "majruszsdifficulty:enderium_shard"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["48928A950C593857"]
-			description: ["&dEnderium Ingot's&r can be used to craft new &5tools&r and &5armor&r."]
-			id: "296E8B11BB389D0B"
-			rewards: [{
-				id: "0C9DCEA9B77DA9D5"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [{
-				id: "63E60B6FB74A8A50"
-				item: "majruszsdifficulty:enderium_ingot"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["51B79FF0D7C9C5A1"]
-			icon: "minecraft:dragon_head"
-			id: "02D1F51A39E5D46D"
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				entity: "adventurez:dragon"
-				id: "4E7ECF2E3B2A3A81"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Kill the Ender Dragon"
-			x: -7.75d
-			y: -1.5d
-		}
-		{
-			dependencies: ["02D1F51A39E5D46D"]
-			id: "72D7193223AD0E9C"
-			tasks: [{
-				id: "3330447A790122F3"
-				item: "dragonloot:dragon_scale"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["02D1F51A39E5D46D"]
-			id: "3DFC9489033D1204"
-			subtitle: "End Portal Frames are craftable"
-			tasks: [{
-				id: "67BF656414F51D2A"
-				item: "minecraft:end_portal_frame"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["5E46E3320C3BA4D5"]
 			description: ["With two waystones you can teleport between them!"]
 			id: "173622B8F918DBBF"
+			rewards: [
+				{
+					id: "4F525E18A50A795C"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "23E4752AE1AA69A8"
+					item: "fwaystones:waystone"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "67E1A9ED96E1A96F"
 				item: "fwaystones:waystone"
@@ -513,72 +516,17 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6BB8685538B5275D"]
-			icon: "deeperdarker:heart_of_the_deep"
-			icon_scale: 0.8d
-			id: "4EC581F12512F07E"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				dimension: "deeperdarker:otherside"
-				id: "63D626BD23CD216A"
-				type: "dimension"
-			}]
-			title: "Reach the Deeper Dark"
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["02D1F51A39E5D46D"]
-			icon: {
-				Count: 1
-				id: "deeperdarker:warden_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "6BB8685538B5275D"
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:warden"
-				id: "7C9AB97F632D980F"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Kill the Warden"
-			x: -5.5d
-			y: -2.25d
-		}
-		{
+			dependencies: ["5632059238148599"]
 			id: "439623AC0BE1FDEA"
+			rewards: [{
+				id: "1742394C1C90E485"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "No idea why you would want this but its here"
 			tasks: [{
 				id: "631679DA63D6FA01"
 				item: "simple_cobblestone_generator:generator_tier1"
-				type: "item"
-			}]
-			x: -18.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["51B79FF0D7C9C5A1"]
-			id: "22A4090B040D82D9"
-			shape: "diamond"
-			tasks: [{
-				id: "77FBE8376F9C2851"
-				item: "voidtotem:totem_of_void_undying"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["5632059238148599"]
-			description: ["Make sure you're facing the block you want to stand on when you get out of the boat!"]
-			id: "54EBFB295167DF25"
-			tasks: [{
-				id: "0BBDDE2DA6259345"
-				item: "obsidianboat:obsidian_boat"
 				type: "item"
 			}]
 			x: -12.5d
@@ -586,16 +534,63 @@
 		}
 		{
 			dependencies: ["5632059238148599"]
-			description: [""]
-			icon: "armourers_workshop:skin-library-creative"
+			description: ["&7Open armourer's workshop with &aNumpad 8&7."]
+			icon: {
+				Count: 1
+				id: "armourers_workshop:skin"
+				tag: {
+					ArmourersWorkshop: {
+						Identifier: "db:PGEpBeC2BP"
+						SkinType: "armourers:outfit"
+					}
+				}
+			}
 			id: "6928BACA742ECB6F"
-			rewards: [{
-				count: 3
-				id: "78A9949D920216DC"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			subtitle: "You can look epic in Minecraft you know..."
+			rewards: [
+				{
+					id: "6E47DB4AFE78385A"
+					item: {
+						Count: 1
+						id: "armourers_workshop:skin"
+						tag: {
+							ArmourersWorkshop: {
+								Identifier: "db:PGEpBeC2BP"
+								SkinType: "armourers:outfit"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2831DCE8F72FB923"
+					item: {
+						Count: 1
+						id: "armourers_workshop:skin"
+						tag: {
+							ArmourersWorkshop: {
+								Identifier: "db:E1LMvdvzps"
+								SkinType: "armourers:wings"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B2C9776EDE84026"
+					item: {
+						Count: 1
+						id: "armourers_workshop:skin"
+						tag: {
+							ArmourersWorkshop: {
+								Identifier: "db:glJ0iBVjt3"
+								SkinType: "armourers:sword"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "You can look epic in Minecraft!"
 			tasks: [
 				{
 					id: "1CC39860C3EC810D"
@@ -613,6 +608,30 @@
 			title: "Custom Player Models!"
 			x: -14.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["547749324E644030"]
+			id: "27DD3AF09F44BBBD"
+			rewards: [
+				{
+					count: 3
+					id: "374AD5935682DE90"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6D6B257F3DD0158D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1726565B46440417"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.0d
 		}
 	]
 	title: "&7Getting Started"

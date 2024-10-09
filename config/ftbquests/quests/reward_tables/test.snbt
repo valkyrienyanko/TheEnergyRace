@@ -3,11 +3,19 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ item: "minecraft:stripped_oak_wood" }
 		{
-			type: "xp"
-			xp: 100
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
 		}
+		{ item: "minecraft:oak_fence" }
 	]
 	title: "Test"
 }

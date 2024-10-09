@@ -6,7 +6,7 @@
 	group: ""
 	icon: "minecraft:cherry_sapling"
 	id: "189C9302CDEB5C69"
-	order_index: 6
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -44,6 +44,7 @@
 				"&aB - Open Backpack&r"
 				"&2. - Hover over a item and press Period to view its recipe"
 				"&a` - Hold the Tilda key to vein mine ore"
+				"&2Numpad 8 - Open Armourer's Workshop"
 			]
 			icon: {
 				Count: 1

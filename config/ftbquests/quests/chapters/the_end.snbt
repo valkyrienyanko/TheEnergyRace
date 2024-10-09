@@ -1,0 +1,120 @@
+{
+	autofocus_id: "51B79FF0D7C9C5A1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: ""
+	icon: "minecraft:end_stone"
+	id: "3B8BED4E4AFFDDB2"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A4A309E052AC00E"]
+			icon: "minecraft:end_stone"
+			icon_scale: 0.8d
+			id: "51B79FF0D7C9C5A1"
+			rewards: [{
+				id: "2EC77F2E4830057D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1B2E29CC182ACAAA"
+				type: "dimension"
+			}]
+			title: "Reach The End"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51B79FF0D7C9C5A1"]
+			description: ["&dEnderium Shard's&r can be used to craft &5Enderium Ingot's&r."]
+			id: "48928A950C593857"
+			rewards: [{
+				id: "61983E969034F0D8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0349AD41FC0EA6D7"
+				item: "majruszsdifficulty:enderium_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48928A950C593857"]
+			description: ["&dEnderium Ingot's&r can be used to craft new &5tools&r and &5armor&r."]
+			id: "296E8B11BB389D0B"
+			rewards: [{
+				id: "0C9DCEA9B77DA9D5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "63E60B6FB74A8A50"
+				item: "majruszsdifficulty:enderium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51B79FF0D7C9C5A1"]
+			icon: "minecraft:dragon_head"
+			id: "02D1F51A39E5D46D"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "adventurez:dragon"
+				id: "4E7ECF2E3B2A3A81"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Ender Dragon"
+			x: -0.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02D1F51A39E5D46D"]
+			id: "72D7193223AD0E9C"
+			tasks: [{
+				id: "3330447A790122F3"
+				item: "dragonloot:dragon_scale"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02D1F51A39E5D46D"]
+			id: "3DFC9489033D1204"
+			subtitle: "End Portal Frames are craftable"
+			tasks: [{
+				id: "67BF656414F51D2A"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51B79FF0D7C9C5A1"]
+			id: "22A4090B040D82D9"
+			shape: "diamond"
+			tasks: [{
+				id: "77FBE8376F9C2851"
+				item: "voidtotem:totem_of_void_undying"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	title: "The End"
+}
