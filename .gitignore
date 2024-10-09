@@ -1,5 +1,6 @@
 # Common
 **/*.jar
+**/*.disabled
 **/*.ini
 **/*.dat
 **/*.dat_old
