@@ -3,6 +3,7 @@
 **/*.disabled
 **/*.ini
 **/*.dat
+**/*.bak
 **/*.dat_old
 **/*.zip
 **/*.properties
