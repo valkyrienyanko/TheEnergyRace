@@ -1,2 +1,2 @@
-# TheEnergyRace
-https://www.curseforge.com/minecraft/modpacks/the-energy-race
+- [Curseforge](https://www.curseforge.com/minecraft/modpacks/the-energy-race)
+- [Wiki](https://github.com/valkyrienyanko/TheEnergyRace/wiki)
