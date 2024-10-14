@@ -12,13 +12,17 @@
 		"#c:sheldonite_ores",
 		"#c:bauxite_ores",
 		"#c:iridium_ores",
+		"clutter:blackstone_sulphur_ore",
 		"#c:ruby_ores",
+		"clutter:onyx_ore",
 		"#c:pyrite_ores",
 		"#c:tin_ores",
 		"#c:lead_ores",
 		"#c:tungsten_ores",
 		"minecraft:glowstone",
 		"#c:peridot_ores",
-		"#c:galena_ores"
+		"#c:galena_ores",
+		"minecraft:obsidian",
+		"clutter:basalt_sulphur_ore"
 	]
 }
