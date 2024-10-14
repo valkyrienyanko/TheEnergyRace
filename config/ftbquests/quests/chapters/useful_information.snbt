@@ -449,6 +449,36 @@
 			x: -6.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["5632059238148599"]
+			description: [
+				"&7Open armourer's workshop with &aNumpad 8&7."
+				""
+				"&7Right click the cosmetics to equip them."
+				""
+				"&7Get more cosmetics from the computers."
+			]
+			icon: "minecraft:nether_star"
+			id: "6928BACA742ECB6F"
+			subtitle: "You can look epic in Minecraft!"
+			tasks: [
+				{
+					id: "1CC39860C3EC810D"
+					item: "armourers_workshop:skin-library-creative"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "5A31351D212DC053"
+					item: "armourers_workshop:skin-library-global"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Custom Player Models!"
+			x: -5.5d
+			y: -5.0d
+		}
 	]
 	title: "&7Useful Information"
 }

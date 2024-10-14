@@ -712,9 +712,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4FC79B7307E6621A"]
 			description: ["Ore seeds can be duplicated when put through a millstone."]
 			id: "2154C2F24989EA68"
+			progression_mode: "linear"
 			rewards: [
 				{
 					count: 8
@@ -743,6 +743,76 @@
 			title: "Duplicate Ore Seeds"
 			x: 0.5d
 			y: 8.0d
+		}
+		{
+			id: "59EB4EF3DE8CA230"
+			tasks: [{
+				id: "26E57331AB7931A5"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			id: "16FDDC306D12D157"
+			tasks: [{
+				id: "510791CD8B731BD0"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			id: "3B7A2048B7530B2C"
+			tasks: [{
+				id: "04DD7BF0C0DE2E73"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "23339121ED5CCFBE"
+			tasks: [{
+				id: "12380FF09C70E116"
+				item: "autoworkstations:gold_auto_crafting_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "5B68B641BF0F58B5"
+			tasks: [{
+				id: "293870B1B9AF5864"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			id: "33E9665739318225"
+			tasks: [{
+				id: "413F42FBDF1CE83C"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			id: "27A979C1BB6B549E"
+			tasks: [{
+				id: "6E3C79F4BB6193FD"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
 		}
 	]
 	title: "Duplicating Resources"

@@ -31,7 +31,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["02D1F51A39E5D46D"]
 			icon: {
 				Count: 1
 				id: "deeperdarker:warden_helmet"

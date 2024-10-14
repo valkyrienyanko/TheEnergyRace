@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3A4A309E052AC00E"]
 			icon: "minecraft:end_stone"
 			icon_scale: 0.8d
 			id: "51B79FF0D7C9C5A1"

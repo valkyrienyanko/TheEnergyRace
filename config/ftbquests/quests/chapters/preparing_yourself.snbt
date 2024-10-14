@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5632059238148599"]
+			dependencies: ["4F9BEF079C2097AA"]
 			description: [
 				"Right click with the backpack equipped to open the interface. There will be a button on the left that you can click to equip the backpack. "
 				""
@@ -41,11 +41,11 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: -3.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["5632059238148599"]
+			dependencies: ["5D954BC0B372A766"]
 			description: ["Always cook your &aBread&r into &aToast&r."]
 			id: "4FC79B7307E6621A"
 			rewards: [
@@ -80,11 +80,11 @@
 				item: "croptopia:toast"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -0.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5632059238148599"]
+			dependencies: ["7BD36A8D33A0735D"]
 			description: ["Mobs that hit you may cause you to &4bleed&r. &aBandages&r will stop the bleeding."]
 			id: "3C38D4B54F4EBB5B"
 			rewards: [
@@ -105,8 +105,8 @@
 				item: "majruszsdifficulty:bandage"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -1.5d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3C38D4B54F4EBB5B"]
@@ -129,11 +129,11 @@
 				item: "majruszsdifficulty:golden_bandage"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.5d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["5632059238148599"]
+			dependencies: ["4F9BEF079C2097AA"]
 			description: ["Make any kind of magnum torch to prevent mobs from spawning in a large radius."]
 			id: "08CE1CAAEECC278B"
 			rewards: [
@@ -163,11 +163,11 @@
 				title: "Magnum Torch"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -0.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["5E46E3320C3BA4D5"]
+			dependencies: ["323278D0217CB82E"]
 			description: [
 				"&aShift + Right Click &7top of block to remember location"
 				""
@@ -197,8 +197,8 @@
 				item: "ring_of_teleport:ring_of_teleport"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -3.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			description: ["If you can't find coal, any kind of &astone&r and &aflint&r can be used to make a torch."]
@@ -210,8 +210,9 @@
 					xp: 5
 				}
 				{
-					id: "1D3AE2F3AB0F3165"
-					item: "clutter:panda_plushie"
+					count: 3
+					id: "726FA0A6CA1834B3"
+					item: "minecraft:torch"
 					type: "item"
 				}
 			]
@@ -220,34 +221,9 @@
 				item: "minecraft:torch"
 				type: "item"
 			}]
-			title: "Craft a Torch"
-			x: -13.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2D7EC3EB2062F7E5"]
-			description: ["The &aScanner&r can be used to scan for all sorts of things but it will need to be charged. You can charge it in a &aBattery Box&r."]
-			id: "17778074A8974969"
-			rewards: [
-				{
-					id: "6A0F9C63150BBDF1"
-					type: "xp"
-					xp: 5
-				}
-				{
-					id: "5EA9F2B2E17FE5C6"
-					item: "scannable:blank_module"
-					type: "item"
-				}
-			]
-			subtitle: "Say goodbye to trying to find ores"
-			tasks: [{
-				id: "1BC72FAE95889DA8"
-				item: "scannable:scanner"
-				type: "item"
-			}]
-			x: -16.0d
-			y: -1.5d
+			title: "Craft a Torch with Stone and Flint"
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5632059238148599"]
@@ -284,8 +260,8 @@
 				type: "item"
 			}]
 			title: "Make a Hammer"
-			x: -15.0d
-			y: -1.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2D7EC3EB2062F7E5"]
@@ -322,93 +298,13 @@
 				type: "item"
 			}]
 			title: "Make a Excavator"
-			x: -16.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["17778074A8974969"]
-			description: ["Modules can be used to enhance the scanner. For example the &aScanner Module: Block&r can be right clicked to configure any kind of block the scanner should scan for. Shift + Right Click the scanner to insert modules."]
-			id: "5EEFDF9A051CF14A"
-			rewards: [
-				{
-					id: "55596CF9FC86E7D4"
-					type: "xp"
-					xp: 5
-				}
-				{
-					count: 2
-					id: "76280491C7A0EE6C"
-					item: "scannable:blank_module"
-					type: "item"
-				}
-			]
-			subtitle: "Their cheating! They used X-Ray!"
-			tasks: [{
-				icon: "scannable:range_module"
-				id: "23C86263120DDBB1"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "item_tag(scannable:modules)"
-					}
-				}
-				title: "Module"
-				type: "item"
-			}]
-			title: "Modules"
-			x: -17.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["27DD3AF09F44BBBD"]
-			description: [
-				"&lDisenchanter Interface&r"
-				""
-				"&7Leftmost slot takes the item to be disenchanted. Rightmost slot takes books onto which the enchantments are transferred. Center slot is for the catalysts."
-				""
-				"&lCatalysts&r"
-				""
-				"&7Amethyst Shard: Recovers the first enchantment and preserves the item"
-				""
-				"&7Diamond: Recovers two random enchantments and the first one "
-				""
-				"&7Emerald: Recovers two random enchantments"
-				""
-				"&7Ender Pearl: Recovers one random enchantment. Here, the item is also preserved but will take 500 durability damage"
-				""
-				"&7Experience Bottle: Recovers all enchantments that are at the same level as the highest one present "
-				""
-				"&7Heart Of The Sea: Recovers all enchantments but reduces them by one level"
-				""
-				"&7Nether Star: Recovers all enchantments and preserves the item"
-			]
-			id: "4FFF0E0172DC3272"
-			rewards: [
-				{
-					id: "0EF78D9530E5EF5F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "6EFDA5BBA071E7F2"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-			]
-			subtitle: "Disenchant items"
-			tasks: [{
-				id: "0AE4C6ECEDB32E92"
-				item: "disenchanter:disenchanter"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 2.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5632059238148599"]
 			description: ["Make any kind of bookshelf"]
+			icon: "minecraft:bookshelf"
 			id: "547749324E644030"
 			rewards: [
 				{
@@ -439,8 +335,8 @@
 				type: "item"
 			}]
 			title: "Bookshelves"
-			x: -13.5d
-			y: 0.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5E46E3320C3BA4D5"]
@@ -494,11 +390,14 @@
 				type: "item"
 			}]
 			title: "Immersive Aircrafts"
-			x: -14.5d
-			y: -3.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["5E46E3320C3BA4D5"]
+			dependencies: [
+				"25ADD9CBAFEB8AEF"
+				"55414BFAEA87F39A"
+			]
 			description: [
 				"Craft any kind of small ship to complete this quest"
 				""
@@ -544,11 +443,11 @@
 				type: "item"
 			}]
 			title: "Small Ships"
-			x: -14.0d
-			y: -4.5d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["5E46E3320C3BA4D5"]
+			dependencies: ["323278D0217CB82E"]
 			description: ["With two waystones you can teleport between them!"]
 			id: "173622B8F918DBBF"
 			rewards: [
@@ -568,99 +467,8 @@
 				item: "fwaystones:waystone"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["5632059238148599"]
-			id: "439623AC0BE1FDEA"
-			rewards: [{
-				id: "1742394C1C90E485"
-				type: "xp"
-				xp: 5
-			}]
-			subtitle: "No idea why you would want this but its here"
-			tasks: [{
-				id: "631679DA63D6FA01"
-				item: "simple_cobblestone_generator:generator_tier1"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5632059238148599"]
-			description: [
-				"&7Open armourer's workshop with &aNumpad 8&7."
-				""
-				"&7Right click the cosmetics to equip them."
-				""
-				"&7Get more cosmetics from the computers."
-			]
-			icon: "minecraft:nether_star"
-			id: "6928BACA742ECB6F"
-			rewards: [
-				{
-					id: "6E47DB4AFE78385A"
-					item: {
-						Count: 1
-						id: "armourers_workshop:skin"
-						tag: {
-							ArmourersWorkshop: {
-								Identifier: "db:PGEpBeC2BP"
-								SkinType: "armourers:outfit"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2831DCE8F72FB923"
-					item: {
-						Count: 1
-						id: "armourers_workshop:skin"
-						tag: {
-							ArmourersWorkshop: {
-								Identifier: "db:E1LMvdvzps"
-								SkinType: "armourers:wings"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6B2C9776EDE84026"
-					item: {
-						Count: 1
-						id: "armourers_workshop:skin"
-						tag: {
-							ArmourersWorkshop: {
-								Identifier: "db:glJ0iBVjt3"
-								SkinType: "armourers:sword"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "You can look epic in Minecraft!"
-			tasks: [
-				{
-					id: "1CC39860C3EC810D"
-					item: "armourers_workshop:skin-library-creative"
-					match_nbt: false
-					type: "item"
-				}
-				{
-					id: "5A31351D212DC053"
-					item: "armourers_workshop:skin-library-global"
-					match_nbt: false
-					type: "item"
-				}
-			]
-			title: "Custom Player Models!"
-			x: -14.5d
-			y: -2.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["547749324E644030"]
@@ -683,8 +491,129 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5632059238148599"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7DE85B14B5173768"
+			tasks: [{
+				id: "4FC62854C1562921"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)"
+					}
+				}
+				title: "Any #minecraft:hoes"
+				type: "item"
+			}]
+			title: "Craft any Hoe"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DE85B14B5173768"]
+			id: "2D45325940816802"
+			tasks: [{
+				id: "21C10BA56B2AFD33"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "Plant some Seeds"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D45325940816802"]
+			id: "5D954BC0B372A766"
+			tasks: [{
+				id: "18A7E5AAC2C283C5"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5632059238148599"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4F9BEF079C2097AA"
+			tasks: [{
+				id: "6945E6618E8C0659"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:swords)"
+					}
+				}
+				title: "Any #minecraft:swords"
+				type: "item"
+			}]
+			title: "Craft any Sword"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E46E3320C3BA4D5"]
+			id: "55414BFAEA87F39A"
+			tasks: [{
+				count: 2L
+				id: "3172972B830C8870"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E46E3320C3BA4D5"]
+			id: "25ADD9CBAFEB8AEF"
+			tasks: [{
+				count: 4L
+				id: "1B430E8CEB58527F"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E46E3320C3BA4D5"]
+			id: "323278D0217CB82E"
+			tasks: [{
+				id: "4FA99E7C01B7B317"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F9BEF079C2097AA"]
+			id: "7BD36A8D33A0735D"
+			tasks: [{
+				id: "58C4DB5DAF2DAB70"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
 		}
 	]
 	title: "&7Getting Started"

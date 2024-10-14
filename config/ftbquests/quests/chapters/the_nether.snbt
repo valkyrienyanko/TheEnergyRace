@@ -1,5 +1,5 @@
 {
-	autofocus_id: "54EBFB295167DF25"
+	autofocus_id: "3A4A309E052AC00E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_nether"
@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3A4A309E052AC00E"]
 			description: ["Make sure you're facing the block you want to stand on when you get out of the boat!"]
 			id: "54EBFB295167DF25"
 			tasks: [{
@@ -17,11 +18,10 @@
 				item: "obsidianboat:obsidian_boat"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["54EBFB295167DF25"]
 			icon: "minecraft:netherrack"
 			icon_scale: 0.8d
 			id: "3A4A309E052AC00E"
@@ -35,6 +35,112 @@
 			title: "Reach The Nether"
 			x: -0.25d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3A4A309E052AC00E"]
+			description: [
+				"&lDisenchanter Interface&r"
+				""
+				"&7Leftmost slot takes the item to be disenchanted. Rightmost slot takes books onto which the enchantments are transferred. Center slot is for the catalysts."
+				""
+				"&lCatalysts&r"
+				""
+				"&7Amethyst Shard: Recovers the first enchantment and preserves the item"
+				""
+				"&7Diamond: Recovers two random enchantments and the first one "
+				""
+				"&7Emerald: Recovers two random enchantments"
+				""
+				"&7Ender Pearl: Recovers one random enchantment. Here, the item is also preserved but will take 500 durability damage"
+				""
+				"&7Experience Bottle: Recovers all enchantments that are at the same level as the highest one present "
+				""
+				"&7Heart Of The Sea: Recovers all enchantments but reduces them by one level"
+				""
+				"&7Nether Star: Recovers all enchantments and preserves the item"
+			]
+			id: "4FFF0E0172DC3272"
+			rewards: [
+				{
+					id: "0EF78D9530E5EF5F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "6EFDA5BBA071E7F2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Disenchant items"
+			tasks: [{
+				id: "0AE4C6ECEDB32E92"
+				item: "disenchanter:disenchanter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A4A309E052AC00E"]
+			description: ["Modules can be used to enhance the scanner. For example the &aScanner Module: Block&r can be right clicked to configure any kind of block the scanner should scan for. Shift + Right Click the scanner to insert modules."]
+			id: "5EEFDF9A051CF14A"
+			rewards: [
+				{
+					id: "55596CF9FC86E7D4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "76280491C7A0EE6C"
+					item: "scannable:blank_module"
+					type: "item"
+				}
+			]
+			subtitle: "Their cheating! They used X-Ray!"
+			tasks: [{
+				icon: "scannable:range_module"
+				id: "23C86263120DDBB1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(scannable:modules)"
+					}
+				}
+				title: "Module"
+				type: "item"
+			}]
+			title: "Modules"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EEFDF9A051CF14A"]
+			description: ["The &aScanner&r can be used to scan for all sorts of things but it will need to be charged. You can charge it in a &aBattery Box&r."]
+			id: "17778074A8974969"
+			rewards: [
+				{
+					id: "6A0F9C63150BBDF1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5EA9F2B2E17FE5C6"
+					item: "scannable:blank_module"
+					type: "item"
+				}
+			]
+			subtitle: "Say goodbye to trying to find ores"
+			tasks: [{
+				id: "1BC72FAE95889DA8"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
 		}
 	]
 	title: "The Nether"
