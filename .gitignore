@@ -8,6 +8,9 @@
 **/*.zip
 **/*.properties
 
+# Specific
+config/roughlyenoughitems/config.json5
+
 # Included
 !resourcepacks/The Energy Race Resourcepack
 
