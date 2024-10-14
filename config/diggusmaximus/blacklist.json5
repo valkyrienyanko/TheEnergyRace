@@ -3,7 +3,22 @@
 	"isWhitelist": true,
 	// Block IDs to blacklist from being mined
 	"blacklistedBlocks": [
+		"#c:sodalite_ores",
 		"#c:ores",
-		"#c:sapphire_ores"
+		"#c:cinnabar_ores",
+		"#c:silver_ores",
+		"#c:sphalerite_ores",
+		"#c:sapphire_ores",
+		"#c:sheldonite_ores",
+		"#c:bauxite_ores",
+		"#c:iridium_ores",
+		"#c:ruby_ores",
+		"#c:pyrite_ores",
+		"#c:tin_ores",
+		"#c:lead_ores",
+		"#c:tungsten_ores",
+		"minecraft:glowstone",
+		"#c:peridot_ores",
+		"#c:galena_ores"
 	]
 }
