@@ -83,7 +83,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3A4A309E052AC00E"]
+			dependencies: ["6E31325C52DDDF9F"]
 			description: ["Modules can be used to enhance the scanner. For example the &aScanner Module: Block&r can be right clicked to configure any kind of block the scanner should scan for. Shift + Right Click the scanner to insert modules."]
 			id: "5EEFDF9A051CF14A"
 			rewards: [
@@ -115,7 +115,7 @@
 			}]
 			title: "Modules"
 			x: -1.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5EEFDF9A051CF14A"]
@@ -140,7 +140,18 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A4A309E052AC00E"]
+			id: "6E31325C52DDDF9F"
+			tasks: [{
+				id: "4DA0714E70B2487E"
+				item: "techreborn:low_voltage_su"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 	title: "The Nether"
