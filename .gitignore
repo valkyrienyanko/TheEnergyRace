@@ -10,6 +10,12 @@
 # Included
 !resourcepacks/The Energy Race Resourcepack
 
+# Curseforge
+.curseclient
+minecraftinstance.json
+manifest.json
+modlist.html
+
 # Client Folders
 .fabric/
 .vscode/
